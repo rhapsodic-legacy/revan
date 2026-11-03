@@ -76,7 +76,8 @@ static func build_arena(parent: Node3D, combat, location: String) -> void:
 		match k:
 			"wall":
 				if border:
-					box(parent, Vector3(p.x, 1.25, p.y), Vector3(1, 2.5, 1), th.wall)
+					var w := box(parent, Vector3(p.x, 1.25, p.y), Vector3(1, 2.5, 1), th.wall)
+					w.add_to_group("cull_wall")
 					if location == "galactic_c_lounge" and p.y == 0 and p.x % 3 == 1:
 						box(parent, Vector3(p.x, 1.5, p.y + 0.51), Vector3(0.8, 0.9, 0.02), th.accent, 1.2)
 				else:

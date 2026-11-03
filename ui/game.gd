@@ -11,7 +11,7 @@ const AI = preload("res://engine/ai.gd")
 const Blockout = preload("res://world/blockout.gd")
 const DITHER = preload("res://render/dither.gdshader")
 
-const SHRINK := 3
+const SHRINK := 2
 const COLORS := {
 	"dust": Color(0.86, 0.62, 0.22), "ashe": Color(0.95, 0.93, 0.86), "deena": Color(0.30, 0.55, 1.0),
 	"ksaabu": Color(0.22, 0.58, 0.32), "mama_quell": Color(1.0, 0.25, 0.7),
@@ -36,6 +36,7 @@ var until_extra := 0
 var preview = null                  # an unstarted combat, to show a fight map during its intro
 
 var vp: SubViewport
+var svc: SubViewportContainer
 var cam: Camera3D
 var env: Environment
 var world: Node3D
@@ -46,6 +47,11 @@ var hl_root: Node3D
 var built_key := ""
 var cam_target := Vector3.ZERO
 var cam_offset := Vector3(0, 9.5, 8.5)
+var cam_pos_goal := Vector3.ZERO
+var cam_look_goal := Vector3.ZERO
+var cam_look := Vector3.ZERO
+var follow := false                 # over-the-shoulder fight camera
+var last_party_id := ""
 var drift := 0.0
 
 var title_lbl: Label
@@ -83,6 +89,8 @@ func _ready() -> void:
 			until_step = parts[0]
 			until_extra = int(parts[1]) if parts.size() > 1 else 0
 	set_anchors_preset(Control.PRESET_FULL_RECT)
+	# The root must not swallow clicks, or the 3D view never sees them.
+	mouse_filter = Control.MOUSE_FILTER_IGNORE
 	_build_view()
 	_build_ui()
 	sc = Scenario.load_id("opening", seed_value)
@@ -103,7 +111,7 @@ func _ready() -> void:
 # ------------------------------------------------------------------ construction
 
 func _build_view() -> void:
-	var svc := SubViewportContainer.new()
+	svc = SubViewportContainer.new()
 	svc.set_anchors_preset(Control.PRESET_FULL_RECT)
 	svc.stretch = true
 	svc.stretch_shrink = SHRINK
@@ -201,7 +209,7 @@ func _build_ui() -> void:
 	choices_box = VBoxContainer.new()
 	dv.add_child(choices_box)
 
-	hud_panel = _panel(Color(0.02, 0.02, 0.06, 0.82))
+	hud_panel = _panel(Color(0.02, 0.02, 0.06, 0.62))
 	hud_panel.set_anchors_preset(Control.PRESET_BOTTOM_WIDE)
 	hud_panel.offset_top = -150
 	hud_panel.offset_right = -330
@@ -217,7 +225,7 @@ func _build_ui() -> void:
 	actions_box.size_flags_horizontal = Control.SIZE_EXPAND_FILL
 	hh.add_child(actions_box)
 
-	var logp := _panel(Color(0, 0, 0, 0.6))
+	var logp := _panel(Color(0, 0, 0, 0.45))
 	logp.set_anchors_preset(Control.PRESET_RIGHT_WIDE)
 	logp.offset_left = -330
 	logp.offset_top = 70
@@ -434,9 +442,9 @@ func _build_world(st: Dictionary) -> void:
 			Blockout.refresh_doors(door_root, fc, loc)
 		Blockout.build_arena(env_root, fc, loc)
 		var g = fc.grid
-		# Frame the map in the space left of the log panel.
-		cam_target = Vector3((g.width - 1) / 2.0 + g.width * 0.13, 0, (g.height - 1) / 2.0 + 0.8)
+		cam_target = Vector3((g.width - 1) / 2.0, 0, (g.height - 1) / 2.0)
 		cam_offset = Vector3(0, 0.95, 0.7) * maxf(g.width, g.height * 1.4) * 0.72
+		follow = true
 		tips = st.get("prompts", []).duplicate() if sc.combat != null else []
 		if sc.combat == null:
 			_sync_units(preview)
@@ -455,13 +463,63 @@ func _build_world(st: Dictionary) -> void:
 			unit_root.add_child(n)
 		cam_target = Vector3(0, 1.0, 0)
 		cam_offset = Vector3(0, 2.2, 6.5) if loc != "lowlight_street" else Vector3(0, 2.5, 8.5)
-	_place_cam()
+		follow = false
+	_place_cam(true)
 
-func _place_cam() -> void:
-	var sway := Vector3(sin(drift * 0.25) * 0.4, 0, 0)
-	cam.position = cam_target + cam_offset + sway
-	cam.look_at(cam_target, Vector3.UP)
+func _place_cam(snap := false) -> void:
+	if follow:
+		_shoulder_goal()
+	else:
+		cam_pos_goal = cam_target + cam_offset + Vector3(sin(drift * 0.25) * 0.4, 0, 0)
+		cam_look_goal = cam_target
+	var k := 1.0 if snap else 0.08
+	cam.position = cam.position.lerp(cam_pos_goal, k)
+	cam_look = cam_look.lerp(cam_look_goal, k)
+	if cam.position.distance_to(cam_look) > 0.01:
+		cam.look_at(cam_look, Vector3.UP)
+	_cull_walls()
 	_update_tags()
+
+## Hide outer walls standing between the camera and the action (cutaway view).
+func _cull_walls() -> void:
+	var fwd := -cam.global_transform.basis.z
+	var focus: float = cam.position.distance_to(cam_look) * 0.55
+	for w in get_tree().get_nodes_in_group("cull_wall"):
+		var along: float = (w.position - cam.position).dot(fwd)
+		w.visible = not follow or along > focus
+
+## Behind and above the acting hero, over the right shoulder, looking at the enemy.
+func _shoulder_goal() -> void:
+	var c = sc.combat if sc.combat != null else preview
+	if c == null:
+		return
+	var u = c.current()
+	if u == null or u.team != "party":
+		u = c.by_id.get(last_party_id)
+	if u == null or not u.is_active():
+		for x in c.units:
+			if x.team == "party" and x.is_active():
+				u = x
+				break
+	if u == null:
+		return
+	last_party_id = u.id
+	var me := Blockout.tile_pos(c.grid, u.pos)
+	var foes := Vector3.ZERO
+	var n := 0
+	for x in c.units:
+		if x.team == "enemy" and x.is_active():
+			foes += Blockout.tile_pos(c.grid, x.pos)
+			n += 1
+	var dir := Vector3(0, 0, -1)
+	if n > 0:
+		var d := foes / n - me
+		d.y = 0
+		if d.length() > 0.5:
+			dir = d.normalized()
+	var right := dir.cross(Vector3.UP).normalized()
+	cam_pos_goal = me - dir * 4.2 + right * 1.3 + Vector3(0, 3.6, 0)
+	cam_look_goal = me + dir * 4.5 + Vector3(0, 0.3, 0)
 
 func _update_tags() -> void:
 	var live := {}
@@ -481,7 +539,7 @@ func _update_tags() -> void:
 		l.visible = not cam.is_position_behind(wp)
 		l.text = n.get_meta("tag")
 		l.add_theme_color_override("font_color", n.get_meta("tag_col"))
-		var sp: Vector2 = cam.unproject_position(wp) * SHRINK
+		var sp: Vector2 = from_vp(cam.unproject_position(wp))
 		l.position = sp - Vector2(l.size.x / 2.0, l.size.y)
 	for n in name_tags.keys():
 		if not live.has(n):
@@ -570,8 +628,15 @@ func _do(id: String) -> void:
 		push_warning(r.get("error", ""))
 	_refresh()
 
+## Canvas <-> 3D-view pixel conversion (the view renders at reduced resolution).
+func to_vp(p: Vector2) -> Vector2:
+	return (p - svc.global_position) * Vector2(vp.size) / svc.size
+
+func from_vp(p: Vector2) -> Vector2:
+	return p * svc.size / Vector2(vp.size) + svc.global_position
+
 func _tile_under_mouse(pos: Vector2) -> Vector2i:
-	var local := pos / SHRINK
+	var local := to_vp(pos)
 	var from := cam.project_ray_origin(local)
 	var dir := cam.project_ray_normal(local)
 	if absf(dir.y) < 0.001:
