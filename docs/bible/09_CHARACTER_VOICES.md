@@ -9,6 +9,39 @@
 > - Everything else is my reading of Jesse's material, written as rules. Where a rule is my interpretation rather than something Jesse said, it's marked **[interp]**, so Jesse can correct it.
 > - Nothing here adds plot or lore.
 
+## Jesse's character notes, 2026-11-03 09:26 (verbatim; these override anything below)
+
+> Ashe should feel like Miles Quartich.
+
+> I'll make Dust a lot easier to write; he feels like Luke Skywalker.
+
+> Deena feels like a feisty geek. She seems constantly conflicted (she's trapped on a spaceship with two hot blooded men, both of whom are these mysterious Srov types).
+
+> K'baasu is Sun Tzu in wisdom, but Ghangis Khan in how he wants to handle everything.
+
+> Statda (new character). She's a female Han Solo. She's the one constantly getting into trouble due to these terrible schemes she comes up with, that Ashe has to step in and rescue her.
+> She's an apothecary (a healer). She's about 5'5, looks like Lara Croft, but wears dark blue coveralls and coke bottle glasses (she doesn't need them, she just finds they disarm people she talks to for when she's trading). Statda is a romance option, but a humorous one. She's into women (but because she's suave and charismatic, and not an idiot, she made a pass a Deena once, got the message that Deena doesn't feel that way, and hasn't tried since).. She takes a lot convincing for either Ashe or Dust, but it is possible. Ashe is remorseless with the innuendos with her, since he knows she's not into him.
+> Statda likes K'baasu, and respects his sagacity in a way no one else does. K'baasu respects her for this.
+
+> Melonsi on the surface layer is the intelligent, entitled ice maiden. But she clearly wants to be noticed; she dresses to impress, flaunts her curves, and doesn't shy from the public light. Thus, she isn't the infinitely tough princess she pretends to be, as vanity lurks beneath.
+
+> Taz the Spaz; he's comic relief. He's high on 'Berzerk' most of the time.
+
+> Mama Quell; you penned her, you can decide.
+
+> Lady Viviana... female Count Dracula. She can seem like a monster, as she'll take a life without a thought. but she also has extraordinary compassion, especially for slaves (since she considers herself one, due to neural programming).
+
+> Before the opening scene...
+> Ashe wants Dust to start becoming more ruthless and cut throat. He's worried that as they make a name for themselves and Dust takes on more leadership roles, Ashe won't be there to look out for him.
+> (Ironically, Dust sees himself as Ashe's protector of sorts. 'The brains behind the brawn'.)
+> In the scene, Ashe asks about what Dust wants to do with the 60'000 credits; perhaps buy his own spaceship. It's a test to see if Dust has any ambitions to be his own captain.
+> When Melonsi comes up, it reveals how much Ashe dislikes the meddling control freak Srov's (his words), and Melonsi even more. He does see Melonsi as a useful tool; those curves of hers, that salty, beautiful face... can Dust see beyond it; or would such beauty get him killed? If not hers, the next vixen, or the one after that?
+> But then the scene quickly gets hijacked by being attacked.
+> Before getting attacked, Deena is at a personal crossroads. She loves the crew, but is feeling very lonely. Like any warm blooded human, she wants companionship. But in the depths of the void of space, she isn't going to find it with anyone she wants to (she sees dating Ashe as akin to diving into a black hole, she thinks there is a lot more to Ashe; and misperceives his inner darkness as scarring from his military days; she sees dating Dust as warm bathwater. Not bad, but not ideal. (She doesn't really get Dust, and misperceives a lot about him; she neither sees the man he's becoming, nor the same darkness in him, that Ashe carries).
+> Statda was hired by Ashe a few years ago. Even when he stopped paying her between gigs, she stayed. She said it's because she finds the Srov fascinating; their fancy swords, their magic, seeing the future, their rigid rules... but really, she doesn't know why she stays. Her personality and speech is much like Lara Croft, a very sarcastic version of Lara Croft (as I demonstrated).
+> K'baasu has nowhere else to do. He truly lives in the moment and one day at a time. He loves Deena and is loyal to the others. Today he admits he is excited. They're going on a rescue mission, where there are bound to be evil doers who need to be nuked by his cannon. K'baasu is well aware most people think he's a big brutish frog. Even his friends generally disregard everything he says (too violent, they say), except Statda.
+> For Statda, Deena and K'baasu; whatever they were planning that day for that mission, goes off the rails when the Galactic C gets attacked.
+
 ---
 
 ## 0. The procedure (every scene, every time)
@@ -122,12 +155,7 @@
 - **Han:** a spacer's swagger, a merc's street sense, cocky bravado and quick talk.
 - **The intrepid mind:** he outthinks people (the Council loophole, Hal's *"Cogito ergo sum"*) by asking calm, pointed questions until the logic closes around them.
 
-**Above all, a very relatable 19-year-old young man** [J]. The player should recognise themselves, or their younger self, in him.
-- **Ashe is his hero** [J]. Not just a mentor: the man he wants to be. He watches how Ashe stands, copies his phrases, glows at a nod, and deflates at a correction.
-- **He thinks about sex every seven seconds, as is typical for someone his age** [J].
-  - It shows in attention and reaction, not in crude lines. His mind goes straight to the princess's photos (*"are the photos real, she-"* [J]). He blushes deep red when caught [J]. He's a beat slow when Deena flirts. He gets distracted by any attractive woman, then is yanked back on target by Ashe.
-  - It's played warmly, as an awkward, honest young man. Never sleazy, and never the punchline of every scene.
-  - **[interp]** He talks bigger about women than he acts. The bravado runs out the moment someone actually flirts back.
+**Jesse, verbatim [J]:** *"I couldn't get a feel for Dust being a very relatable 19 year old young man. He looks up to Ashe like a hero figure. He thinks about sex every 7 seconds as is typical for someone his age."*
 
 **What drives his voice:**
 - **He wants Ashe's respect,** and imitates him (*"Don't really matter... They won't live long enough to tell anyone about us."* [J]).
@@ -155,7 +183,6 @@
 - Cruelty. He's cocky, not mean.
 - Smoothness about women he's actually impressed by. He blushes.
 - Sounding older, wiser or more polished than 19. His sharp reasoning comes out in a young man's words, a little breathless and a little too pleased with itself.
-- Disagreeing with Ashe's judgment of someone in front of Ashe, early in the game. He takes Ashe's side on the Srov and on Melonsi, even while he's staring at her photo.
 
 ### Anti-examples (from my first draft)
 - ✗ *"It's in the brochure." / "I read the brochure."* A nerd joke. Dust knows the hull glides because he's a spacer who flew in her, not because he read the manual.

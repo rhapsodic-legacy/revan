@@ -16,6 +16,7 @@ This folder is the **long-horizon memory** for the project. Any session (human o
 | `06_STORYBOARD_OPENING.md` | Shot-by-shot storyboard of the Opening | Cutscenes, cameras, audio timing |
 | `08_CREW_CANDIDATES.md` | Approved crew (Hal, Varga, Seraphine, Teodric, the Ledger, Countess Viviana, world-tied crew), Hal's "Cogito ergo sum" scene, races, classes, ship upgrades | Act III planning |
 | `09_CHARACTER_VOICES.md` | **How every character talks:** per-character voice sheets, pair rules, and the line checklist. Binding for all dialogue | Before writing any line |
+| `10_BACKSTORIES.md` | Novel-style backstories of the five crew up to the Opening (drafts; invented specifics listed per chapter) | Writing any crew scene |
 | `07_CONCEPT_ART_PROMPTS.md` | Image-generator prompts for concept art and Tripo turnarounds | Making concept art |
 
 ---

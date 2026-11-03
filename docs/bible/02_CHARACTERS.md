@@ -1,7 +1,7 @@
 # 02: CHARACTERS (v2)
 
 > Every character is larger than life: a silhouette readable at PS1 resolution, a voice you could pick out of a crowd, a weapon that reflects them, and a combat kit that matches their personality (see `03_SYSTEMS.md` §6). Voice notes are binding for writers and for ElevenLabs. **How each character talks, with rules and a line checklist, is in [09_CHARACTER_VOICES.md](09_CHARACTER_VOICES.md); it wins over the short voice notes here.**
-> **Party in combat: 4.** Dust is always in. Ashe is in most story fights.
+> **Party in combat: up to 5** (Jesse, 2026-11-03). Dust is always in. Ashe is in most story fights.
 
 ---
 
@@ -57,6 +57,16 @@
 - **With Ashe:** Ashe can't stand her. He makes inappropriate comments to every other woman, and none at all to her.
 - **With Dust:** Dust looks up to Ashe, so he disregards her too. Depending on the player's choices, she can warm to Dust and become a romance option.
 - **Act II:** forces the crew to the Srov homeworld; calls for Ashe to kill Dust; is upstaged by Dust's loophole and draws on them both; Vasili stops her and orders her to join the crew. She storms off, knowing she has no choice.
+
+### 1.7 Statda (Jesse's, 2026-11-03)
+
+> Statda (new character). She's a female Han Solo. She's the one constantly getting into trouble due to these terrible schemes she comes up with, that Ashe has to step in and rescue her.
+> She's an apothecary (a healer). She's about 5'5, looks like Lara Croft, but wears dark blue coveralls and coke bottle glasses (she doesn't need them, she just finds they disarm people she talks to for when she's trading). Statda is a romance option, but a humorous one. She's into women (but because she's suave and charismatic, and not an idiot, she made a pass a Deena once, got the message that Deena doesn't feel that way, and hasn't tried since).. She takes a lot convincing for either Ashe or Dust, but it is possible. Ashe is remorseless with the innuendos with her, since he knows she's not into him.
+> Statda likes K'baasu, and respects his sagacity in a way no one else does. K'baasu respects her for this.
+>
+> Statda was hired by Ashe a few years ago. Even when he stopped paying her between gigs, she stayed. She said it's because she finds the Srov fascinating; their fancy swords, their magic, seeing the future, their rigid rules... but really, she doesn't know why she stays. Her personality and speech is much like Lara Croft, a very sarcastic version of Lara Croft (as I demonstrated).
+>
+> When they fall under fire, Statda laments "Crap! My rifle's in the med bay!" (She's a sniper as well)
 
 ### 1.6 The ship: the *Galactic C*
 A *Galactic Companion*-class civilian passenger transport. Someone scratched off "ompanion" and painted "hampion," so the hull reads ***Galactic Champion***. The crew call her the *Galactic C*. Rounded 80s design, chrome trim, flip-up headlights, a passenger lounge turned into a crew mess, a cassette deck wired into the PA. **Designed to glide unpowered** in an emergency (passenger safety regulations), which is the whole plan in the opening. Won by Dust in a con on a fixed race; the con was itself a set-up by the gangers who owned her, which ended with 13 counts of murder and a planet they can never return to.

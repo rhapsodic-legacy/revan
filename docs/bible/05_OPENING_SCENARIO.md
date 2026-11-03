@@ -6,6 +6,20 @@
 
 ---
 
+> **Jesse's changes, 2026-11-03 09:26 (verbatim; these override the script below until it's rewritten):**
+>
+> Where is Statda in the opening scene? During the initial conversation, she runs by and tells Ashe "Hey Cap', some craft is closing with us and planetary ass hats are firing at them... don't you guys hear the explosions?" (Statda mistakes the planetary defence fire as being aimed at the pirates).
+> "The orbital defence guns aren't aimed at us, and dumb ass pirates trying to board us this close to a planet aren't something I'm worried about. They'll bounce off our shields." Ashe replies.
+> "I'm always grateful you're the captain, cap'." Statda says sarcastically, and runs towards the cockpit.
+> "What does she want us to do, knock the pirates out of the sky? Let the planet defence guns do that." Dust says to Ashe.
+> "I heard that you wiener!" Statda yells from out of sight.
+> (Ashe returns to the conversation, not even considering what Statda said. He's very convinced of his assessment.)
+> In the cockpit, when Deena is talking about the planetary defence guns knocking their shields out, and they're being boarded, Statda mostly stands with arms crossed, shaking her head. "Don't worry, everything will be fine, because the cap' said so." She says sarcastically.
+> When they fall under fire, Statda laments "Crap! My rifle's in the med bay!" (She's a sniper as well)
+> In the first tutorial fight, it's still Ashe and Dust vs. 3 Guardsmen.
+> In the second tutorial fight (which takes places down another hallway, as Ashe told them to split up and flush the attackers out of the ship), it's Statda, K'bassu and Deena. --> This will cement for the player how powerful Ashe and Dust are, as they handle 3 guardsmen with the same level of difficulty.
+> In the third tutorial battle, it's the 5 heroes vs. the enemy. (So the player can have up to 5 characters at once).
+
 ## §0. SCENARIO SPEC FORMAT (skill draft)
 
 Every scenario file has these sections, in this order. ★ = mandatory before any asset work.
