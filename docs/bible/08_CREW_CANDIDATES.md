@@ -93,7 +93,7 @@ Each one belongs to a world. Their personal quest happens there, and in Act V th
 |---|---|---|---|---|
 | **ROXXY-7, "Roxx"** | Droid / Support (DJ) | Lumenhaven (neon city) | Roller-disco hostess robot; has hosted parties for nobody for 13 years | Her rink, rebuilt with the crew's help, is bombed |
 | **Pim Pockets** | Human / Tech (merchant) | Anywhere | The worst arms dealer in the galaxy ("Now 30% less exploding!") | Stays behind to cover an evacuation |
-| **Mama Quell** | Human / Face | Lumenhaven | A slum fence; extortionate and fond. (Jesse's gang now owns the warehouse the crew crashes into, so her hook needs a new one, or cut her) | Her block in the line of fire |
+| **Mama Quell** | Human / Face | Lumenhaven (Neon Slums) | **Owns the warehouse the crew crashes into** (Jesse); the gang operates it for her and fears her. Extortionate and fond. In Act I, if she's in the party, she finds Metalhead and the mothers a safe new life | Her block in the line of fire |
 | **Juno Ashgrove** | Human / Pilot | Racer's Halo, a ring-world of race circuits | Teen swoop-racing prodigy who idolises Dust (and is far better at cons) | Flies one last race |
 | **Brakka Two-Fists** | Vaal (stone giant) / Brawler | Quarrystone, a mining world | Gentle giant, retired pit-fighter, knits; knows K'saabu from the gladiator pits | Holds a mine tunnel shut |
 | **Sister Mirelle** | Human / Medic | Saint Halcyon, a hospital-moon | Unflappable combat nun who swears constantly | Refuses to leave her patients |
@@ -112,10 +112,23 @@ Each one belongs to a world. Their personal quest happens there, and in Act V th
 | **Hollis Grey** | Human / Pilot | Port Meridian | Deena's old flame from her slave days; awkward for everyone | Chooses Deena's safety over his own |
 | **Sergeant Boone** | Human / Heavy | Aurelia | A Unity Guardsman who is actually honest, and is constantly mocked for it | Dies holding a gate, Elizabethan to the end |
 
-### 3.1 Act I gang crewmate (Jesse's idea)
-| Name | Race / class | World | Personality and hook | Notes |
-|---|---|---|---|---|
-| **Taz the Spaz** | [OPEN] / Brawler | Lumenhaven slums | A ganger from the gang that holds the *Galactic C*; wields an **electro-axe** and uses **combat drugs** | Optional; recruitable only if the crew stays friendly with the gang. Whether Taz survives the Act I massacre: OPEN |
+### 3.1 Taz the Spaz (Jesse's; the tutorial optional crewmate)
+- **Role in the game:** "tutorial fodder." The player is told that **Taz represents the majority of potential crewmates**: they don't necessarily tie into the main story, but each brings a unique personality, ties to the universe, and abilities. Taz is the exemplar.
+- **Joins:** very early, basically right after the crash, if the player accepts him (needs the crew on good terms with the gang).
+- **Who he is:** a crazed berserker ganger who lost everyone he ever did drugs with and for. So innocent to the outer world, since his whole life was a tiny part of the slums. **His dialogue is always hilarious.**
+- **Look:** jeans and shirtless; an **electro-axe**.
+- **Combat:** close combat only and not very survivable. Not a top-tier pick: "looking for a challenge, pick this guy."
+  - **Combat drugs:** more movement, and a random extra action now and again.
+  - **Downed for 8 turns** before dying (normal is 3).
+  - After Act I he can be outfitted with a **personal shield**, making him much more survivable for 1–2 rounds.
+- **Signature ability: "Just Some Punk."** Many enemies don't take him seriously.
+  - Out of combat: he can walk into a guarded area and they just shout at him ("Hey you, punk! Get out of here if you know what's good!"); Taz usually flips the middle finger and starts swearing. He can lead enemies into an ambush, push past them, or get into position.
+  - In combat: if he wasn't seen with the other characters and hasn't done anything threatening yet, he can walk about without being targeted ("Oh, it's some punk ganger. Forget him and focus on the target."), then pull out his electro-axe in an advantageous position.
+- **Why he matters (Jesse's list):**
+  1. Introduces the player to optional characters.
+  2. His reaction to his gang, his family, being slaughtered: hatred for Viviana, and at the same time gratitude that she saved the children and mothers. It shows how side characters bring something extra.
+  3. His dialogue.
+  4. "Just Some Punk."
 
 ## 4. Recurring non-crew characters [proposed]
 | Name | Who |

@@ -64,6 +64,11 @@ Ashe and Dust as mercenaries. Dust "won" the ***Galactic Companion*** (repainted
 
 ### 4.1 The gang (Jesse's, 2026-11-03)
 When the crew crash-lands (the Opening), **gangers start yelling at them for crashing into their warehouse.** [Gang name: OPEN]
+- **The warehouse belongs to Mama Quell.** The gang doesn't own it; they operate out of it. They respect and fear her. They run the warehouse for her, and in return she lets them run the warehouse for her. (A pretty one-sided deal, but she's very intimidating and they're idiot gangers.)
+- **The leaders are a married duo:**
+  - **Tazerface:** a mohawked, musclebound freak (Jesse's touchstone: the Goliath gangers of *Necromunda*; our design is original). He talks about himself in the third person ("The Tazerface says..."), and **all the other gangers do too, in deference.** He rules the gang. He dies in the massacre.
+  - **Metalhead:** his wife, an apothecary of sorts, **heavily pregnant** (Jesse's touchstone for her look: Harley Quinn; our design is original). She never uses the third person; she calls him "You idiot", and sometimes "Honey bunny..." She clearly rules the relationship, as he rules the gang. **She survives the massacre in the meat freezer.**
+- **"Upside"** is ganger slang for anything outside the **Neon Slums.**
 - **Who they are:** a big gang, well connected, and a bunch of idiots (Jesse's touchstone: the punk gang in *Crocodile Dundee II*). Dangerous enough that Ashe's crew won't engage them lightly; idiotic enough that talking your way to a solution is easy enough.
 - **Morally ambiguous**, especially on a first playthrough. They are definitely a gang: they beat people up, are at war with other gangs (and kill other gangers), rob, vandalise, and even take slaves. But any slave who works for them for a year becomes a ganger, and they won't enslave children (**Ganger's Honour**). There is something endearing about these violent idiots: the dumpster-fire trash that even the dumpster rejected. They aren't prejudiced against any alien species and only care about **loyalty and competence.**
 - **The design point:** the player gets a very familiar circumstance (a home base, quests, humble beginnings, different ways to solve a mission), and will likely grow fond of the gang, or at least some of its members. It's the player's **first experience of long-term benefits from choices made**; the gang's turf becomes a home base of sorts.
@@ -74,10 +79,10 @@ When the crew crash-lands (the Opening), **gangers start yelling at them for cra
 - **Fight (least optimal):** the least XP, the least gear, and no hookups (the gang opens up options for the area). If the player starts the fight, a prompt tells them **they can't win this fight, but can survive it by escaping the facility.**
 - **At war with the gang:** the player loses everything the gang offers, and the area becomes much harder. Fun for veterans, and it can come with an award (e.g. if certain members are dead by the end of the chapter).
 
-**Side content:** the gang leads to side quests, and perhaps an optional crewmate, **Taz the Spaz**, who wields an electro-axe and uses combat drugs.
+**Side content:** the gang leads to side quests and to the first optional crewmate, **Taz the Spaz** (see `08_CREW_CANDIDATES.md` §3.1). He joins basically right after the crash if the player accepts him, so he's with the crew, not at the warehouse, when the massacre happens.
 
 **The deal (likely outcome of meeting their leader).**
-- A couple of the other gangs are getting gear from **"Upside"** (the area beyond the slums; name tentative). It's weird that anyone would trade with gangers, and gangers don't have many Galactic Credits, so these non-retrofitted weapons aren't being bought outright. Something's not quite right. The gang doesn't really care; other gangs getting better weapons is bad for them.
+- A couple of the other gangs are getting gear from **"Upside"** (ganger slang for anything outside the Neon Slums). It's weird that anyone would trade with gangers, and gangers don't have many Galactic Credits, so these non-retrofitted weapons aren't being bought outright. Something's not quite right. The gang doesn't really care; other gangs getting better weapons is bad for them.
 - If Ashe and his crew put a stop to it (wipe those gangs out, and maybe find the benefactor and "convince" them to deal with this gang, and only this gang), the gang will tell Ashe where to find the right parts to fix his ship. **In the meantime, they hold the *Galactic C* as collateral.**
 
 **Pointing the crew to Melonsi.** The gang says they kept their end of the bargain. They don't know anything about a princess in the slums ("if there was a princess who looked like that, we'd know"). But there are a couple of **cartels** the crew should introduce themselves to: brokers of information, far better placed to know Upside business or how to get it. **One cartel is known for trading secrets in return for things.** That's the first place, and it's where **Melonsi is hiding as the apothecary.**
@@ -89,6 +94,9 @@ After rescuing Melonsi, the crew returns for the ship, and **everyone is dead.**
 - A creepy fog has settled over the area. Lights blink or are out; doors swing on their hinges. **Abominations** roam (six-legged dogs with glowing red eyes, and other shadow things), and the party must defeat them.
 - **Search reveals survivors** holed up in an old meat freezer: children and young mothers. Outside it, bodies hang upside down, drained of blood. (Shot: their shadowy silhouettes against a fire-lit wall, one bloody hand hanging in view, so the player deduces what they're seeing.)
 - The survivors can only speak of screaming, which stopped about 24 hours ago. One hands Ashe a **journal** while Melonsi heals the wounded.
+- **Metalhead** is among the survivors, grieving Tazerface.
+- **If Mama Quell is in the party:** she tells Metalhead and the other mothers she knows a large ship bay that needs support staff. They can go there with her promise of safety, and Metalhead's baby can be born into a life beyond the slums. (A potent way to show the player that recruiting side characters can have a massive emotional impact.)
+- **If Taz is in the party:** his reaction to his gang, his family, being slaughtered. He hates Viviana, yet is grateful she saved the children and mothers.
 
 **The journal** (optional reading the player can keep; it opens dialogue options). It reads much like the ship captain's log in *Dracula*.
 - The gangers brought back many strange artefacts from the vault, including a **6-foot metal box**, clearly hollow (something inside bangs about when shaken), with no seam or lid, protected by an energy field that only a password on a keypad can disable.
@@ -205,4 +213,4 @@ Once aboard the repaired *Galactic C*, **Melonsi uses her power to force the cre
 3. **The Srov homeworld:** a name, and what the trials' "many paths" are.
 4. **The Rubricon of the Dark Seers:** full wording, to work out together.
 5. **Romance thresholds for Countess Viviana** (with Dust and with Ashe).
-6. **Act I names:** the gang, its leader, and the cartel Melonsi hides in (my Krell proposal in 08 §4 is still only a proposal). Is "Upside" the final name?
+6. **Act I names:** the gang's name and the cartel Melonsi hides in (my Krell proposal in 08 §4 is still only a proposal). Leaders and "Upside": ✅ answered.
