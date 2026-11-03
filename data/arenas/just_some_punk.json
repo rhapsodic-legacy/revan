@@ -1,0 +1,24 @@
+{
+  "id": "just_some_punk", "name": "Test Arena 4: Just Some Punk",
+  "objective": "Defeat the guards. Taz came in separately: until he does something threatening, they think he's just some punk.",
+  "map": [
+    "##################",
+    "#................#",
+    "#...=......=.....#",
+    "#................#",
+    "#................#",
+    "#................#",
+    "#........=.......#",
+    "#................#",
+    "#................#",
+    "##################"
+  ],
+  "units": [
+    {"template": "dust", "id": "dust", "pos": [2, 8], "facing": [0, -1]},
+    {"template": "deena", "id": "deena", "pos": [4, 8], "facing": [0, -1]},
+    {"template": "taz", "id": "taz", "pos": [15, 1], "facing": [-1, 0], "unnoticed": true},
+    {"template": "gunner", "id": "gunner_1", "name": "Gunner 1", "pos": [6, 2], "facing": [0, 1]},
+    {"template": "gunner", "id": "gunner_2", "name": "Gunner 2", "pos": [11, 3], "facing": [0, 1]},
+    {"template": "thug", "id": "thug_1", "name": "Guard", "pos": [9, 4], "facing": [0, 1]}
+  ]
+}

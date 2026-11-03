@@ -32,6 +32,7 @@ var insights: Array = []
 var outcome := ""
 var fail_on_collateral := false
 var collateral_lost: Array = []
+var fallen: Array = []              # side characters whose arc ended (permanent)
 var difficulty := "seer"
 var turns_taken := 0
 var max_turns := 400
@@ -118,7 +119,16 @@ func occupied(except = null) -> Dictionary:
 	return d
 
 func hostiles_of(u) -> Array:
-	return units.filter(func(o): return o.is_targetable() and hostile(u, o))
+	return units.filter(func(o): return o.is_targetable() and hostile(u, o) and not ignored_by(u, o))
+
+## Taz's "Just Some Punk": enemies ignore an unnoticed unit until it does something threatening.
+func ignored_by(viewer, o) -> bool:
+	return viewer.team == Unit.TEAM_ENEMY and o.has_status("unnoticed")
+
+func _reveal(u) -> void:
+	if u.has_status("unnoticed"):
+		u.statuses.erase("unnoticed")
+		say("%s stops pretending to be just some punk. Now they notice." % u.name)
 
 func allies_of(u) -> Array:
 	return units.filter(func(o): return o != u and o.is_active() and o.team == u.team)
@@ -162,11 +172,19 @@ func _begin_turn(u) -> void:
 		u.downed_turns -= 1
 		if u.downed_turns < 0:
 			u.out = true
-			say("%s bleeds out of the fight." % u.name)
+			u.dead = true
+			if u.essential:
+				say("%s dies." % u.name)
+			else:
+				fallen.append(u.id)
+				say("%s dies. Their story ends here." % u.name)
 		else:
 			say("%s is Downed (%d turn(s) left to revive)." % [u.name, u.downed_turns + 1])
 		_finish_turn(W_NORMAL)
 		return
+	if "combat_drugs" in u.abilities and rng.chance(u.drug_chance):
+		turn["extra"] = 1
+		say("%s's combat drugs kick in: an extra action this turn." % u.name)
 	if u.has_status("staggered"):
 		u.statuses.erase("staggered")
 		say("%s is Staggered and loses the turn." % u.name)
@@ -197,9 +215,9 @@ func _check_outcome() -> void:
 	var party_up := units.filter(func(o): return o.team == Unit.TEAM_PARTY and o.can_act())
 	var party_alive := units.filter(func(o): return o.team == Unit.TEAM_PARTY and o.is_active())
 	for u in units:
-		if u.essential and u.out:
+		if u.essential and (u.out or u.dead):
 			outcome = "defeat"
-			say("%s is Out. The fight is lost." % u.name)
+			say("%s has fallen. Game over." % u.name)
 			return
 	if fail_on_collateral and not collateral_lost.is_empty():
 		outcome = "defeat"
@@ -320,6 +338,8 @@ func deal(target, amount: int, poise_dmg: int, source_name: String) -> void:
 		if target.shield == 0 and absorbed > 0:
 			say("%s's shield breaks." % target.name)
 	target.hp -= amount
+	if amount > 0:
+		target.statuses.erase("unnoticed")
 	if not target.is_object() and target.team != Unit.TEAM_CIVILIAN:
 		target.poise -= poise_dmg
 		if target.poise <= 0 and target.hp > 0:
@@ -333,7 +353,7 @@ func deal(target, amount: int, poise_dmg: int, source_name: String) -> void:
 func _on_zero(t, source_name: String) -> void:
 	if t.team == Unit.TEAM_PARTY:
 		if t.downed_turns < 0:
-			t.downed_turns = 3
+			t.downed_turns = t.downed_limit
 			t.statuses.clear()
 			say("%s is Downed by %s." % [t.name, source_name])
 		return
@@ -401,7 +421,7 @@ func legal_actions() -> Array:
 					out.append({"id": "dash:%d,%d" % [p.x, p.y], "type": "dash", "to": [p.x, p.y], "cost": dash_map[p]})
 	if not turn.acted:
 		for t in units:
-			if t == u or not t.is_targetable() or t.team == u.team:
+			if t == u or not t.is_targetable() or t.team == u.team or ignored_by(u, t):
 				continue
 			if t.team == Unit.TEAM_CIVILIAN:
 				continue
@@ -439,7 +459,7 @@ func legal_actions() -> Array:
 					out.append({"id": "push:%s" % t.id, "type": "push", "target": t.id, "chance": shove_chance(u, t, true), "focus": PUSH_COST})
 		if "mend" in u.abilities and u.focus >= MEND_COST:
 			for t in units:
-				if t.team == u.team and t.can_act() and t.hp < t.max_hp and Grid.cheb(t.pos, u.pos) <= 5 and grid.has_los(u.pos, t.pos):
+				if t.team == u.team and t.is_active() and (t.downed_turns >= 0 or (t.can_act() and t.hp < t.max_hp)) and Grid.cheb(t.pos, u.pos) <= 5 and grid.has_los(u.pos, t.pos):
 					out.append({"id": "mend:%s" % t.id, "type": "mend", "target": t.id, "heal": mend_amount(u), "focus": MEND_COST})
 		for t in units:
 			if t.team == u.team and t.downed_turns >= 0 and not t.out and Grid.cheb(t.pos, u.pos) == 1:
@@ -488,6 +508,8 @@ func act(action_id: String) -> Dictionary:
 	if found == null:
 		return {"ok": false, "error": "Illegal action '%s'." % action_id, "log": []}
 	var u = current()
+	if not found.type in ["move", "dash", "end", "hold", "door", "search"]:
+		_reveal(u)
 	match found.type:
 		"move":
 			_move_along(u, Vector2i(found.to[0], found.to[1]))
@@ -532,6 +554,9 @@ func act(action_id: String) -> Dictionary:
 			var h := mini(mend_amount(u), t.max_hp - t.hp)
 			t.hp += h
 			say("%s Mends %s for %d." % [u.name, t.name, h])
+			if t.downed_turns >= 0:
+				t.downed_turns = -1
+				say("%s is back on their feet." % t.name)
 			_acted(W_NORMAL)
 		"revive":
 			var r = by_id[found.target]
@@ -561,6 +586,10 @@ func _acted(w: float) -> void:
 	turn.acted = true
 	turn.weight = w
 	_check_outcome()
+	if outcome == "" and turn.get("extra", 0) > 0 and current() != null and current().can_act():
+		turn.extra -= 1
+		turn.acted = false
+		return
 	if outcome != "":
 		current_id = ""
 		return
@@ -588,7 +617,7 @@ func _move_along(u, goal: Vector2i) -> void:
 
 func _opportunity_attacks(mover, from: Vector2i, to: Vector2i) -> void:
 	for e in units:
-		if not e.can_act() or not hostile(e, mover) or not e.reaction_available or e.has_status("off_guard"):
+		if not e.can_act() or not hostile(e, mover) or ignored_by(e, mover) or not e.reaction_available or e.has_status("off_guard"):
 			continue
 		if is_ranged(e) or e.weapon.get("aoe", false):
 			continue

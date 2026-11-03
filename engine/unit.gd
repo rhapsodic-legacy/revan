@@ -39,12 +39,14 @@ var shield := 0                     # personal shield HP
 var deflector := false              # reflects ranged/AoE aimed within 2 tiles
 var reaction_available := true
 var downed_turns := -1              # party only; >=0 while Downed
+var downed_limit := 3               # turns at 0 HP before dying (Taz: 8)
+var drug_chance := 25.0             # combat drugs: % chance of an extra action per turn
 var out := false                    # Out for the fight
 var dead := false
 var hidden := false                 # objects revealed by Search
 var fragile := false
 var on_destroy := {}                # {"explode": n} or {"disable_deflector": unit_id}
-var essential := false              # Dust: Out = game over
+var essential := false              # main character: death = game over
 var protect := false                # collateral: losing it fails/penalises the fight
 var name_short := ""
 
@@ -69,6 +71,10 @@ static func from_dict(d: Dictionary) -> RefCounted:
 	u.fragile = bool(d.get("fragile", false))
 	u.on_destroy = d.get("on_destroy", {}).duplicate(true)
 	u.essential = bool(d.get("essential", false))
+	u.downed_limit = int(d.get("downed_limit", 3))
+	u.drug_chance = float(d.get("drug_chance", 25.0))
+	if d.get("unnoticed", false):
+		u.statuses["unnoticed"] = -1
 	u.protect = bool(d.get("protect", false))
 	if d.has("pos"):
 		u.pos = Vector2i(int(d["pos"][0]), int(d["pos"][1]))
