@@ -1,0 +1,29 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  rules:
+    runs-on: ubuntu-latest
+    env:
+      GODOT_VERSION: 4.3-stable
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download Godot (headless)
+        run: |
+          curl -sSL -o godot.zip https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_linux.x86_64.zip
+          unzip -q godot.zip
+          mv Godot_v${GODOT_VERSION}_linux.x86_64 godot
+          ./godot --headless --version
+      - name: Rules tests (includes AI autoplay of every test arena)
+        run: ./godot --headless --path . --script tests/run_tests.gd
+      - name: Agent API smoke test (MCP wrapper plays one turn)
+        run: |
+          printf '%s\n' \
+            '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{}}' \
+            '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"load_arena","arguments":{"arena":"door_trick","seed":1}}}' \
+            '{"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"auto_turn","arguments":{}}}' \
+          | GODOT_BIN=./godot python3 tools/dots-mcp/dots_mcp.py > out.jsonl
+          python3 -c "import json; r=[json.loads(l) for l in open('out.jsonl')]; assert len(r)==3 and not r[2]['result']['isError'], r; print('agent API ok')"

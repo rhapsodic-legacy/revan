@@ -1,0 +1,35 @@
+{
+  "id": "deflector", "name": "Test Arena 2: The Deflector",
+  "objective": "Defeat the squad. The Sergeant's Deflector reflects ranged fire and cannon blasts within 2 tiles. Don't hit the dockhand.",
+  "map": [
+    "##################",
+    "#................#",
+    "#..=....=....=...#",
+    "#................#",
+    "#................#",
+    "#................#",
+    "#................#",
+    "#..=.........=...#",
+    "#................#",
+    "#................#",
+    "#................#",
+    "##################"
+  ],
+  "units": [
+    {"template": "dust", "id": "dust", "pos": [3, 10], "facing": [0, -1]},
+    {"template": "ashe", "id": "ashe", "pos": [6, 10], "facing": [0, -1]},
+    {"template": "deena", "id": "deena", "pos": [9, 10], "facing": [0, -1]},
+    {"template": "ksaabu", "id": "ksaabu", "pos": [12, 10], "facing": [0, -1]},
+    {"template": "sergeant", "id": "sergeant", "pos": [8, 5], "facing": [0, 1]},
+    {"template": "gunner", "id": "gunner_1", "name": "Gunner 1", "pos": [6, 4], "facing": [0, 1]},
+    {"template": "gunner", "id": "gunner_2", "name": "Gunner 2", "pos": [11, 4], "facing": [0, 1]},
+    {"template": "thug", "id": "thug_1", "name": "Thug", "pos": [14, 3], "facing": [0, 1]},
+    {"id": "generator", "name": "Deflector backpack", "glyph": "o", "team": "object", "hp": 20, "hidden": true,
+      "on_destroy": {"attached_to": "sergeant", "disable_deflector": "sergeant"}},
+    {"id": "dockhand", "name": "Dockhand", "glyph": "c", "team": "civilian", "hp": 30, "protect": true, "pos": [2, 6]}
+  ],
+  "insights": [
+    {"id": "deflector_pack", "dc": 24, "reveals": "generator",
+      "text": "The Sergeant's Deflector runs off a backpack generator. Shoot the pack (it isn't reflected) and the Deflector dies."}
+  ]
+}

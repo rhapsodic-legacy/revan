@@ -1,0 +1,31 @@
+{
+  "id": "high_ground", "name": "Test Arena 3: High Ground",
+  "objective": "Defeat the ambush. Marksmen hold the raised walkway behind cover; the fuel cell is volatile.",
+  "map": [
+    "##################",
+    "#^^^^^^^^^^^^^^^^#",
+    "#^^^^^^^^^^^^^^^^#",
+    "#^=^^=^^^^^^=^^=^#",
+    "#................#",
+    "#......~~~.......#",
+    "#......~~~.......#",
+    "#................#",
+    "#................#",
+    "#................#",
+    "#................#",
+    "##################"
+  ],
+  "units": [
+    {"template": "dust", "id": "dust", "pos": [4, 10], "facing": [0, -1]},
+    {"template": "ashe", "id": "ashe", "pos": [7, 10], "facing": [0, -1]},
+    {"template": "deena", "id": "deena", "pos": [10, 10], "facing": [0, -1]},
+    {"template": "melonsi", "id": "melonsi", "pos": [13, 10], "facing": [0, -1]},
+    {"template": "marksman", "id": "marksman_1", "name": "Marksman 1", "pos": [5, 2], "facing": [0, 1]},
+    {"template": "marksman", "id": "marksman_2", "name": "Marksman 2", "pos": [12, 2], "facing": [0, 1]},
+    {"template": "thug", "id": "thug_1", "name": "Thug 1", "pos": [4, 5], "facing": [0, 1]},
+    {"template": "thug", "id": "thug_2", "name": "Thug 2", "pos": [12, 6], "facing": [0, 1]},
+    {"template": "thug", "id": "thug_3", "name": "Thug 3", "pos": [14, 6], "facing": [0, 1]},
+    {"id": "fuel_cell", "name": "Fuel cell", "glyph": "f", "team": "object", "hp": 10, "fragile": true, "pos": [13, 7],
+      "on_destroy": {"explode": 22}}
+  ]
+}
