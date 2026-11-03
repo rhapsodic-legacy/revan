@@ -220,16 +220,13 @@ Each boss spec lists: arena map (doors, heights, hazards), phases with HP thresh
 - **Censer Sweep:** a 270° swing, 4 m radius, leaves incense (Blind) clouds.
 - At 30%: **Communion**: he drains all living cantors to heal 40%. Kill cantors before 30% or burst him through the threshold. Seraphine's Silence can interrupt Communion once.
 
-### 8.4 THE FINAL BATTLE: Dust & Akulsa vs Kultaka & the Emperor
-- **Arena:** the Hall of the Wick, a circular star-cathedral floating in the dead star's heart. Outer ring (walkway), inner ring (altars), central pit (gravefire). Sections of the outer ring collapse through the fight.
-- **Party:** Dust and Akulsa only (scripted). If Melonsi is with the crew and Bond = Trust, her Silk is present as a **support layer** (one link, off-field).
-- **Phase 1 (2v2):** Kultaka (aggressive melee, cantorless now, gains Choir stacks from Seer cages still burning: free them in V-2 to weaken him). The Emperor (slow, devastating, one action per two Kultaka turns; **Reap**: line attack across the hall; **Claim**: marks a unit, and if it's hit again before its next turn it loses Focus to him). Akulsa's Dawnsight shows both intents.
-- **Phase 2 "Forever" (Kultaka <50%):** cutscene; the Emperor absorbs him. Emperor gains Kultaka's Censer Sweep and acts every turn. The outer ring begins collapsing (one section per round, telegraphed).
-- **Phase 3 "Blood" (Emperor <40%):** the black mask cracks along its visor slit; the Emperor becomes **Undying** except to gravefire (only Dust's gravefire abilities and Gravesong/Kindling kindled strikes deal damage). The Emperor targets Dust relentlessly. Akulsa's job: Vigil, Sunwall, Riposte. **Unmake** (Dust ultimate) unlocks at Emperor <10%.
-- **Scripted end:** the Emperor's last Reap goes for Dust; Akulsa's Vigil triggers. In the Hidden ending, if Akulsa has 3 Vigil stacks and Melonsi's Silk links them, the damage splits and Akulsa survives.
-- **Target length:** 25–35 minutes on Seer. Retry from phase start.
-
----
+### 8.4 THE FINAL BATTLE: Dust & Akulsa vs Kultaka & the Emperor (Jesse's rules)
+- **Arena:** the ringed station in the Unknown Regions, orbiting a red giant. Concentric walkways; an airlock and a port window facing the sun (both used in the scene afterwards).
+- **Party:** Dust and Akulsa only.
+- **Kultaka must go down first.** If the players focus the Emperor instead, the Emperor **life-drains Kultaka** to keep himself fighting, which eventually drops Kultaka to 0 HP anyway. (Kultaka at 0 HP is down, not dead: Ashe heals him afterwards.)
+- The Emperor is the cunning, quiet terror; Kultaka is the brute. Their AI should reflect that: Kultaka charges, the Emperor waits and punishes.
+- Phase design, HP and telegraphs: to build with Jesse once the arena is designed.
+- **After the win:** the scripted ending in `01_STORY.md` §10 (the Rubricon, the beheading, the laughter in the air, the airlock, the red giant).
 
 ## 9. Grinding that's interesting
 
@@ -331,6 +328,12 @@ A small MCP server (`tools/dots-mcp`) exposes `get_state`, `act`, `travel_to`, `
 An AI agent (Claude, via the MCP wrapper) must be able to complete the Opening and Act I's first hub on Seer difficulty with no human help. This test runs at every milestone.
 
 ---
+
+## 12a. Romance algorithm (Jesse's)
+- Each companion holds **affection** separately for Dust and for Ashe. Choices, gifts, camp scenes and battle moments (protecting them, Pass Turn to them, and so on) move it.
+- **Thresholds** gate each romance stage. Deena: low threshold for Dust, **lowest for Ashe**. Melonsi: **high for Dust, very high for Ashe**, with penalties for choices she finds beneath her.
+- Ashe's romance is driven by the player's choices *for* Ashe in his scenes (dialogue options when Ashe speaks).
+- **Chapter Select (after one full playthrough):** refight any battle at higher levels and difficulties. **K'saabu** becomes available in the romance-scene slot, as a tough, loving brother to Dust, and as a battle-brother to Ashe.
 
 ## 12. Flags, saves, data
 

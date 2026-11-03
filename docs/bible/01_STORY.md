@@ -65,7 +65,7 @@ Ashe and Dust as mercenaries. Dust "won" the ***Galactic Companion*** (repainted
 - The warehouse they crashed into belongs to a slum fence who wants paying for the wall; her job gets them the parts to repair the *Galactic C*.
 - The trail runs through the slums, a ruined roller-disco, and drowned undercity arcades.
 - Unity forces hunt the crew all act (they were flagged as a Vors ship).
-- The rescue itself (where she's held, by whom): **open question (§12).**
+- **Where Melonsi is (Jesse's):** she escaped the clutches of Voidreaper and Kultaka, then *let herself* be captured by a powerful crime syndicate. Wrapped in cloaks, she works as the crime lord's apothecary, staying close enough that when dark forces come looking for her she can keep his mind free of them. She'd never admit it, but she's desperate, and doesn't know if she'll ever get out. The crew has to get her out of the syndicate's lair. [Syndicate and crime lord: original designs to propose.]
 
 Once aboard the repaired *Galactic C*, **Melonsi uses her power to force the crew to the Srov homeworld.**
 
@@ -109,7 +109,8 @@ Once aboard the repaired *Galactic C*, **Melonsi uses her power to force the cre
 
 ## 6. ACT III: World to World
 **Jesse's plot:** going from world to world, picking up more crewmates. **A time of innocence and fun.**
-- Crewmates and worlds: **open question (§12).**
+- **Why it's long and light (Jesse):** this act is massive character building, and it's what makes everything after it land. If the game is gripping and tense from the first moment, it burns a person out. There *are* tense moments, but they're about the characters, not the central plot. The relationships built here are what make Act V so hard: people the player has come to love die.
+- **Crewmates:** many are recruitable, and the player can only take some. A few tie directly into the story; the rest tie into specific worlds, so that Act V's tragedies hit harder. Candidates: `08_CREW_CANDIDATES.md` [proposed].
 
 ## 7. ACT IV: Noticed
 **Jesse's plot:** the plot thickens. The crew's heroism and mischief haven't gone unnoticed. Romance options intensify.
@@ -140,7 +141,13 @@ Once aboard the repaired *Galactic C*, **Melonsi uses her power to force the cre
   > *(Akulsa admits it: he took Tyranus to make the most powerful apprentice to fight the Emperor. Kultaka and the Emperor gloat.)*
   > **EMPEROR** *(offering his hand)*: "Join me, son. Together we will become the dark gods, immortal and omnipotent."
   > *(Kultaka gloats over Akulsa: this is what comes to those who follow the Emperor.)*
-- **Final battle (canon lock):** Akulsa and Tyranus vs Kultaka and the Emperor. *(See §12, Q1–2.)*
+- **Final battle (Jesse's):** Akulsa and Tyranus vs Kultaka and the Emperor. **Kultaka must go down first.** If the players focus the Emperor instead, he **life-drains Kultaka** to keep fighting, which eventually drops Kultaka to 0 HP anyway.
+- **After the Emperor falls (Jesse's scene):**
+  - Ashe begins reciting the **Rubricon of the Dark Seers**, the Vors' own creed about what makes a Seer. To the Emperor: *"You are powerful, but you are no Vors. Your way is one of ego, which leads to self-destruction. Vors are not afraid of the dark, and know that in the silence there are answers."* (Wording to be worked out with Jesse.) Ashe is saying all of this **for Kultaka's sake.**
+  - Ashe drives his sword through the Emperor. The Emperor's raspy bass laugh doesn't stop, and he says nothing. Ashe beheads him, and **the laughter keeps coming from the air itself.**
+  - Dust uses Eternity to seize the body and head, throws them into an airlock, jettisons them, and hurls them at great speed toward the **red giant** the station orbits.
+  - Ashe **heals Kultaka**: the galaxy needs to know the way of the dark as much as the way of the light. Kultaka swears revenge. Ashe: *"As is only proper for the last of the Vors, the Supreme Being of the Dark Seers."*
+  - All the while, Dust stands at the port window facing the sun. Eventually, as the voice-overs play: *"That dark god that was once my father is trying to regain control of his body. I'm making sure it enters the sun, where even he will die."*
 
 ## 11. EPILOGUE
 **Jesse's plot:** all the player's choices play out, and the main story finishes, with one last twist:
@@ -154,10 +161,7 @@ Once aboard the repaired *Galactic C*, **Melonsi uses her power to force the cre
 ---
 
 ## 12. Open questions for Jesse
-1. **The final fight and the Emperor's fate.** Is the 2v2 still the climax on the ringed station? Since Dust becomes Emperor and Kultaka survives, how does the Emperor's story end?
-2. **Kultaka's survival.** He fights beside the Emperor and is then anointed by Ashe. Is he beaten and spared in the final fight?
-3. **Act I rescue:** where is Melonsi held, and by whom?
-4. **Act III crewmates and worlds:** do you have them in mind, or shall I propose some for you to approve?
-5. **Act V:** whose lives hang on the player's choices?
-6. **Romances:** Melonsi (if she warms to Dust), Deena, others? And who is Ashe's romance?
-7. **The Srov homeworld:** a name, and what the trials' "many paths" are.
+1. **Act III–V crewmates:** pick from `08_CREW_CANDIDATES.md` (proposed), or add your own.
+2. **Act V:** which crewmates can die, and which choices decide it?
+3. **The Srov homeworld:** a name, and what the trials' "many paths" are.
+4. **The Rubricon of the Dark Seers:** full wording, to work out together.

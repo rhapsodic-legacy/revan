@@ -14,6 +14,7 @@ This folder is the **long-horizon memory** for the project. Any session (human o
 | `04_PRODUCTION.md` | Art direction, models (Tripo), VFX, music, voice (ElevenLabs), tech stack, milestones | Making assets, building the engine |
 | `05_OPENING_SCENARIO.md` | The penned Opening ("Fast and Hard"), in the reusable **Scenario Spec** format, plus refinements R1–R6 | Building the vertical slice; authoring any later scenario |
 | `06_STORYBOARD_OPENING.md` | Shot-by-shot storyboard of the Opening | Cutscenes, cameras, audio timing |
+| `08_CREW_CANDIDATES.md` | Proposed crewmates, races, classes, ship upgrades (Jesse picks) | Act III planning |
 | `07_CONCEPT_ART_PROMPTS.md` | Image-generator prompts for concept art and Tripo turnarounds | Making concept art |
 
 ---

@@ -41,9 +41,12 @@
 - **Look:** a 7-foot bipedal frog with mottled green-black skin, a gaping fang-lined maw, a heavy cannon slung under one arm (where anyone else would need a tripod), and a scrap of Deena's old scarf tied around his wrist.
 - **Personality:** devoted to Deena like a guard dog. Worships Ashe because Ashe always beats him in a fight. Gives Dust a hard time: insults him, shoves him out of the way, leaves him in tight spots. That's love: he thinks Dust is green and will get himself killed unless he wises up. He believes every problem has a straightforward solution, usually "commandeer a space station."
 - **Speech:** croaks and grunts. The crew understands him perfectly; everyone else thinks he's making noise. **UI gag:** when a crew member is listening, his lines are subtitled in brackets, e.g. *[Croak.] (We could take the station.)*. When strangers are the listeners, the subtitle just reads *[croak]*, and NPCs react to the noise.
-- **Truth (Act II):** a **Calder deep-dweller**, enslaved by the Candlemouths to tend the Quiet Graves. He escaped and climbed aboard the first ship he found.
+- **Past (Jesse's):** K'saabu has a terrible amount of blood on his hands. He killed the people who tried to enslave his people, and when he was finally captured, he fought as a **gladiator**. He carries a darkness of his own: **bloodlust**. That's why he can relate to Dust's fear of the darkness in himself.
+- **With Ashe:** he respects Ashe enormously (Ashe always beats him). They can really bro out; Ashe was once Vors Akulsa, and both know what it is to have killed a great deal.
+- **With Dust:** the lovable but tough older brother.
+- **Not a romance option.** But once **Chapter Select** opens (after one full playthrough, to refight battles at higher levels and harder difficulties), K'saabu can play the romance scenes' role as a tough, loving brother.
 - **Combat identity: slow, heavy, collateral.** Slow Speed. Cannon is **always AoE**: great when there's nothing to break, a disaster near civilians, hostages, or delicate instruments. **Personal Shield**, **Taunt**, **Shove** (pushes any normal-sized person). Breathes underwater (solo underwater segments; can fight from water tiles).
-- **Running gag paid off:** in Act I's finale he finally commandeers a space station, and it's the right call.
+- **Running gag [proposed]:** one day he finally gets to commandeer a space station, and it's the right call.
 
 ### 1.5 Princess Melonsi Ananna of Seonha
 - **Look:** striking and beautiful, with East Asian–inspired royal styling from her world, Seonha. Space-opera flamboyant and functional at once: dramatic, figure-accentuating silk court wear cut for fighting, jeweled hair ornaments with gold pins, a high collar, and a flowing outer robe that announces "princess" from across a room. The women of this galaxy are every bit as larger-than-life as its men, and Melonsi is the proof. Always the most dressed person present, on purpose. **Reference (Jesse's image, `concept/melonsi_reference.png`):** long, straight, **platinum-white hair** that flows like silk in any wind; pale luminous skin; dramatic **red-orange winged eye makeup**; **pale white-lilac glossy lips**; a sleek black high-necked bodice under her royal silks. Her look is ice and fire: cool white and black, with that one flash of red-orange at the eyes.
@@ -145,7 +148,13 @@ A tall, still figure, taller than any man but not a giant, in close-fitting **bl
 | Sable & Dust | Enemy | Oath-sibling restored / killed |
 | Kultaka & the Emperor | Disciple | Meal |
 
-**Romance rules:** Deena and Melonsi are both romanceable by Dust, with full arcs. Pursuing both triggers a confrontation in Act II's convergence, after which the player chooses. Deena's flirting with Ashe stays comedy, and turns poignant after the reveal.
+**Romance rules (Jesse's):** romance is an algorithm of affection points (see `03_SYSTEMS.md` §13).
+| | Romance with Dust | Romance with Ashe |
+|---|---|---|
+| **Deena** | Not hard | **Easy** |
+| **Melonsi** | Mathematically **not easy** | **Very difficult** |
+| **K'saabu** | Not a romance. In Chapter Select, he fills the scene as a tough-love brother | Same: the two of them bro out |
+Romances play out in Act VII, with Ashe's romance and Dust's going back and forth so that each contrasts with the other.
 
 ---
 
