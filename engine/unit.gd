@@ -41,6 +41,10 @@ var reaction_available := true
 var downed_turns := -1              # party only; >=0 while Downed
 var downed_limit := 3               # turns at 0 HP before dying (Taz: 8)
 var drug_chance := 25.0             # combat drugs: % chance of an extra action per turn
+var charges := {}                   # per-fight uses, e.g. {"stun_grenade": 1}
+var locked: Array = []              # abilities shown but locked this fight (tutorial)
+var shield_power := 60
+var voice := ""                     # dialogue speaker id
 var out := false                    # Out for the fight
 var dead := false
 var hidden := false                 # objects revealed by Search
@@ -73,6 +77,9 @@ static func from_dict(d: Dictionary) -> RefCounted:
 	u.essential = bool(d.get("essential", false))
 	u.downed_limit = int(d.get("downed_limit", 3))
 	u.drug_chance = float(d.get("drug_chance", 25.0))
+	u.charges = d.get("charges", {}).duplicate()
+	u.locked = d.get("locked", []).duplicate()
+	u.shield_power = int(d.get("shield_power", 60))
 	if d.get("unnoticed", false):
 		u.statuses["unnoticed"] = -1
 	u.protect = bool(d.get("protect", false))
@@ -131,6 +138,6 @@ func to_dict() -> Dictionary:
 		"poise": poise, "max_poise": max_poise, "shield": shield,
 		"speed": speed, "move": move, "pos": [pos.x, pos.y], "facing": [facing.x, facing.y],
 		"weapon": weapon, "abilities": abilities, "cooldowns": cooldowns,
-		"statuses": statuses, "deflector": deflector, "downed": downed_turns >= 0,
+		"statuses": statuses, "charges": charges, "locked": locked, "deflector": deflector, "downed": downed_turns >= 0,
 		"out": out, "dead": dead, "fragile": fragile, "protect": protect,
 	}

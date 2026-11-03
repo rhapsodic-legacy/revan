@@ -1,5 +1,5 @@
 {
- "_note": "Combat templates. Numbers are tuning placeholders (bible 03 \u00a73, \u00a76.7); personalities and lore live in docs/bible.",
+ "_note": "Combat templates. Numbers are tuning placeholders (bible 03 §3, §6.7); personalities and lore live in docs/bible.",
  "dust": {
   "name": "Dust",
   "glyph": "D",
@@ -261,6 +261,291 @@
    "min": 12,
    "max": 18,
    "accuracy": 75
+  }
+ },
+ "op_dust": {
+  "name": "Dust",
+  "glyph": "D",
+  "team": "party",
+  "level": 1,
+  "essential": true,
+  "role": "skirmisher",
+  "voice": "DST",
+  "hp": 120,
+  "speed": 110,
+  "move": 6,
+  "attrs": {
+   "might": 13,
+   "grace": 12,
+   "vigor": 12,
+   "perception": 11,
+   "resolve": 12,
+   "eternity": 14
+  },
+  "weapon": {
+   "kind": "melee",
+   "reach": 1,
+   "min": 20,
+   "max": 28,
+   "accuracy": 88,
+   "name": "Kindling"
+  },
+  "abilities": [
+   "shove",
+   "push",
+   "mend"
+  ]
+ },
+ "op_ashe": {
+  "name": "Ashe",
+  "glyph": "A",
+  "team": "party",
+  "level": 3,
+  "essential": true,
+  "role": "leader",
+  "voice": "ASH",
+  "hp": 170,
+  "speed": 105,
+  "move": 6,
+  "attrs": {
+   "might": 15,
+   "grace": 11,
+   "vigor": 14,
+   "perception": 14,
+   "resolve": 14,
+   "eternity": 13
+  },
+  "weapon": {
+   "kind": "melee",
+   "reach": 1,
+   "min": 26,
+   "max": 36,
+   "accuracy": 88,
+   "name": "Morningwake"
+  },
+  "abilities": [
+   "shove",
+   "push",
+   "mend",
+   "dawnsight"
+  ]
+ },
+ "op_deena": {
+  "name": "Deena",
+  "glyph": "E",
+  "team": "party",
+  "level": 1,
+  "essential": true,
+  "role": "marksman",
+  "voice": "DNA",
+  "hp": 70,
+  "speed": 140,
+  "move": 7,
+  "attrs": {
+   "might": 8,
+   "grace": 16,
+   "vigor": 7,
+   "perception": 18,
+   "resolve": 10,
+   "eternity": 8
+  },
+  "weapon": {
+   "kind": "ranged",
+   "range": 8,
+   "min": 14,
+   "max": 20,
+   "accuracy": 88,
+   "name": "Sweetheart"
+  },
+  "abilities": [
+   "pass_turn",
+   "lock",
+   "stun_grenade"
+  ],
+  "charges": {
+   "stun_grenade": 1
+  }
+ },
+ "op_ksaabu": {
+  "name": "K'saabu",
+  "glyph": "K",
+  "team": "party",
+  "level": 2,
+  "essential": true,
+  "role": "brute",
+  "voice": "KSB",
+  "hp": 160,
+  "shield": 60,
+  "shield_power": 60,
+  "speed": 80,
+  "move": 4,
+  "attrs": {
+   "might": 17,
+   "grace": 8,
+   "vigor": 16,
+   "perception": 9,
+   "resolve": 12,
+   "eternity": 8
+  },
+  "weapon": {
+   "kind": "ranged",
+   "aoe": true,
+   "range": 7,
+   "min": 34,
+   "max": 46,
+   "accuracy": 80,
+   "name": "Cannon"
+  },
+  "abilities": [
+   "shove",
+   "lock",
+   "taunt",
+   "raise_shield"
+  ]
+ },
+ "trooper": {
+  "name": "Unity Trooper",
+  "glyph": "t",
+  "team": "enemy",
+  "level": 1,
+  "role": "marksman",
+  "temperament": "opportunist",
+  "hp": 45,
+  "speed": 100,
+  "move": 5,
+  "attrs": {
+   "might": 9,
+   "grace": 10,
+   "vigor": 8,
+   "perception": 9,
+   "resolve": 8,
+   "eternity": 5
+  },
+  "weapon": {
+   "kind": "ranged",
+   "range": 7,
+   "min": 8,
+   "max": 12,
+   "accuracy": 70,
+   "name": "Rifle"
+  }
+ },
+ "breacher": {
+  "name": "Unity Breacher",
+  "glyph": "b",
+  "team": "enemy",
+  "level": 2,
+  "role": "brute",
+  "temperament": "opportunist",
+  "hp": 60,
+  "speed": 95,
+  "move": 5,
+  "attrs": {
+   "might": 12,
+   "grace": 9,
+   "vigor": 10,
+   "perception": 8,
+   "resolve": 9,
+   "eternity": 5
+  },
+  "weapon": {
+   "kind": "ranged",
+   "range": 2,
+   "min": 24,
+   "max": 32,
+   "accuracy": 80,
+   "name": "Shotgun"
+  }
+ },
+ "op_marksman": {
+  "name": "Unity Marksman",
+  "glyph": "m",
+  "team": "enemy",
+  "level": 2,
+  "role": "marksman",
+  "temperament": "disciplined",
+  "hp": 40,
+  "speed": 105,
+  "move": 5,
+  "attrs": {
+   "might": 8,
+   "grace": 13,
+   "vigor": 7,
+   "perception": 12,
+   "resolve": 9,
+   "eternity": 5
+  },
+  "weapon": {
+   "kind": "ranged",
+   "range": 10,
+   "min": 12,
+   "max": 16,
+   "accuracy": 72,
+   "name": "Long rifle"
+  }
+ },
+ "op_sergeant": {
+  "name": "Boarding Sergeant",
+  "glyph": "S",
+  "team": "enemy",
+  "level": 3,
+  "role": "leader",
+  "temperament": "opportunist",
+  "hp": 110,
+  "shield": 50,
+  "speed": 100,
+  "move": 5,
+  "deflector": true,
+  "attrs": {
+   "might": 13,
+   "grace": 10,
+   "vigor": 12,
+   "perception": 10,
+   "resolve": 12,
+   "eternity": 5
+  },
+  "weapon": {
+   "kind": "ranged",
+   "range": 6,
+   "min": 12,
+   "max": 18,
+   "accuracy": 72,
+   "name": "Pistol"
+  }
+ },
+ "op_statda": {
+  "name": "Statda",
+  "glyph": "T",
+  "team": "party",
+  "level": 1,
+  "essential": true,
+  "role": "marksman",
+  "voice": "STD",
+  "hp": 85,
+  "speed": 115,
+  "move": 5,
+  "attrs": {
+   "might": 9,
+   "grace": 15,
+   "vigor": 9,
+   "perception": 15,
+   "resolve": 12,
+   "eternity": 7
+  },
+  "weapon": {
+   "kind": "ranged",
+   "range": 10,
+   "min": 18,
+   "max": 26,
+   "accuracy": 84,
+   "name": "Long rifle"
+  },
+  "abilities": [
+   "medkit",
+   "lock"
+  ],
+  "charges": {
+   "medkit": 2
   }
  }
 }

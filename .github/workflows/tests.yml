@@ -19,6 +19,12 @@ jobs:
           ./godot --headless --version
       - name: Rules tests (includes AI autoplay of every test arena)
         run: ./godot --headless --path . --script tests/run_tests.gd
+      - name: Parse-check the game shell scripts
+        run: |
+          for f in ui/game.gd world/blockout.gd world/arena_view.gd; do
+            ./godot --headless --path . --check-only --script "$f" 2>&1 | tee check.log
+            if grep -q "SCRIPT ERROR" check.log; then exit 1; fi
+          done
       - name: Agent API smoke test (MCP wrapper plays one turn)
         run: |
           printf '%s\n' \

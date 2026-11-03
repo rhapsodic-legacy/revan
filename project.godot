@@ -5,13 +5,18 @@ config_version=5
 
 config/name="Dust of the Sun"
 config/description="Turn-based grid RPG. Rules engine runs headless for tests and AI play."
-run/main_scene="res://world/arena_view.tscn"
+run/main_scene="res://ui/game.tscn"
 config/features=PackedStringArray("4.3")
 
 [display]
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
+window/size/mode=2
+window/size/window_width_override=1920
+window/size/window_height_override=1080
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 
 [rendering]
 

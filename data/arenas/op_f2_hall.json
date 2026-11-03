@@ -1,0 +1,94 @@
+{
+ "id": "op_f2_hall",
+ "name": "F2: The Aft Hallway",
+ "objective": "Flush the boarders out of the aft hallway.",
+ "map": [
+  "################",
+  "#..=#..=#..=#..#",
+  "#..............#",
+  "#..............#",
+  "#..............#",
+  "#..=#..=#..=#..#",
+  "################"
+ ],
+ "units": [
+  {
+   "template": "op_deena",
+   "id": "deena",
+   "pos": [
+    2,
+    2
+   ],
+   "facing": [
+    1,
+    0
+   ],
+   "locked": [
+    "stun_grenade"
+   ]
+  },
+  {
+   "template": "op_statda",
+   "id": "statda",
+   "pos": [
+    1,
+    4
+   ],
+   "facing": [
+    1,
+    0
+   ]
+  },
+  {
+   "template": "op_ksaabu",
+   "id": "ksaabu",
+   "pos": [
+    3,
+    3
+   ],
+   "facing": [
+    1,
+    0
+   ]
+  },
+  {
+   "template": "trooper",
+   "id": "trooper_1",
+   "name": "Trooper 1",
+   "pos": [
+    13,
+    2
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  },
+  {
+   "template": "trooper",
+   "id": "trooper_2",
+   "name": "Trooper 2",
+   "pos": [
+    14,
+    3
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  },
+  {
+   "template": "trooper",
+   "id": "trooper_3",
+   "name": "Trooper 3",
+   "pos": [
+    13,
+    4
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  }
+ ]
+}

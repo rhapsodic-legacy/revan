@@ -1,0 +1,475 @@
+{
+ "OP1_ASH_01": {
+  "text": "Sixty thousand credits. What're you gonna do with your cut, recruit? Buy your own ship?",
+  "dir": "taking the mug",
+  "speaker": "Ashe"
+ },
+ "OP1_DST_01": {
+  "text": "No… Once I have the credits I'll go in with you on a faster, more upgradable ship. I don't really have the yearn to captain my own ship.",
+  "speaker": "Dust"
+ },
+ "OP1_ASH_02": {
+  "text": "Don't want your own ship, recruit?",
+  "speaker": "Ashe"
+ },
+ "OP1_ASH_03": {
+  "text": "If you're good with co-captain in such an arrangement… then I accept… any ideas about what we should look at? 60'000 cred's won't get us something pretty, but sell this glossy rust bucket and maybe fence stuff we nab on the mission, and we get up to 100'000 cred's-",
+  "speaker": "Ashe"
+ },
+ "OP1_DST_02": {
+  "text": "Yeah actually. Altenian design; you get more than what you pay for because they're such a pain to upkeep… but…",
+  "dir": "looking at Ashe",
+  "speaker": "Dust"
+ },
+ "OP1_ASH_04": {
+  "text": "Let Deena worry about that. I like it. Go on.",
+  "speaker": "Ashe"
+ },
+ "OP1_DST_03": {
+  "text": "… then we could probably get an assault craft, something fast enough to dodge G-U' forces, hits hard enough that we can accept better paying gigs… Or we could get one of their deep space haulers. About as useful in a fight as this rust bucket, but can carry five times the load and take twice the beating…",
+  "dir": "nods",
+  "speaker": "Dust"
+ },
+ "OP1_ASH_05": {
+  "text": "Guess we'll have to see what's available after the mission. You read the brief I take it. What's your Sight on this?",
+  "speaker": "Ashe"
+ },
+ "OP1_DST_04": {
+  "text": "Nab some princess… are the photos real, she-",
+  "speaker": "Dust"
+ },
+ "OP1_ASH_06": {
+  "text": "Srov Princess. She's technically one of our Masters from the order, since you can bet Deena's perky backside that they still think we belong to them. Do you know what that means?",
+  "speaker": "Ashe"
+ },
+ "OP1_DST_05": {
+  "text": "She has a big sword, can ignite it… and she's rich?",
+  "speaker": "Dust"
+ },
+ "OP1_ASH_07": {
+  "text": "Well, it means she's been told she's special by two different institutions. The Srov and the people of Seonha. She's royalty by birth and power. She's never carried her own bag. She's never been told 'no' by anyone who's survived the conversation. A necessary evil from my point of view.",
+  "speaker": "Ashe"
+ },
+ "OP1_DST_06": {
+  "text": "You've never met her.",
+  "speaker": "Dust"
+ },
+ "OP1_ASH_08": {
+  "text": "I have. She's a Master in the order. I've run into her a handful of times, only long enough to be scolded, whipped or walked past. Haven't actually spoken to her. She probably doesn't remember me other than someone who didn't lick her boots. Stay on target, recruit. The mission.",
+  "speaker": "Ashe"
+ },
+ "OP1_DST_07": {
+  "text": "Oh.. Well, what I don't get is she is a Master in the order. She's a big deal. Why send two dropout 'flunkies' as they've called us?",
+  "speaker": "Dust"
+ },
+ "OP1_ASH_09": {
+  "text": "I didn't dropout. I left. Dropout implies caring about their order. One doesn't dropout of a space station. One just leaves it.",
+  "speaker": "Ashe"
+ },
+ "OP1_STD_01": {
+  "text": "Hey Cap', some craft is closing with us and planetary ass hats are firing at them... don't you guys hear the explosions?",
+  "speaker": "Statda"
+ },
+ "OP1_ASH_10": {
+  "text": "The orbital defence guns aren't aimed at us, and dumb ass pirates trying to board us this close to a planet aren't something I'm worried about. They'll bounce off our shields.",
+  "speaker": "Ashe"
+ },
+ "OP1_STD_02": {
+  "text": "I'm always grateful you're the captain, cap'.",
+  "dir": "sarcastic",
+  "speaker": "Statda"
+ },
+ "OP1_DST_08": {
+  "text": "What does she want us to do, knock the pirates out of the sky? Let the planet defence guns do that.",
+  "dir": "to Ashe",
+  "speaker": "Dust"
+ },
+ "OP1_STD_03": {
+  "text": "I heard that you wiener!",
+  "dir": "from out of sight",
+  "speaker": "Statda"
+ },
+ "OP1_DST_09": {
+  "text": "Right. I left the Srov too. Which makes me wonder why they would send us. Either this is certain death for us, or… there's more to the story we're not being told. 60'000 credits for a rescue opp is a very tall payment; that tells me 'do not ask questions'.",
+  "speaker": "Dust"
+ },
+ "OP1_DST_10": {
+  "text": "Every Srov blade I ever saw was a work of art. Gold, enamel, a name and a legend. Yours looks like it came out of a supply crate.",
+  "speaker": "Dust"
+ },
+ "OP1_ASH_11": {
+  "text": "It did. Standard issue. I keep it clean, I keep it sharp, and it's never once let me down. A blade's a tool, recruit. You start dressing up your tools, pretty soon you're dressing up your reasons.",
+  "speaker": "Ashe"
+ },
+ "OP1_ASH_12": {
+  "text": "You gonna dress that chip out of your guard one of these days?",
+  "speaker": "Ashe"
+ },
+ "OP1_DST_11": {
+  "text": "It's character.",
+  "speaker": "Dust"
+ },
+ "OP1_ASH_13": {
+  "text": "It's a weak spot. Next fella hits it there, you'll find out which of you's got more character. (beat) And you still don't light that thing where folks can see it. Not on a Unity world. Not ever.",
+  "speaker": "Ashe"
+ },
+ "OP1_DST_12": {
+  "text": "I know.",
+  "speaker": "Dust"
+ },
+ "OP1_DST_13": {
+  "text": "I bet I could talk her round. Princesses like me.",
+  "speaker": "Dust"
+ },
+ "OP1_ASH_14": {
+  "text": "Name one.",
+  "speaker": "Ashe"
+ },
+ "OP1_ASH_15": {
+  "text": "So you fancy Melonsi, from the photos? She has some assets I take it you saw.",
+  "speaker": "Ashe"
+ },
+ "OP1_ASH_16": {
+  "text": "That's what gets you killed, if not all at once; it'll end you slowly. We may be Srov rejects, but we have the power inside us. We cannot let our eyes deceive our hearts or minds. Melonsi is poison. Good looking poison, but a deadly venom nonetheless.",
+  "speaker": "Ashe"
+ },
+ "OP1_DST_14": {
+  "text": "Cogito ergo sum, Lady Dusk.",
+  "dir": "patting the console",
+  "speaker": "Dust"
+ },
+ "OP1_LDY_01": {
+  "text": "Oh darling, I know.",
+  "speaker": "Lady Dusk"
+ },
+ "OP1_DST_15": {
+  "text": "Ashe. Those aren't hitting pirates. They're walking their fire in. On us.",
+  "speaker": "Dust"
+ },
+ "OP1_ASH_17": {
+  "text": "Good eyes, recruit. Get your sword.",
+  "speaker": "Ashe"
+ },
+ "OP2_LDY_01": {
+  "text": "Darlings, I hate to interrupt. Some losers down there are shooting at us.",
+  "dir": "warm, unhurried",
+  "speaker": "Lady Dusk"
+ },
+ "OP2_ASH_01": {
+  "text": "What the hell is going on? Who would open fire on us without hailing us first? This is a piece of crap civilian transport, not some dread assault craft.",
+  "speaker": "Ashe"
+ },
+ "OP2_INT_01": {
+  "text": "Vors Assault Craft, this is your final warning… cut your engines… prepare … be boarded.",
+  "speaker": "Intercom"
+ },
+ "OP2_DST_01": {
+  "text": "Vors assault craft? This ship couldn't be mistaken for-",
+  "speaker": "Dust"
+ },
+ "OP2_ASH_02": {
+  "text": "Something's not right..",
+  "speaker": "Ashe"
+ },
+ "OP2_MRC_01": {
+  "text": "We got 'em! Those filthy traitors!…",
+  "dir": "another voice",
+  "speaker": "Intercom (another voice)"
+ },
+ "OP2_ASH_03": {
+  "text": "Cockpit. Move.",
+  "speaker": "Ashe"
+ },
+ "OP3_DNA_09": {
+  "text": "Not like this. Not out here, before anybody ever… just one person. Is that so much to ask?",
+  "dir": "under her breath",
+  "speaker": "Deena"
+ },
+ "OP3_STD_04": {
+  "text": "Still here. Still don't know why.",
+  "dir": "whispering",
+  "speaker": "Statda"
+ },
+ "OP3_DNA_01": {
+  "text": "Ashe, they're not shooting at the pirates. They're shooting at us. Planetary defence guns. Forward shields are at thirty percent and dropping, and that craft is matching our vector. They're going to board us!",
+  "speaker": "Deena"
+ },
+ "OP3_DNA_02": {
+  "text": "Hear that whine in the port coupling? That's her telling me she can't take many more.",
+  "dir": "softer, a hand on the console",
+  "speaker": "Deena"
+ },
+ "OP3_STD_01": {
+  "text": "Don't worry, everything will be fine, because the cap' said so.",
+  "dir": "sarcastic",
+  "speaker": "Statda"
+ },
+ "OP3_KSB_01": {
+  "text": "Grrrohk. Krrrak-kaa. Grrk!",
+  "intent": "We can get destroyed out here, or land on a space station and kill the bastards trying to destroy us.",
+  "speaker": "K'saabu"
+ },
+ "OP3_DNA_03": {
+  "text": "We are not taking a space station, sweetie.",
+  "dir": "not looking up",
+  "speaker": "Deena"
+ },
+ "OP3_STD_02": {
+  "text": "...Honestly? Not the worst idea I've heard today.",
+  "speaker": "Statda"
+ },
+ "OP3_ASH_01": {
+  "text": "No.",
+  "speaker": "Ashe"
+ },
+ "OP3_ASH_02": {
+  "text": "We're going straight down. Through their EMP line.",
+  "dir": "hands moving across the board",
+  "speaker": "Ashe"
+ },
+ "OP3_DNA_04": {
+  "text": "The planetary EMP shield? Ashe, it'll kill every circuit on this ship. We'll drop like a rock.",
+  "speaker": "Deena"
+ },
+ "OP3_ASH_03": {
+  "text": "No we won't. Recruit?",
+  "speaker": "Ashe"
+ },
+ "OP3_DST_01": {
+  "text": "Companion-class hulls glide without power. Passenger safety regs. Lose everything and she still flies.",
+  "speaker": "Dust"
+ },
+ "OP3_ASH_04": {
+  "text": "And below that EMP line, their guns can't track a ship with no power signature. We drop through, glide in under the cloud deck, and put down in the slums. Nobody hunts a dead ship.",
+  "speaker": "Ashe"
+ },
+ "OP3_DNA_05": {
+  "text": "They'll shoot us apart before we ever hit the clouds.",
+  "speaker": "Deena"
+ },
+ "OP3_ASH_05": {
+  "text": "Then we don't go in slow. We go in fast and hard.",
+  "speaker": "Ashe"
+ },
+ "OP3_DNA_06": {
+  "text": "...We are all going to die. (beat) Okay. What do you need?",
+  "dir": "a breath; then, all business",
+  "speaker": "Deena"
+ },
+ "OP3_ASH_06": {
+  "text": "Spoilers half up when we hit atmosphere. Wings two-thirds out. Any more and the air tears 'em off.",
+  "speaker": "Ashe"
+ },
+ "OP3_DNA_07": {
+  "text": "Two-thirds. Got it.",
+  "speaker": "Deena"
+ },
+ "OP3_DNA_08": {
+  "text": "...You'd better. You owe me dinner.",
+  "dir": "startled; then she almost smiles",
+  "speaker": "Deena"
+ },
+ "OP3_STD_03": {
+  "text": "...Wiener. (She's smiling.)",
+  "dir": "a sidelong look: he heard",
+  "speaker": "Statda"
+ },
+ "OP3_ASH_07": {
+  "text": "I know.",
+  "speaker": "Ashe"
+ },
+ "OP3_KSB_02": {
+  "text": "Grrrrohk!",
+  "intent": "Finally. Someone listens.",
+  "speaker": "K'saabu"
+ },
+ "OP3_ASH_08": {
+  "text": "No.",
+  "speaker": "Ashe"
+ },
+ "OP4_LDY_01": {
+  "text": "Darlings, some losers have just attached themselves to my forward embarkation bay. I'd like them remov—",
+  "speaker": "Lady Dusk"
+ },
+ "OP4_STD_01": {
+  "text": "Crap! My rifle's in the med bay!",
+  "speaker": "Statda"
+ },
+ "OP4_ASH_01": {
+  "text": "We're gliding. I've got minutes before I need to be back in this chair, or we don't land, we arrive. We split up and flush 'em out. Recruit, you're with me: forward, through the lounge. Deena, Statda, K'saabu: the aft hallway, past the med bay. We meet at the embarkation bay and shut that pod down.",
+  "dir": "calm, flat on the deck, already deciding",
+  "speaker": "Ashe"
+ },
+ "F1_ASH_01": {
+  "text": "Big one first. Always the big one first.",
+  "dir": "fight start",
+  "speaker": "Ashe"
+ },
+ "F1_DST_01": {
+  "text": "Who's next?",
+  "dir": "bark, after Dust drops one",
+  "speaker": "Dust"
+ },
+ "F1_ASH_02": {
+  "text": "Unity issue armour. (beat, frowning at a body) ...cheap Unity issue armour.",
+  "dir": "fight end, wiping his blade",
+  "speaker": "Ashe"
+ },
+ "T1_STD_01": {
+  "text": "There you are, gorgeous.",
+  "dir": "to the rifle",
+  "speaker": "Statda"
+ },
+ "F2_DNA_01": {
+  "text": "Okay. Okay okay okay. Sweetheart, be good to me.",
+  "dir": "fight start, hands shaking on her pistol",
+  "speaker": "Deena"
+ },
+ "F2_KSB_01": {
+  "text": "Hrrrrm.",
+  "dir": "fight start",
+  "intent": "Behind me, little one.",
+  "speaker": "K'saabu"
+ },
+ "F2_STD_01": {
+  "text": "And that's why you don't stand in a hallway.",
+  "dir": "bark, after her first hit",
+  "speaker": "Statda"
+ },
+ "F2_DNA_02": {
+  "text": "...I love you so much, you horrible, beautiful brute.",
+  "dir": "bark, after K'saabu's first cannon blast",
+  "speaker": "Deena"
+ },
+ "F2_KSB_02": {
+  "text": "GRRAAAWK!",
+  "dir": "if Deena is hit",
+  "intent": "NO.",
+  "speaker": "K'saabu"
+ },
+ "T2_ASH_01": {
+  "text": "Embarkation bay. That's where they're coming in. We close that pod off, or we never stop fighting.",
+  "speaker": "Ashe"
+ },
+ "T2_DNA_01": {
+  "text": "The bay doors are dead. Everything's dead. The EMP—",
+  "speaker": "Deena"
+ },
+ "T2_ASH_02": {
+  "text": "Then we do it the old way.",
+  "speaker": "Ashe"
+ },
+ "F3_ASH_01": {
+  "text": "Even if I was a day one private, I'd still say these damned greaseballs would have to be merc's dressed up in Unity armour.",
+  "speaker": "Ashe"
+ },
+ "F3_DST_01": {
+  "text": "Pirates.",
+  "dir": "drawing an innocent conclusion",
+  "speaker": "Dust"
+ },
+ "F3_ASH_02": {
+  "text": "Don't really matter what they were. Scum paid to kill is all I know.",
+  "speaker": "Ashe"
+ },
+ "F3_DNA_00": {
+  "text": "Why would pirates board us when we're being fired upon by Planetary Defence Forces?",
+  "speaker": "Deena"
+ },
+ "F3_DST_02": {
+  "text": "Don't really matter. They won't live long enough to tell anyone about us.",
+  "dir": "imitating Ashe",
+  "speaker": "Dust"
+ },
+ "F3_KSB_00": {
+  "text": "Grkroooooak!",
+  "speaker": "K'saabu"
+ },
+ "F3_DNA_02": {
+  "text": "No eating people when anyone else is around! Even pirates!",
+  "speaker": "Deena"
+ },
+ "F3_SGT_01": {
+  "text": "The traitors are yonder, open fire!",
+  "dir": "spotting them",
+  "speaker": "Sergeant"
+ },
+ "F3_KSB_01": {
+  "text": "Hrrah-HAAK!",
+  "dir": "if the Sergeant is shoved behind the door",
+  "intent": "Door. Like a small station.",
+  "speaker": "K'saabu"
+ },
+ "F3_DNA_01": {
+  "text": "The door's on the passenger-safety battery! Somebody hit that panel!",
+  "dir": "if she finds the door Insight",
+  "speaker": "Deena"
+ },
+ "F3_STD_01": {
+  "text": "Nothing personal. Well. A little personal.",
+  "dir": "bark, if she drops the Marksman",
+  "speaker": "Statda"
+ },
+ "F3_SGT_02": {
+  "text": "...the candle... remembers...",
+  "dir": "dying",
+  "speaker": "Sergeant"
+ },
+ "OP5_DST_01": {
+  "text": "These aren't Unity. Ashe, they had our flight plan. The one we only gave the Srov.",
+  "speaker": "Dust"
+ },
+ "OP5_ASH_01": {
+  "text": "Then somebody in the Srov talks to folks with candle tattoos. Later. Cockpit.",
+  "dir": "very quiet, already moving",
+  "speaker": "Ashe"
+ },
+ "OP5_DNA_01": {
+  "text": "I've never... I fix things. I don't...",
+  "dir": "small",
+  "speaker": "Deena"
+ },
+ "OP5_DST_02": {
+  "text": "Hey. You saved my life back there. You're still the person who fixes things. You just fixed us.",
+  "dir": "crouching, offering a hand",
+  "speaker": "Dust"
+ },
+ "OP5_KSB_01": {
+  "text": "Hrrrrmmm.",
+  "intent": "Good. Both alive.",
+  "speaker": "K'saabu"
+ },
+ "OP5_DST_03": {
+  "text": "...Love you too, big guy.",
+  "dir": "squashed",
+  "speaker": "Dust"
+ },
+ "OP6_DNA_01": {
+  "text": "We're alive. We're alive. Is she okay? Lady Dusk? Talk to me, baby.",
+  "dir": "climbing out of the hatch, hair everywhere",
+  "speaker": "Deena"
+ },
+ "OP6_LDY_01": {
+  "text": "...Darlings. Never do that to me again.",
+  "dir": "faint, crackling",
+  "speaker": "Lady Dusk"
+ },
+ "OP6_DST_01": {
+  "text": "We're in a wall.",
+  "speaker": "Dust"
+ },
+ "OP6_ASH_01": {
+  "text": "We're in a wall on the planet. Told you. Fast and hard.",
+  "dir": "brushing glass off his coat, utterly calm",
+  "speaker": "Ashe"
+ },
+ "OP6_MQ_01": {
+  "text": "WHO is going to PAY for my WALL?!",
+  "speaker": "Mama Quell"
+ },
+ "OP6_MQ_02": {
+  "text": "Nobody shoots 'em till I've been paid.",
+  "dir": "not looking at the gangers",
+  "speaker": "Mama Quell"
+ }
+}

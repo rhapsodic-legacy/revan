@@ -12,6 +12,8 @@ const W_HEAVY := 1.3
 const W_HOLD := 0.25
 const DEFLECT_RADIUS := 2
 const MEND_COST := 6
+const MEDKIT_HEAL := 35
+const MEDKIT_RANGE := 2
 const PUSH_COST := 5
 const PASS_COOLDOWN := 3
 
@@ -25,6 +27,7 @@ var rng
 var narration: Array = []
 var time := 0.0
 var next_tick := {}
+var first_mover := ""            # scripted: this unit takes the first turn (e.g. a dialogue reward)
 var current_id := ""
 var bonus_turn := false
 var turn := {}
@@ -33,6 +36,8 @@ var outcome := ""
 var fail_on_collateral := false
 var collateral_lost: Array = []
 var fallen: Array = []              # side characters whose arc ended (permanent)
+var props: Array = []               # interactables: door panels, droppable racks...
+var events: Array = []              # structured event stream (barks, flags, ratings)
 var difficulty := "seer"
 var turns_taken := 0
 var max_turns := 400
@@ -53,6 +58,14 @@ static func from_arena(data: Dictionary, seed_value: int = 1) -> RefCounted:
 			c.grid.doors[p]["locked"] = true
 	for ud in data["units"]:
 		c.add_unit(Unit.from_dict(ud))
+	for hd in data.get("heavy_doors", []):
+		var hp := Vector2i(int(hd[0]), int(hd[1]))
+		if c.grid.doors.has(hp):
+			c.grid.doors[hp]["heavy"] = true
+	for pr in data.get("props", []):
+		var prop: Dictionary = pr.duplicate(true)
+		prop["used"] = false
+		c.props.append(prop)
 	for ins in data.get("insights", []):
 		var i: Dictionary = ins.duplicate(true)
 		i["found"] = false
@@ -72,6 +85,9 @@ func start() -> void:
 	for u in units:
 		if u.can_act():
 			next_tick[u.id] = 1000.0 / u.speed
+	if first_mover != "" and next_tick.has(first_mover):
+		next_tick[first_mover] = 0.0
+		say("%s is ready for them: acts first." % by_id[first_mover].name)
 	say("Combat begins: %s. Objective: %s" % [arena_name, objective])
 	_advance()
 
@@ -119,7 +135,7 @@ func occupied(except = null) -> Dictionary:
 	return d
 
 func hostiles_of(u) -> Array:
-	return units.filter(func(o): return o.is_targetable() and hostile(u, o) and not ignored_by(u, o))
+	return units.filter(func(o): return o.is_targetable() and o.downed_turns < 0 and hostile(u, o) and not ignored_by(u, o))
 
 ## Taz's "Just Some Punk": enemies ignore an unnoticed unit until it does something threatening.
 func ignored_by(viewer, o) -> bool:
@@ -135,6 +151,25 @@ func allies_of(u) -> Array:
 
 func say(line: String) -> void:
 	narration.append(line)
+
+func emit(type: String, data := {}) -> void:
+	var e := data.duplicate()
+	e["type"] = type
+	e["round"] = rounds_elapsed()
+	events.append(e)
+
+## Combat rounds elapsed, on the timeline's clock (a Speed-100 unit acts once per round).
+func rounds_elapsed() -> int:
+	return int(time / 10.0)
+
+func insight_found(id: String) -> bool:
+	for i in insights:
+		if i.id == id:
+			return i.found
+	return false
+
+func _prop_pos(pr) -> Vector2i:
+	return Vector2i(int(pr.pos[0]), int(pr.pos[1]))
 
 # ------------------------------------------------------------------ turn flow
 
@@ -338,6 +373,8 @@ func deal(target, amount: int, poise_dmg: int, source_name: String) -> void:
 		if target.shield == 0 and absorbed > 0:
 			say("%s's shield breaks." % target.name)
 	target.hp -= amount
+	if amount > 0 and not target.is_object():
+		emit("hit", {"target": target.id, "amount": amount, "by": source_name})
 	if amount > 0:
 		target.statuses.erase("unnoticed")
 	if not target.is_object() and target.team != Unit.TEAM_CIVILIAN:
@@ -351,6 +388,7 @@ func deal(target, amount: int, poise_dmg: int, source_name: String) -> void:
 		_on_zero(target, source_name)
 
 func _on_zero(t, source_name: String) -> void:
+	emit("down", {"target": t.id, "team": t.team, "by": source_name})
 	if t.team == Unit.TEAM_PARTY:
 		if t.downed_turns < 0:
 			t.downed_turns = t.downed_limit
@@ -461,11 +499,44 @@ func legal_actions() -> Array:
 			for t in units:
 				if t.team == u.team and t.is_active() and (t.downed_turns >= 0 or (t.can_act() and t.hp < t.max_hp)) and Grid.cheb(t.pos, u.pos) <= 5 and grid.has_los(u.pos, t.pos):
 					out.append({"id": "mend:%s" % t.id, "type": "mend", "target": t.id, "heal": mend_amount(u), "focus": MEND_COST})
+		if "medkit" in u.abilities and u.charges.get("medkit", 0) > 0:
+			for t in units:
+				if t.team == u.team and t.is_active() and (t.downed_turns >= 0 or (t.can_act() and t.hp < t.max_hp)) and Grid.cheb(t.pos, u.pos) <= MEDKIT_RANGE and grid.has_los(u.pos, t.pos):
+					out.append({"id": "medkit:%s" % t.id, "type": "medkit", "target": t.id, "heal": MEDKIT_HEAL, "left": u.charges.medkit})
 		for t in units:
 			if t.team == u.team and t.downed_turns >= 0 and not t.out and Grid.cheb(t.pos, u.pos) == 1:
 				out.append({"id": "revive:%s" % t.id, "type": "revive", "target": t.id})
 		if insights.any(func(i): return not i.found):
 			out.append({"id": "search", "type": "search", "perception": u.attrs.perception})
+		for pr in props:
+			if pr.used or Grid.cheb(_prop_pos(pr), u.pos) > 1:
+				continue
+			if pr.has("requires") and not insight_found(pr.requires):
+				continue
+			if u.team != Unit.TEAM_PARTY and pr.get("party_only", true):
+				continue
+			var entry := {"id": "use:%s" % pr.id, "type": "use", "prop": pr.id, "name": pr.get("name", pr.id), "kind": pr.kind}
+			if pr.kind == "door_panel":
+				var dpp := Vector2i(int(pr.door[0]), int(pr.door[1]))
+				if not grid.doors.has(dpp) or unit_at(dpp) != null:
+					continue
+				entry["will"] = "close" if grid.doors[dpp].open else "open"
+			out.append(entry)
+		if "taunt" in u.abilities and u.cooldowns.get("taunt", 0) == 0:
+			out.append({"id": "taunt", "type": "taunt"})
+		if "raise_shield" in u.abilities and u.cooldowns.get("raise_shield", 0) == 0:
+			out.append({"id": "shield", "type": "shield", "amount": int(u.shield_power)})
+		if "stun_grenade" in u.abilities and u.charges.get("stun_grenade", 0) > 0 and not "stun_grenade" in u.locked:
+			var gc := {}
+			for t in hostiles_of(u):
+				if Grid.cheb(t.pos, u.pos) <= 6 and grid.has_los(u.pos, t.pos):
+					gc[t.pos] = true
+			for g in gc.keys():
+				var who := []
+				for t in units:
+					if t.is_active() and not t.is_object() and not t.hidden and Grid.cheb(t.pos, g) <= 1:
+						who.append(t.id)
+				out.append({"id": "grenade:%d,%d" % [g.x, g.y], "type": "grenade", "center": [g.x, g.y], "hits": who})
 		if "pass_turn" in u.abilities and not turn.moved and u.cooldowns.get("pass_turn", 0) == 0 and not bonus_turn:
 			for t in allies_of(u):
 				if t.can_act():
@@ -523,6 +594,7 @@ func act(action_id: String) -> Dictionary:
 			_do_attack(u, by_id[found.target])
 			_acted(W_NORMAL)
 		"cannon":
+			emit("cannon", {"by": u.id})
 			_do_cannon(u, Vector2i(found.center[0], found.center[1]))
 			_acted(W_HEAVY)
 		"break_door":
@@ -533,9 +605,40 @@ func act(action_id: String) -> Dictionary:
 			_acted(W_NORMAL)
 		"door":
 			var dp2 := Vector2i(found.door[0], found.door[1])
-			grid.doors[dp2].open = not grid.doors[dp2].open
-			say("%s %s the door at (%d,%d)." % [u.name, "opens" if grid.doors[dp2].open else "closes", dp2.x, dp2.y])
+			_toggle_door(dp2, u.name)
+			if grid.doors.has(dp2) and grid.doors[dp2].get("heavy", false):
+				say("Hauling the heavy door takes %s's whole turn." % u.name)
+				turn.moved = true
+				_acted(W_NORMAL)
+				if current() == u and outcome == "":
+					_end_current(W_NORMAL)
+			else:
+				_acted(W_LIGHT)
+		"use":
+			_use_prop(u, found.prop)
+			_acted(W_NORMAL)
+		"taunt":
+			u.add_status("taunt", 2)
+			u.cooldowns["taunt"] = 3
+			say("%s bellows a challenge. Enemies can't ignore him." % u.name)
+			emit("taunt", {"by": u.id})
 			_acted(W_LIGHT)
+		"shield":
+			u.shield = maxi(u.shield, int(u.shield_power))
+			u.cooldowns["raise_shield"] = 4
+			say("%s raises a personal shield (%d)." % [u.name, u.shield])
+			_acted(W_NORMAL)
+		"grenade":
+			u.charges["stun_grenade"] -= 1
+			var gp := Vector2i(found.center[0], found.center[1])
+			say("%s lobs a Stun Grenade at (%d,%d)!" % [u.name, gp.x, gp.y])
+			for t in units.duplicate():
+				if t.is_active() and not t.is_object() and not t.hidden and Grid.cheb(t.pos, gp) <= 1:
+					t.add_status("staggered", -1)
+					say("%s is stunned." % t.name)
+					deal(t, 5, 0, u.name)
+			emit("grenade", {"by": u.id})
+			_acted(W_NORMAL)
 		"lock":
 			var dp3 := Vector2i(found.door[0], found.door[1])
 			grid.doors[dp3]["locked"] = true
@@ -557,6 +660,17 @@ func act(action_id: String) -> Dictionary:
 			if t.downed_turns >= 0:
 				t.downed_turns = -1
 				say("%s is back on their feet." % t.name)
+			_acted(W_NORMAL)
+		"medkit":
+			u.charges["medkit"] -= 1
+			var mt = by_id[found.target]
+			var mh := mini(MEDKIT_HEAL, mt.max_hp - mt.hp)
+			mt.hp += mh
+			say("%s patches up %s with her Medkit: +%d (%d left)." % [u.name, mt.name, mh, u.charges.medkit])
+			if mt.downed_turns >= 0:
+				mt.downed_turns = -1
+				say("%s is back on their feet." % mt.name)
+			emit("use", {"by": u.id, "what": "medkit"})
 			_acted(W_NORMAL)
 		"revive":
 			var r = by_id[found.target]
@@ -652,7 +766,51 @@ func _do_attack(u, t) -> void:
 		extra += " (critical)"
 	say("%s hits %s%s for %d." % [u.name, victim.name, extra, r2.dmg])
 	deal(victim, r2.dmg, poise, u.name)
+	if pv.relation == "back" and victim.deflector and victim.is_active():
+		_crack_deflector(victim, u)
 	_face(victim, u.pos)
+
+func _crack_deflector(carrier, by) -> void:
+	for o in units:
+		if o.is_object() and o.on_destroy.get("attached_to", "") == carrier.id and o.is_active():
+			o.hidden = false
+			say("The hit from behind cracks %s's Deflector generator." % carrier.name)
+			deal(o, o.hp, 0, by.name)
+	if carrier.deflector:
+		carrier.deflector = false
+		say("%s's Deflector sputters out." % carrier.name)
+	emit("deflector_down", {"carrier": carrier.id, "by": by.id})
+
+func _toggle_door(dp: Vector2i, who: String) -> void:
+	grid.doors[dp].open = not grid.doors[dp].open
+	say("%s %s the door at (%d,%d)." % [who, "opens" if grid.doors[dp].open else "closes", dp.x, dp.y])
+	emit("door", {"pos": [dp.x, dp.y], "open": grid.doors[dp].open})
+
+func _use_prop(u, id: String) -> void:
+	var pr = null
+	for x in props:
+		if x.id == id:
+			pr = x
+	if pr == null:
+		return
+	match pr.kind:
+		"door_panel":
+			var dp := Vector2i(int(pr.door[0]), int(pr.door[1]))
+			say("%s slaps the emergency panel." % u.name)
+			_toggle_door(dp, "The emergency battery")
+		"drop":
+			pr.used = true
+			say("%s drops the %s!" % [u.name, pr.get("name", "load")])
+			for tp in pr.tiles:
+				var victim = unit_at(Vector2i(int(tp[0]), int(tp[1])))
+				if victim != null and not victim.is_object():
+					var d: int = rng.randi_range(int(pr.get("min", 15)), int(pr.get("max", 25)))
+					say("It crashes onto %s for %d." % [victim.name, d])
+					deal(victim, d, 0, pr.get("name", "load"))
+					if victim.is_active():
+						victim.add_status("staggered", -1)
+						say("%s is Staggered." % victim.name)
+	emit("use", {"prop": id, "by": u.id})
 
 func _face(t, from: Vector2i) -> void:
 	if t.is_object() or not t.is_active():
@@ -696,6 +854,7 @@ func _do_shove(u, t, weave: bool) -> void:
 		say("\"Get down! Move!\" %s gets %s out of the line of fire." % [u.name, t.name])
 	elif moved > 0:
 		say("%s %s %s back %d tile(s)." % [u.name, verb.to_lower(), t.name, moved])
+	emit("shove", {"target": t.id, "by": u.id, "to": [t.pos.x, t.pos.y]})
 
 func _do_search(u) -> void:
 	var any := false
@@ -707,6 +866,7 @@ func _do_search(u) -> void:
 			i.found = true
 			any = true
 			say("%s spots something: %s" % [u.name, i.get("text", "an Insight")])
+			emit("insight", {"id": i.id, "by": u.id})
 			if i.has("reveals"):
 				var o = by_id.get(i.reveals)
 				if o != null:
@@ -762,6 +922,8 @@ func state() -> Dictionary:
 		"turn": turn,
 		"party": party, "enemies": enemies, "others": others, "doors": doors,
 		"insights": insights.filter(func(i): return i.found).map(func(i): return i.text),
+		"props": props.filter(func(pr): return not pr.used and (not pr.has("requires") or insight_found(pr.requires))).map(func(pr): return {"id": pr.id, "name": pr.get("name", pr.id), "kind": pr.kind, "pos": pr.pos}),
+		"round": rounds_elapsed(),
 		"timeline": timeline(),
 		"legalActions": legal_actions(),
 		"log": narration.slice(maxi(0, narration.size() - 12)),

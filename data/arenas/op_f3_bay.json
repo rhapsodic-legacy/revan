@@ -1,0 +1,260 @@
+{
+ "id": "op_f3_bay",
+ "name": "F3: The Embarkation Bay",
+ "objective": "Take back the embarkation bay. The Sergeant's Deflector reflects ranged fire and cannon blasts within 2 tiles.",
+ "map": [
+  "###################",
+  "#..........#^^^^^^#",
+  "#..........#.....^#",
+  "#..........#......#",
+  "#.=..#..=..#......#",
+  "#....#...../......#",
+  "#.=..#..=..#......#",
+  "#..........#......#",
+  "#..........#......#",
+  "#..........#......#",
+  "###################"
+ ],
+ "heavy_doors": [
+  [
+   11,
+   5
+  ]
+ ],
+ "units": [
+  {
+   "template": "op_ashe",
+   "id": "ashe",
+   "pos": [
+    4,
+    4
+   ],
+   "facing": [
+    1,
+    0
+   ]
+  },
+  {
+   "template": "op_dust",
+   "id": "dust",
+   "pos": [
+    4,
+    6
+   ],
+   "facing": [
+    1,
+    0
+   ]
+  },
+  {
+   "template": "op_deena",
+   "id": "deena",
+   "pos": [
+    3,
+    5
+   ],
+   "facing": [
+    1,
+    0
+   ]
+  },
+  {
+   "template": "op_ksaabu",
+   "id": "ksaabu",
+   "pos": [
+    2,
+    5
+   ],
+   "facing": [
+    1,
+    0
+   ]
+  },
+  {
+   "template": "op_statda",
+   "id": "statda",
+   "pos": [
+    2,
+    3
+   ],
+   "facing": [
+    1,
+    0
+   ]
+  },
+  {
+   "template": "op_sergeant",
+   "id": "sergeant",
+   "pos": [
+    13,
+    5
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  },
+  {
+   "template": "breacher",
+   "id": "breacher",
+   "name": "Breacher",
+   "pos": [
+    13,
+    4
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  },
+  {
+   "template": "trooper",
+   "id": "trooper_1",
+   "name": "Trooper 1",
+   "pos": [
+    14,
+    6
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  },
+  {
+   "template": "trooper",
+   "id": "trooper_2",
+   "name": "Trooper 2",
+   "pos": [
+    15,
+    3
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  },
+  {
+   "template": "trooper",
+   "id": "trooper_3",
+   "name": "Trooper 3",
+   "pos": [
+    15,
+    8
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  },
+  {
+   "template": "trooper",
+   "id": "trooper_4",
+   "name": "Trooper 4",
+   "pos": [
+    16,
+    7
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  },
+  {
+   "template": "op_marksman",
+   "id": "marksman",
+   "name": "Marksman",
+   "pos": [
+    16,
+    1
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  },
+  {
+   "id": "generator",
+   "name": "Deflector generator",
+   "glyph": "o",
+   "team": "object",
+   "hp": 15,
+   "hidden": true,
+   "on_destroy": {
+    "attached_to": "sergeant",
+    "disable_deflector": "sergeant"
+   }
+  }
+ ],
+ "props": [
+  {
+   "id": "door_panel",
+   "name": "Emergency door panel",
+   "kind": "door_panel",
+   "pos": [
+    10,
+    4
+   ],
+   "door": [
+    11,
+    5
+   ],
+   "requires": "door_battery"
+  },
+  {
+   "id": "luggage_rack",
+   "name": "overhead luggage rack",
+   "kind": "drop",
+   "pos": [
+    8,
+    3
+   ],
+   "tiles": [
+    [
+     8,
+     4
+    ],
+    [
+     9,
+     4
+    ],
+    [
+     8,
+     5
+    ],
+    [
+     9,
+     5
+    ],
+    [
+     8,
+     6
+    ],
+    [
+     9,
+     6
+    ]
+   ],
+   "min": 15,
+   "max": 25,
+   "requires": "luggage_rack"
+  }
+ ],
+ "insights": [
+  {
+   "id": "door_battery",
+   "dc": 12,
+   "text": "The embarkation door is on its own emergency battery (passenger safety). Hit the panel by the door and it slams shut. Anyone on the far side spends a whole turn hauling it open again."
+  },
+  {
+   "id": "deflector_pack",
+   "dc": 16,
+   "reveals": "generator",
+   "text": "The Sergeant's Deflector runs off a backpack generator. A hit from behind cracks it."
+  },
+  {
+   "id": "luggage_rack",
+   "dc": 10,
+   "text": "The overhead luggage rack is loose. Interact with it to drop it on whoever is underneath: damage and Stagger."
+  }
+ ]
+}
