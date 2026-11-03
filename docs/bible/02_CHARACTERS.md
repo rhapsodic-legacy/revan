@@ -10,11 +10,11 @@
 ### 1.1 Dust of the Sun ("Dust") / Tyranus
 - **Age 19.** Woke in the Srov temple medbay on Ithrael at seven, "after a cave-in." Stowed away on Ashe's ship at fourteen. Mercenary since.
 - **Personality:** a fledgling hero who is optimistic and incorruptible underneath a roguish, cocky charm. He's sure he can talk his way out of anything he talked his way into, and he's usually wrong; Ashe usually has to come and get him. He never leaves anyone behind. He jokes most when he's scared.
-- **Look:** lean, quick, unruly dark hair with a white streak over a small, round, too-neat scar at the left temple (the Unremembering, not a rock). A battered spacer jacket over Srov-cut undershirt (the last thing he kept from the temple), fingerless gloves, boots that have been resoled three times.
+- **Look:** lean, quick, unruly dark hair with a white streak over a small, round, too-neat scar at the left temple (the mark of the Srov mind-seal, not a rock). A battered spacer jacket over Srov-cut undershirt (the last thing he kept from the temple), fingerless gloves, boots that have been resoled three times.
 - **Sword: Kindling** (his own, made as a temple boy and rebuilt over the years). Slim, single-edged, eastern-style blade with a mismatched western knuckle-guard he added after a bar fight. Flame: **"sooty" gold with a black heart**. He thinks it's a quirk. Ashe has always told him not to kindle in public. At full strength (Act III) it burns **pure black**.
 - **Seer gift: the Weave.** He sees threads and the gaps between them. Early: Push, Pull, Mend (basic healing). Grows with each memory fragment.
 - **Voice:** young, warm, quick, wry; drops low and steady when he's dead serious, and those are the moments people remember.
-- **Arc:** a good kid learns he carries a conqueror's memories and an emperor's blood, and has to choose, with all of it in him, to still be the kid who never leaves anyone behind.
+- **Arc:** a good kid learns he was raised at a conqueror's side and carries an emperor's blood, and has to choose, with all of it in him, to still be the kid who never leaves anyone behind.
 
 ### 1.2 Ashe Dawnbringer / Vors Akulsa
 - **Says he's in his early fifties. Doesn't look a day over 25.** (Strong Seers barely age. Clue.)
@@ -68,7 +68,7 @@ A pink-and-teal roller-disco hostess robot from the ruined Starlight Rink, rebui
 
 ### 2.2 Seraphine Vey, Act II
 - ~40, Vors Seer, Akulsa's spymistress, and **child-Tyranus's tutor and surrogate mother**. Porcelain masks (Grief, Mirth, Wrath, Silence); the left half of her face is burn-scarred.
-- Recruited from the Gallowmarket auction. She recognizes him immediately: *"Oh, my little lord."* She knows the Succession was never finished and says nothing, because she believes in Akulsa's war and wants him whole again.
+- Recruited from the Gallowmarket auction. She recognizes him immediately: *"Oh, my little lord."* She knows he's Tyranus and that Akulsa may be alive, and says nothing, because she believes in Akulsa's war and wants him whole again.
 - **Combat:** mask swapping: drain, decoys, burst, silence. The most flexible character, and fragile.
 - **Arc:** a mother who lost a child to the Srov and finds him grown and gentle. Does she want Tyranus back, or is Dust enough? Not a romance.
 
@@ -112,7 +112,7 @@ A tall, still figure, taller than any man but not a giant, in close-fitting **bl
 ## 4. Supporting cast
 | Name | Where | Who |
 |---|---|---|
-| **Seer-Master Ondine Saar** | III | Head of the Unremembering. Grandmotherly, warm, terrifying. Dies naming him. |
+| **Seer-Master Ondine Saar** | III | The Seer-Master who sealed away Dust's and Ashe's pasts. Grandmotherly, warm, terrifying. Dies naming him. |
 | **Mama Quell** | I | Lowlight fence whose warehouse the *C* crashed into. Wants damages. Becomes a fond, extortionate ally. |
 | **Pim Pockets** | All | Worst arms dealer in the Gyre ("Now 30% less exploding!"). Heroic in Act V. |
 | **Sir Halden Rook** | I | Captain of Melonsi's guard; a Candlemouth; the betrayer |
@@ -161,7 +161,7 @@ A tall, still figure, taller than any man but not a giant, in close-fitting **bl
 | **Jackpot Hymn** | Gallowmarket | Dice tournament |
 | **Deena's Ledger** | Gallowmarket | Free the other girls from Jack's lounge |
 | **Hesk's Trial** | Vesper | Duel the Castellan |
-| **The Crystal Choir** | Vesper | A recording of Ondine performing the Unremembering |
+| **The Crystal Choir** | Vesper | A recording of the Council's secret debate over what to do with the prisoners |
 | **The Medbay** | Ithrael | Dust's first memory, and who sat by his bed (Ashe, every night) |
 | **Grane's Wager** | Tal Vorrun | Beat the admiral at a tactics game |
 | **Seonha's Dead** | Multiple | Melonsi's brother's last crew |

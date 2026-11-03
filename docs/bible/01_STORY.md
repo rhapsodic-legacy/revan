@@ -23,8 +23,8 @@ Seers **kindle** their ornate swords by will, wrapping the blade in a crackling 
 | Faction | Look | Sound | Creed |
 |---|---|---|---|
 | **The Unity / everyone else** | Chrome, wedge ships with flip-up headlights, magenta and cyan neon, CRT holograms, cassette "tapes" as data, arcades, rinks, rain-slick slums under neon | 70s–80s synthwave | "Keep the lights on." |
-| **The Srov** | Salt-cliff temples, sand robes, lacquered curved swords with silk cords, ash face-lines | Wild mystical desert ritual: wordless choirs, throat singing, frame drums, reeds | **Stillness.** Some things should be forgotten. |
-| **The Vors** | Gothic cathedral-fortresses, black iron and crimson, cathedral-hilted greatswords, rank masks, Juggernaut-class battlecruisers | Grand full-orchestra march | **Burn.** Remember everything, and spend it. |
+| **The Srov** | Salt-cliff temples, sand robes, lacquered curved swords with silk cords, ash face-lines | Wild mystical desert ritual: wordless choirs, throat singing, frame drums, reeds | **Serenity.** Duty before self; the order before the one. |
+| **The Vors** | Gothic cathedral-fortresses, black iron and crimson, cathedral-hilted greatswords, rank masks, Juggernaut-class battlecruisers | Grand full-orchestra march | **Burn.** Will is the only law. |
 | **The Immortal Empire** | Black glass, bone, verdigris, green candle-flame, black visor-masks with white pinprick eyes | Dirge: low choir, bells, drone | **Ownership.** |
 
 ### The Unity's flaw
@@ -36,9 +36,9 @@ Every Unity world keeps its own fleet for its own skies. Nobody gives battleship
 
 **~4,000 years ago.** Beyond the Black Between, a king traded the Unsleeping (gods that feed on Eternity) his name, his warmth, and his firstborn for deathlessness. He became **Emperor Voidreaper** of the **Immortal Empire of the Ever-Throne**, and fed his own galaxy to them until it was a graveyard called **the Pale**.
 
-**~3,000 years ago.** A circle of the Emperor's Seers fled into the Gyre, sealed the one navigable route (**the Narrows**), and founded the **Srov** on one rule: *the Empire must be forgotten. A forgotten god starves.* From this came the Srov's most sacred art: **the Unremembering**, taking memory from a mind. The Srov have enforced the Empire's death ever since, and most Srov believe it.
+**~3,000 years ago.** A circle of the Emperor's Seers fled into the Gyre, sealed the one navigable route (**the Narrows**), and founded the **Srov** to stand guard over it, and declared the Empire destroyed so that no one would ever go looking for it. The Srov have enforced that belief ever since, and most Srov believe it.
 
-**~1,000 years ago.** The **Vors** were destroyed by the Srov in the Quiet War. Their throneworld **Tal Vorrun** and their Juggernauts were sealed and forgotten. Vors lore preserved one rite: **the Succession**, in which a dying Grandmaster pours his memories into his apprentice so the order never truly loses a master. *"A Vors does not die. He passes into the heir."*
+**~1,000 years ago.** The **Vors** were destroyed by the Srov in the Quiet War. Their throneworld **Tal Vorrun** and their Juggernauts were sealed and forgotten.
 
 **~35 years ago.** A self-taught Seer from the docks found Tal Vorrun's tombs and took the title **Vors Akulsa**. He crossed the Black Between alone, found the Pale and the Ever-Throne, saw the Empire's fleets readying to cross, and read the Emperor's own Seers' prophecy: *blood cannot be fed to blood; only his own blood can unmake him.*
 
@@ -48,10 +48,10 @@ Every Unity world keeps its own fleet for its own skies. Nobody gives battleship
 
 **~13 years ago: the Hundred Days.** Akulsa forged the Unity into something that could fight what was coming by conquering it. A hundred worlds fell in less than a hundred days. Among the dead: the royal fleet of **Seonha**, and with it Crown Prince **Jin-Ha Ananna**, Melonsi's elder brother.
 
-**~12 years ago: the Betrayal at the Glasswood.** Over the crystal forests of **Vesper**, Kultaka turned half the fleet on Akulsa's flagship, the ***Last Hymn***, and fed its position to the Srov. Dying (he believed), Akulsa began the **Succession** on seven-year-old Tyranus. Kultaka's boarders and then the Srov broke in mid-rite. The rite was never completed: **the boy got some of Akulsa's memories, in shards.** The Srov took both. Kultaka fled with most of the Juggernauts. The galaxy was told Akulsa died.
+**~12 years ago: the Betrayal at the Glasswood.** Over the crystal forests of **Vesper**, Kultaka turned half the fleet on Akulsa's flagship, the ***Last Hymn***, and fed its position to the Srov. Seven-year-old Tyranus stood over his fallen master with his sword raised against Kultaka. The Srov broke in and took them both. Kultaka fled with most of the Juggernauts. The galaxy was told Akulsa died.
 
-**The Unremembering (12 years ago).** On **Ithrael**, Seer-Master **Ondine Saar** didn't execute them. She emptied them.
-- Tyranus became **Dust of the Sun**: an orphan whose village burned, sold to slavers, freed by the Srov, hurt in a cave-in during his first trial. He woke in the temple medbay at seven. She built his early childhood from the memories of a dead boy (Teo Fenn of Calder) and anchored each false memory to a real place.
+**The wipe (12 years ago).** On **Ithrael**, the Srov Council did something it had never done before and has never done since. Rather than execute the prisoners, Seer-Master **Ondine Saar** reached into their minds, sealed their pasts away, and built new ones in their place.
+- Tyranus became **Dust of the Sun**: an orphan whose village burned, sold to slavers, freed by the Srov, hurt in a cave-in during his first trial. He woke in the temple medbay at seven. She built his early childhood from the life of a real boy, Teo Fenn of Calder, who died in her arms after the Calder bombardment while telling her about home. She set each false memory in a real place.
 - Akulsa became **Ashe Dawnbringer**, an ex-soldier who came to the Srov late for training. Ondine kept him near the boy on purpose: a master and apprentice torn apart search for each other forever, and she wanted that bond regrown into something safe.
 - **It didn't hold.** Ashe's nature surfaced: force first, ruthless, brilliant. **Five years ago** the Srov put him on "indefinite sabbatical." Fourteen-year-old Dust stowed away on his ship. The Srov eventually gave up asking for Dust back and named Ashe his Master. Ashe refuses the title: *"One must be a master, to be someone's Master."*
 
@@ -61,14 +61,8 @@ Every Unity world keeps its own fleet for its own skies. Nobody gives battleship
 
 ---
 
-## 3. Why the player believes "I am Akulsa" (the misdirect, v2)
-Dust is 19, and Akulsa fell 12 years ago, so Dust can't literally *be* Akulsa. The Succession rite solves this and makes the misdirect stronger:
-1. Dust's memory fragments are **first person, adult, and commanding**: they are Akulsa's memories, poured into him during the broken rite. He sees himself give orders, conquer worlds, love Seraphine's loyalty, fight Kultaka.
-2. Vors lore says a Grandmaster *passes into the heir*. The Unbowed Vors on Vesper kneel to Dust as **Akulsa reborn**.
-3. Kultaka hunts him obsessively.
-4. Dust's sword-flame is a "sooty" gold with a black core. Vors legend calls Akulsa's flame "a light like a hole in the sky."
-
-**So the player believes:** *Akulsa's soul lives in me. I am him, reborn.* Act IV breaks it: Akulsa never died. He never needed an heir. He's been standing next to Dust for twelve years.
+## 3. Dust's memory fragments
+The fragments are **Tyranus's own memories**, from when he was a small boy at Akulsa's side: seen from a child's height, blurred at the edges, with the master always **masked** and his voice always filtered. Dust (and the player) piece together that he was someone close to the heart of the Vors. Ashe being Akulsa stays hidden until Kultaka says it in Act IV.
 
 ---
 
@@ -78,7 +72,7 @@ Dust is 19, and Akulsa fell 12 years ago, so Dust can't literally *be* Akulsa. T
 |---|---|---|---|---|
 | Opening | **Fast and Hard** | The *Galactic C*, boarded and gliding | 0.6 | Crash into a warehouse in Lumenhaven's slums |
 | I | **The Princess of Seonha** | Lumenhaven (Unity core world) | 8 | Melonsi rescued (sort of); off-world escape; the first fragment |
-| II | **Anchors** | Calder, Gallowmarket, Vesper (any order) | 13 | "Akulsa reborn"; the Beacon plan |
+| II | **Anchors** | Calder, Gallowmarket, Vesper (any order) | 13 | Dust learns he was close to Akulsa; the Beacon plan |
 | III | **Ashfall** | Ithrael, the Srov temple | 5 | The Hollow; Ondine dies naming him Tyranus; Melonsi's betrayal |
 | IV | **The Hollow Crown** | Tal Vorrun | 5 | Kultaka reveals Ashe is Akulsa |
 | V | **The Black Between** | Hesper's Cinder | 4 | The father; the 2v2; Ashe's death |
@@ -111,7 +105,7 @@ Aboard the *Galactic C*, inbound to Lumenhaven on a Srov contract to find Prince
 
 **I-4 The B-Side (≈1.5h).** Melonsi's thread-sight follows the ambushers into the drowned arcades: a **Candlemouth** cell that has been snatching Seers off Lumenhaven's streets for the rogue Vors. **K'saabu's moment**: half the dungeon is underwater, and he goes where no one else can (solo underwater segment, his grunts subtitled). Boss: **Deacon Ninefingers**, who drowns Seers in candle wax. Evidence: the Candlemouths are selling captured Seers to "the Cardinal" (Kultaka). The betrayer's name: **Sir Halden Rook**, captain of Melonsi's own guard.
 
-**I-5 First fragment (≈0.25h).** In the B-Side, a Vors war-memorial. Dust touches its mask. **Fragment 1 (first person, adult):** the bridge of a Juggernaut, gloved hands on the war-table, a hundred worlds lit red, and his own voice, deep and certain: *"A hundred worlds. Then we can begin."* Dust comes to on the floor with a nosebleed. Ashe is the one who catches him, and Ashe has gone pale.
+**I-5 First fragment (≈0.25h).** In the B-Side, a Vors war-memorial. Dust touches its mask. **Fragment 1 (a child's view):** the bridge of a Juggernaut, seen from waist height; a war-table too tall to see over, a hundred worlds lit red; a masked man's gloved hand on his small shoulder, and a filtered voice: *"A hundred worlds. Then we can begin."* Dust comes to on the floor with a nosebleed. Ashe is the one who catches him, and Ashe has gone pale.
 
 **I-6 The Gala (≈1.5h).** Rook will sell Melonsi's location to Kultaka's buyer at the Founders' Gala in the Halo Spires. The crew infiltrates (social skill checks; Melonsi in her element; Deena in a borrowed gown demanding to be wined and dined). Then the lights die. **Kultaka appears** as a towering hologram, his cantors singing, and gives a sermon to the room: *"Lumenhaven. I've come to collect a debt your grandparents forgot they owed."* His assassins **the Three Graces** strike. Rook makes his move on Melonsi. Kultaka's holo finds Dust in the crowd, and its smile slows: *"Well. Look who's grown."* (Players: *he knows me.*) Boss: **the Three Graces + Rook** across a ballroom with collapsing light rigs.
 
@@ -120,7 +114,7 @@ Aboard the *Galactic C*, inbound to Lumenhaven on a Srov contract to find Prince
 **I-8 Running the blockade (≈0.75h).** The *C* is repaired. Unity Naval Command, rattled by the Gala, has locked down the planet. Escape: a ship-combat set piece (turn-based, small) through the orbital batteries that started the game, with a payoff: **K'saabu finally gets to commandeer a space station** (the Unity defense platform guarding the lane). The others go along with it because, this time, it's the only plan. Deena, furious: "Do *not* tell him this worked."
 
 **Act I bosses:** Scavenger King, Deacon Ninefingers, the Three Graces + Sir Halden Rook.
-**Act I end state:** the crew has Melonsi; Kultaka is real, and he knows Dust; the Srov want them home; Dust has an adult man's memory in his head.
+**Act I end state:** the crew has Melonsi; Kultaka is real, and he knows Dust; the Srov want them home; Dust has seen himself, as a small boy, on a Vors warship.
 
 **Act I to II bridge.** Before heading for Ithrael, the crew follows the Candlemouth ledgers: the stolen Seers were shipped to three places. Melonsi reads the list and stops: *"Calder. Gallowmarket. Vesper."* Dust: *"...those are mine."* They are the three places of his childhood: the village, the slave market, the place the Srov found him.
 
@@ -132,9 +126,9 @@ Each world has five strands: **Anchor** (a false memory meets reality), **Harves
 
 ### II-A Calder: "The Village That Didn't Burn"
 Rain-sea world, stilt villages, bioluminescent tides, lantern-churches on sea-stacks.
-- **Anchor.** Dust's oldest memory: **Merrow's Reach** burning, his mother pushing him into a boat. It's intact. **Marta Fenn** opens the blue door. He knows her face; she has never seen him. Her son **Teo** died in the Hundred Days, aged six, when Vors guns hit the shipyard crèche. His memories were given to the Srov at his funeral rite. **Dust's early childhood belonged to a dead boy.** Choice: *tell her / leave / stay for supper and let her believe.*
+- **Anchor.** Dust's oldest memory: **Merrow's Reach** burning, his mother pushing him into a boat. It's intact. **Marta Fenn** opens the blue door. He knows her face; she has never seen him. Her son **Teo** died in the Hundred Days, aged six, when Vors guns hit the shipyard crèche. A Srov healer sat with him while he died and listened to him talk about home. **Dust's early childhood belonged to a dead boy.** Choice: *tell her / leave / stay for supper and let her believe.*
 - **Harvest + companion quest (K'saabu).** The **Candlemouths** run the lantern-churches and drown Seers in the **Quiet Graves** under the sea. K'saabu's mystery is solved: he is a **Calder deep-dweller**, a species the Candlemouths enslaved to tend the graves. He fled years ago and climbed aboard the first ship he found. The cult's **Choirmother** owned him. Boss: **the Choirmother** (tide mechanics; she speaks in every voice she drowned). K'saabu's choice: kill her / free the other deep-dwellers first (harder fight, big ally) / drag her into the deep.
-- **Fragment 2 (Akulsa's memory):** he orders the Calder bombardment himself. *"Fire."* Dust gave the order that killed Teo, or at least he remembers giving it. **Unlocks: Gravefire Brand.**
+- **Fragment 2 (a child's view):** small Tyranus at the masked master's side on the bridge as the order is given over Calder. *"Fire."* Dust was standing right there when Teo died. **Unlocks: Gravefire Brand.**
 - **Clue:** Candlemouth scripture of **"the Son Who Was Carried Into Snow."**
 - **Ally:** Lantern Keepers and Calder fishing fleet (plus deep-dwellers, if freed).
 
@@ -142,19 +136,19 @@ Rain-sea world, stilt villages, bioluminescent tides, lantern-churches on sea-st
 Asteroid casino-station, slave auction under a disco ball, neon-noir.
 - **Anchor.** Dust "was sold here as a child." The ledgers show no such sale. They *do* show a Srov payment to crime lord **Velvet Jack** twelve years ago, *"for corroboration, should anyone ask."*
 - **Deena's quest.** Velvet Jack is a business partner of the crime lord Ashe and Dust "persuaded," and he recognizes Deena. He wants her back, or at least wants to sell her. Deena faces that life again on her own terms. Comic betrayal from Jack mid-escape. Boss: **Velvet Jack & the Backup Singers** (crooning buffs; wreck the speakers, or Roxx out-sings him).
-- **Harvest.** Kultaka's buyers purchase Seers at the Gilded Auction. Tonight's lot: a Vors prisoner in porcelain: **Seraphine Vey**. Free her (buy, gamble in "Jackpot Hymn", heist, or fight). She looks at Dust, and her hand goes to her mouth. *"...You have his eyes now. Oh, my little lord. What did they do to you?"* She kneels. (Players: *the Succession worked. I'm Akulsa.*) She knows the rite was never finished, and she says nothing.
+- **Harvest.** Kultaka's buyers purchase Seers at the Gilded Auction. Tonight's lot: a Vors prisoner in porcelain: **Seraphine Vey**. Free her (buy, gamble in "Jackpot Hymn", heist, or fight). She looks at Dust, and her hand goes to her mouth. *"...Oh, my little lord. What did they do to you?"* She kneels. She knows exactly who he is, and who he isn't, and she says nothing.
 - **Melonsi's quest.** Jack's trophy room holds the flight recorder of the **Seonha royal fleet**, her brother's flagship. Its last order bears the seal **AKULSA**. Melonsi: *"If Akulsa's soul really lives in anyone, I will cut it out of them."* She looks at Dust as she says it, and the romance starts to fray.
 - **Sable** attacks in the auction dome (round two; she withdraws at 25%). *"You don't remember the oath. We were seven. We swore it in blood, and you don't even remember."*
-- **Fragment 3:** Akulsa on a Tal Vorrun balcony, with child-Tyranus at his knee and Seraphine beside him. His voice: *"Love is the first thing they'll take from him. Teach him to make them pay for it."* (First person. Dust believes he is remembering his own past life, looking down at *some* child.) **Unlocks: Stitch.**
+- **Fragment 3:** a Tal Vorrun balcony in red lightning, seen from a child's height. Seraphine kneels to fix his collar; the masked master stands behind her. The filtered voice: *"Love is the first thing they'll take from him. Teach him to make them pay for it."* **Unlocks: Stitch.**
 - **Ally:** the Rim Runners (smuggler gunships).
 
 ### II-C Vesper: "The Glasswood"
 A forest of ringing crystal trees.
 - **Anchor.** "The Srov rescued me in the Glasswood." At its heart lies the crystal-grown wreck of the ***Last Hymn***.
-- **The Unbowed.** Old **Castellan Mordaine Hesk** and forty Vors veterans guard the wreck. They see Dust and **kneel**: *"The Grandmaster passes into the heir! Akulsa lives!"* Ashe stays outside: crystal gives him headaches.
+- **The Unbowed.** Old **Castellan Mordaine Hesk** and forty Vors veterans guard the wreck. They see Dust and **kneel**: *"The Grandmaster's boy! Akulsa's blood lives!"* (They mean it as a title. They don't know how true it isn't.) Ashe stays outside: crystal gives him headaches.
 - **Harvest.** Kultaka's excavators cut into the wreck for Akulsa's war-archive. Dungeon: the shattered, vertical *Last Hymn*. Boss: **the Reliquary Engine** (a dig-walker whose song shatters crystal floors).
 - **Seraphine's quest:** Akulsa's chapel and her shrine of masks.
-- **Fragment 4 (the big one, first person, Akulsa's):** the Betrayal at the Glasswood. Kultaka's guns, the bridge splitting, and "Dust" thrown down under burning girders. Kultaka through the fire: *"It's over, my lord. Give me the boy."* A small boy with a smoky-gold sword stands over him. Then the rite: Dust sees **his own child-face** through the master's eyes as the memories pour, Srov gold flame floods in, and Ondine's face appears. (This is the first fragment where Dust sees *Tyranus* from the outside. Players read it as "Akulsa looking at his heir, me." It is.)
+- **Fragment 4 (the big one, a child's view):** the Betrayal at the Glasswood. Kultaka's guns, the bridge splitting, the masked master thrown down under burning girders. Kultaka through the fire: *"It's over, my lord. Give me the boy."* The child steps between them with a smoky-gold sword raised. Srov gold flame floods in. Ondine's face. A needle of light at his temple. Black. (The master's mask never comes off.)
 - **Discoveries:** **Gravesong** (Tyranus's child-blade, reforged by Akulsa into a man's sword and left in the chapel). Akulsa's war-archive: the Narrows, Hesper's Cinder, and **the Ever-Throne**.
 - **Ally:** the Unbowed and the Juggernaut ***Requiem Indomitable***.
 
@@ -184,7 +178,7 @@ Either way, **Sable kills Ondine** before it matters. Dying in Dust's arms: *"Yo
 
 **III-6 Kultaka (≈0.5h).** First true boss fight in the bell court. At 30% he **sacrifices his own cantors** to heal. He leaves with captured Srov Seers.
 
-**III-7 Ashes (≈0.5h).** The temple burns. **Tyranus** is the name of Akulsa's apprentice; the Srov archives say so. Melonsi puts it together: Akulsa's heir is in her crew. She leaves (always), taking the Srov survivors and her fleet contacts. Whether she returns, and how, depends on influence. Seraphine is confronted: she knew. Forgive or condemn. Dust decides: *"If Akulsa lives in me, his fleet answers to me."* Destination: **Tal Vorrun**. Ashe argues hard against it, then goes: *"Someone's got to stand behind you, moron."*
+**III-7 Ashes (≈0.5h).** The temple burns. **Tyranus** is the name of Akulsa's apprentice; the Srov archives say so. Melonsi puts it together: Akulsa's apprentice is in her crew. She leaves (always), taking the Srov survivors and her fleet contacts. Whether she returns, and how, depends on influence. Seraphine is confronted: she knew. Forgive or condemn. Dust decides: *"I was his apprentice. His fleet answers to me."* Destination: **Tal Vorrun**. Ashe argues hard against it, then goes: *"Someone's got to stand behind you, moron."*
 
 ---
 
@@ -199,7 +193,7 @@ The Vors throneworld: endless storm, red lightning, cathedral-fortresses the siz
 **IV-3 Sable (≈1h).** Final duel in the Hall of Oaths. If Dust has Fragment 5, he can speak the oath back. Redeemed: guest for Act V. Killed: she dies saying the oath alone.
 
 **IV-4 THE HOLLOW CROWN (≈0.75h).** Dust claims the throne before the Vors captains; the Juggernauts' bells ring for him. Kultaka walks in, slow-clapping, cantors singing.
-> **KULTAKA:** "Oh, look at it. A boy in a borrowed crown. Is that what you think you are? The vessel? The heir? Akulsa *reborn*?" *(he laughs, delighted)* "The rite was never finished, child. You got his memories the way a dog gets scraps from the table. And the master himself..."
+> **KULTAKA:** "Oh, look at it. A boy in a borrowed crown. Is that what you think you are? His heir? His successor?" *(he laughs, delighted)* "You were his *shadow*, child. Three feet tall and following him everywhere. And the master himself..."
 > *(He turns to the back of the hall.)*
 > "Kneel, Vorsari. Your Grandmaster never died. He's been carrying the boy's luggage for twelve years."
 > *(Kultaka strikes Ashe's sword. Its Srov enamel shatters, and black steel shows beneath: **Nightfall**. He speaks the Vors command-word.)*
@@ -212,7 +206,7 @@ Ashe's wipe breaks. His flame turns **starless white**. The captains kneel, and 
 **IV-6 The reckoning (≈0.75h).** Dust and Akulsa, alone.
 - No apology for the Hundred Days: *"I'd do it again. And I'd hate myself again. Both are true."*
 - About the Emperor, and no more: *"He's older than any star you've named. Strong in Eternity as I ever was, maybe stronger. I built the fleet for him. The Hundred were the price."*
-- Why the Succession, why Dust? Akulsa hesitates: *"When this is done, I owe you something. If I tell you now, you won't come."*
+- Why him, of all the orphans? Akulsa hesitates: *"When this is done, I owe you something. If I tell you now, you won't come."*
 - **Bond** set: Trust / Wary / Broken.
 - **Deena**, loyal to Ashe above everything, has to decide whether she's loyal to *Akulsa*. Her scene with him is the quiet heart of the act.
 - **Melonsi returns.** *High influence:* at the head of Seonha's fleet, sword drawn on Akulsa, her brother's killer. The player mediates. *Low influence:* she has sold the crew's route to the Unity as the price of her fleet, and arrives with Unity warships to arrest Akulsa. Fight or talk her down.

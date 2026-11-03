@@ -71,10 +71,10 @@ Dialogue options are gated by skills and by Path and influence. Failed checks ar
 Each character has **three talent trees** (about 12 nodes each), matched to personality. Example, Deena: *Quickdraw* (speed and first-strike shots), *Gadgeteer* (grenades, traps, repairs), *Spotter* (Search, Pass Turn, ally crits). Dust's trees are special (§3.5).
 
 ### 3.5 Dust: Weave trees and the Path
-- **Stillness tree (Srov):** control, protection, unraveling (Unravel, Hold Thread, Quiet Mind).
+- **Serenity tree (Srov):** control, protection, unraveling (Unravel, Hold Thread, Quiet Mind).
 - **Burn tree (Vors):** gravefire offense (Gravefire Brand, Black Bloom, Hunger).
 - **Voidweaver tree:** locked; **one node unlocks per memory fragment** (Fragment 1: Void Step; 2: Gravefire Brand+; 3: Stitch; 4: Unweave; 5: Oathbreaker). *The story directly unlocks the gameplay.*
-- **Path meter (−100 Stillness to +100 Burn):** moved by choices. Strong Path unlocks capstones (Stillness 60+: *The Quiet*; Burn 60+: *Black Sun*). Middle path gets *The Unwoven*, a hybrid capstone.
+- **Path meter (−100 Serenity to +100 Burn):** moved by choices. Strong Path unlocks capstones (Serenity 60+: *The Quiet*; Burn 60+: *Black Sun*). Middle path gets *The Unwoven*, a hybrid capstone.
 
 ---
 
@@ -97,7 +97,7 @@ Party skill checks use **the best present member's skill + Dust's bonus**, so co
 
 - **Slots:** Weapon, Armor, 2× Charm, Satchel (consumables; **max 4 types, 3 each**; no potion spam).
 - **Swords are built, not looted.** Each Seer sword has four **fittings**: *Hilt* (accuracy/speed), *Guard* (defense/reaction), *Core* (flame damage type and power), *Ornament* (a passive). Fittings are found, bought, or crafted from Imprints. **Swords visibly change** (ornaments render on the model).
-- **Kindling vs Gravesong (Dust):** the Kindling sword favors Stillness talents (+Focus regen, +control duration). Gravesong favors Burn (+gravefire damage, heals on kill, but −Ward). Player can switch at the workbench.
+- **Kindling vs Gravesong (Dust):** the Kindling sword favors Serenity talents (+Focus regen, +control duration). Gravesong favors Burn (+gravefire damage, heals on kill, but −Ward). Player can switch at the workbench.
 - Deena: pistol mods and gadgets. K'saabu: cannon shells (blast shapes, elements) and shield cells. Melonsi: silk tassels and hairpin charms. Roxx: tapes and plating. Seraphine: masks.
 
 ---
