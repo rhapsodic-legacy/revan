@@ -118,7 +118,7 @@ A tall, still figure, taller than any man but not a giant, in close-fitting **bl
 | Name | Where | Who |
 |---|---|---|
 | **Seer-Master Ondine Saar** | III | The Seer-Master who sealed away Dust's and Ashe's pasts. Grandmotherly, warm, terrifying. Dies naming him. |
-| **Mama Quell** | I | Lowlight fence whose warehouse the *C* crashed into. Wants damages. Becomes a fond, extortionate ally. |
+| **Mama Quell** | I | Owns the warehouse the *C* crashed into; the gang operates it for her and fears her. Wants damages. Becomes a fond, extortionate ally (and recruitable). |
 | **Pim Pockets** | All | Worst arms dealer in the Gyre ("Now 30% less exploding!"). Heroic in Act V. |
 | **Sir Halden Rook** | I | Captain of Melonsi's guard; a Candlemouth; the betrayer |
 | **Commander Ilse Varga** | I | Unity Naval Command officer hunting the "Vors ship"; one of the Unity's rare honest officers in a corrupt machine; dogged; an ally in Act V if treated fairly |

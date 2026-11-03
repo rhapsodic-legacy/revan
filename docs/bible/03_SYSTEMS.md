@@ -148,7 +148,7 @@ On your turn: **Move** (up to Move m) **and one Action**, in either order, or **
 
 ### 6.6 Resources and status
 - **HP, Focus, Poise** (all characters) + one **personal resource** each (§6.7).
-- **Downed, not dead:** at 0 HP a party member is **Downed** for 3 of their turns; any ally can revive with an Interact (adjacent). If not revived, they're **Out** for the fight (wake after the battle at 1 HP with a lingering *Wounded* status until rest). Dust Out = game over (except scripted fights).
+- **Downed (Jesse's rule):** at 0 HP a party member is **Downed** for 3 of their turns (Taz: 8). Healing them to at least 1 HP (Mend, or an adjacent ally's revive) brings them back; that's normally easy, and only becomes a real threat when several are down at once and the survivors can't reach them. If the timer runs out, they **die**: a **main character's death is game over; a side character's death ends their arc for good.** (Scripted fights may override.)
 - **Statuses (kept small and readable):** Burning, Bleeding, Rooted, Blinded, Shocked, Staggered, Feared, Charmed, Silenced, Marked, Hasted, Slowed, Guarded, Regen, Off-Guard. Each has one icon, one color, a text tooltip, and a fixed duration.
 
 ### 6.7 Kits (personality ⇒ mechanics)
