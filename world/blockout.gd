@@ -16,6 +16,10 @@ const THEMES := {
 		"cover": Color(0.05, 0.55, 0.55), "furniture": Color(0.80, 0.80, 0.85), "accent": Color(1.0, 0.30, 0.75), "fog": Color(0.06, 0.05, 0.10)},
 	"galactic_c_cockpit": {"floor": Color(0.12, 0.12, 0.15), "floor2": Color(0.14, 0.14, 0.17), "wall": Color(0.30, 0.31, 0.36),
 		"cover": Color(0.20, 0.22, 0.26), "furniture": Color(0.25, 0.27, 0.32), "accent": Color(0.20, 0.85, 1.0), "fog": Color(0.03, 0.03, 0.07)},
+	"galactic_c_corridor": {"floor": Color(0.14, 0.14, 0.17), "floor2": Color(0.17, 0.17, 0.20), "wall": Color(0.58, 0.60, 0.66),
+		"cover": Color(0.20, 0.22, 0.26), "furniture": Color(0.25, 0.27, 0.32), "accent": Color(1.0, 0.12, 0.12), "fog": Color(0.10, 0.02, 0.03)},
+	"galactic_c_hall": {"floor": Color(0.12, 0.26, 0.30), "floor2": Color(0.15, 0.30, 0.34), "wall": Color(0.60, 0.62, 0.68),
+		"cover": Color(0.45, 0.30, 0.18), "furniture": Color(0.70, 0.70, 0.75), "accent": Color(1.0, 0.15, 0.15), "fog": Color(0.08, 0.03, 0.05)},
 	"lowlight_street": {"floor": Color(0.05, 0.05, 0.08), "floor2": Color(0.07, 0.07, 0.10), "wall": Color(0.18, 0.15, 0.20),
 		"cover": Color(0.25, 0.20, 0.25), "furniture": Color(0.30, 0.25, 0.30), "accent": Color(1.0, 0.25, 0.70), "fog": Color(0.10, 0.04, 0.14)},
 }
@@ -127,6 +131,22 @@ static func refresh_doors(parent: Node3D, combat, location: String) -> void:
 static func build_set(parent: Node3D, location: String) -> void:
 	var th := theme(location)
 	match location:
+		"galactic_c_corridor":
+			for z in range(-8, 11):
+				for x in range(-2, 3):
+					box(parent, Vector3(x, -0.05, z), Vector3(1, 0.1, 1), th.floor if (x + z) % 2 == 0 else th.floor2)
+				box(parent, Vector3(0, 2.6, z), Vector3(5, 0.2, 1), th.wall.darkened(0.4))
+				if z % 3 == 0:
+					box(parent, Vector3(-2.75, 1.4, z), Vector3(0.5, 2.8, 2.0), th.wall)
+					box(parent, Vector3(2.75, 1.4, z), Vector3(0.5, 2.8, 2.0), th.wall)
+					box(parent, Vector3(0, 2.45, z), Vector3(1.2, 0.08, 0.3), th.accent, 2.5)
+				else:
+					box(parent, Vector3(-2.75, 1.4, z), Vector3(0.5, 2.8, 1.0), th.wall.darkened(0.15))
+					# porthole full of tracer fire
+					box(parent, Vector3(2.55, 1.5, z), Vector3(0.1, 0.6, 0.6), Color(1.0, 0.55, 0.15), 2.0)
+					box(parent, Vector3(2.75, 1.4, z), Vector3(0.5, 2.8, 1.0), th.wall.darkened(0.15))
+			box(parent, Vector3(0, 1.4, -8.6), Vector3(5, 2.8, 0.3), th.wall)
+			box(parent, Vector3(0, 1.2, -8.4), Vector3(1.4, 2.2, 0.1), Color(0.2, 0.85, 1.0), 1.0)
 		"lowlight_street":
 			for x in range(-6, 7):
 				for z in range(-3, 5):
@@ -162,6 +182,9 @@ static func build_set(parent: Node3D, location: String) -> void:
 				box(parent, Vector3(-3, 0.5, -2), Vector3(2, 1, 1), th.furniture)
 				box(parent, Vector3(3.5, 1.3, -3.1), Vector3(1, 1.4, 0.3), th.accent, 0.8)
 			elif location == "galactic_c_cockpit":
-				box(parent, Vector3(0, 0.5, -2.2), Vector3(5, 1, 1), th.furniture)
+				box(parent, Vector3(0, 0.5, -2.4), Vector3(2.2, 1, 0.8), th.furniture)
+				box(parent, Vector3(0, 0.55, -1.9), Vector3(0.8, 1.1, 0.5), Color(0.15, 0.15, 0.2))
+				box(parent, Vector3(-2.6, 0.55, -2.1), Vector3(1.6, 1.1, 0.8), th.furniture)
+				box(parent, Vector3(2.6, 0.55, -2.1), Vector3(1.6, 1.1, 0.8), th.furniture)
 				for i in 6:
 					box(parent, Vector3(-2 + i * 0.8, 1.02, -2.2), Vector3(0.3, 0.04, 0.3), [Color(1, 0.2, 0.2), Color(0.2, 1, 0.4), Color(1, 0.8, 0.2)][i % 3], 2.0)

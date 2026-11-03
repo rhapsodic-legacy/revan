@@ -28,6 +28,8 @@ var events_seen := 0
 var difficulty := "seer"
 var combat_last = null
 var auto_enemies := true            # run non-party turns with the AI right away
+var stage := {}                     # scene staging for the view: {"extras": [...], "stand": "deena"}
+const AFFECTION_NAMES := {"ashe": "Ashe", "dust": "Dust", "deena": "Deena", "statda": "Statda", "ksaabu": "K'saabu"}
 
 static func load_id(id: String, seed_v := 1) -> RefCounted:
 	var s = load("res://engine/scenario.gd").new()
@@ -82,10 +84,21 @@ func _advance_beat() -> void:
 			_record(current_beat)
 			mode = "dialogue"
 			return
+		if b.has("tip"):
+			current_beat = {"tip": b.tip}
+			_record({"narrate": "TIP: " + b.tip})
+			mode = "dialogue"
+			return
+		if b.has("stage"):
+			for k in b.stage.keys():
+				stage[k] = b.stage[k]
+			continue
 		if b.has("choice"):
-			choice = b.choice
+			choice = _available(b.choice)
+			if choice.is_empty():
+				continue
 			mode = "choice"
-			current_beat = {"narrate": "Choose."}
+			current_beat = {"narrate": "Choose.", "prompt": b.get("prompt", "")}
 			return
 		if b.has("altitude"):
 			altitude = int(b.altitude)
@@ -112,6 +125,27 @@ func _advance_beat() -> void:
 			_start_fight()
 			return
 
+## Options the player can see right now: conditional ones are filtered, stat-gated ones are labelled.
+func _available(opts: Array) -> Array:
+	var out := []
+	var chars: Dictionary = Data.characters()
+	for o in opts:
+		if o.has("if"):
+			if flags.get(o["if"][0]) != o["if"][1]:
+				continue
+		var opt: Dictionary = o.duplicate(true)
+		if o.has("req") and not o.has("met"):
+			var r: Dictionary = o.req
+			var who: Dictionary = chars.get(r.get("who", "op_dust"), {})
+			var have: int = int(who.get("attrs", {}).get(r.attr, 0))
+			opt["special"] = true
+			opt["met"] = have >= int(r.min)
+			opt["text"] = "[%s %d] %s" % [String(r.attr).capitalize(), int(r.min), o.text]
+			if not opt.met:
+				continue
+		out.append(opt)
+	return out
+
 func _record(b: Dictionary) -> void:
 	if b.has("narrate"):
 		transcript.append(b.narrate)
@@ -127,6 +161,9 @@ func _start_fight() -> void:
 	attempts += 1
 	combat = Data.new_combat(fight_step.arena, seed_value * 100 + attempts)
 	combat.difficulty = difficulty
+	var fm: Dictionary = fight_step.get("first_if", {})
+	if not fm.is_empty() and flags.get(fm.flag, false):
+		combat.first_mover = fm.unit
 	events_seen = 0
 	fired_barks = {}
 	mode = "combat"
@@ -310,6 +347,16 @@ func act(id: String) -> Dictionary:
 				else:
 					flags[k] = flags.get(k, 0) + v
 			var follow: Array = opt.get("beats", []).duplicate(true)
+			var hearts := []
+			for k in opt.get("effects", {}).keys():
+				if String(k).begins_with("affection."):
+					var who := String(k).substr(10)
+					hearts.append("♥ %s %+d" % [AFFECTION_NAMES.get(who, who), int(opt.effects[k])])
+			if not hearts.is_empty():
+				var at := 0
+				while at < follow.size() and (follow[at].has("set") or follow[at].has("stage")):
+					at += 1
+				follow.insert(at, {"narrate": "Affection:  " + "     ".join(hearts)})
 			if opt.get("repeat", false):
 				var remaining := []
 				for j in choice.size():
@@ -354,6 +401,8 @@ func state() -> Dictionary:
 		s["beat"] = current_beat
 		if mode == "choice":
 			s["options"] = choice.map(func(o): return o.text)
+			if current_beat.get("prompt", "") != "":
+				s["prompt"] = current_beat.prompt
 		s["legalActions"] = legal_actions()
 	s["log"] = (combat.narration.slice(maxi(0, combat.narration.size() - 12)) if mode == "combat" else transcript.slice(maxi(0, transcript.size() - 6)))
 	return s

@@ -71,6 +71,18 @@
    ]
   },
   {
+   "template": "op_statda",
+   "id": "statda",
+   "pos": [
+    2,
+    3
+   ],
+   "facing": [
+    1,
+    0
+   ]
+  },
+  {
    "template": "op_sergeant",
    "id": "sergeant",
    "pos": [
@@ -128,6 +140,19 @@
    "pos": [
     15,
     8
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  },
+  {
+   "template": "trooper",
+   "id": "trooper_4",
+   "name": "Trooper 4",
+   "pos": [
+    16,
+    7
    ],
    "facing": [
     -1,

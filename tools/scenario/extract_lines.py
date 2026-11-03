@@ -10,13 +10,20 @@ import json
 import re
 import sys
 
-SPEAKERS = {"ASH": "Ashe", "DST": "Dust", "DNA": "Deena", "KSB": "K'saabu", "SHP": "Ship Computer",
+SPEAKERS = {"ASH": "Ashe", "DST": "Dust", "DNA": "Deena", "KSB": "K'saabu", "STD": "Statda", "LDY": "Lady Dusk",
+            "INT": "Intercom", "MRC": "Intercom (another voice)", "SHP": "Ship Computer",
             "UNT": "Unity Orbital Control", "SGT": "Sergeant", "MQ": "Mama Quell"}
 ID = r"\*\*((?:OP\d|F\d|T\d)_[A-Z]+_\d+)\*\*"
 
 
 def clean(seg):
     seg = seg.strip()
+    intent = None
+    m = re.search(r"`\[intent[^:]*:\s*(.*?)\]`", seg)       # K'saabu: hidden meaning, for VO and agents only
+    if m:
+        intent = m.group(1)
+        seg = seg[:m.start()] + seg[m.end():]
+    seg = re.sub(r"\s*\*\*\[[^\]]*\]\*\*.*$", "", seg)          # provenance marks: **[J]**, **[draft]**
     seg = re.sub(r"^—\s*[A-Z' ]+?(?=\s*(\*\(|:))", "", seg).strip()   # " — ASHE"
     d = None
     m = re.match(r"^\*\((.*?)\)\*\s*", seg)
@@ -40,7 +47,7 @@ def clean(seg):
     text = text.strip().strip('"').replace('" *(', ' *(').replace(')* "', ')* ')
     text = text.replace("*", "")
     text = re.sub(r'"?\s*(Ashe|Dust|Deena|K\'saabu):\s*$', "", text)
-    return {"text": text.strip(), "dir": d, "subtitle": sub}
+    return {"text": text.strip(), "dir": d, "subtitle": sub, "intent": intent}
 
 
 def main(path):

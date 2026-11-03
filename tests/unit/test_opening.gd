@@ -93,3 +93,77 @@ func test_back_hit_cracks_the_deflector() -> void:
 		sg.facing = Vector2i(-1, 0)
 		c.act("attack:sergeant")
 	check(not sg.deflector, "a hit from behind kills the Deflector")
+
+## Plays dialogue until the given choice prompt appears.
+func _to_choice(sc, prompt: String) -> void:
+	var guard := 0
+	while not (sc.mode == "choice" and sc.current_beat.get("prompt", "") == prompt) and guard < 500:
+		if sc.mode == "choice":
+			sc.act("choose:%d" % (sc.choice.size() - 1))
+		elif sc.mode == "combat":
+			sc._scenario_skip_fight()
+		else:
+			sc.act("next")
+		guard += 1
+
+func test_stat_option_is_special_and_met_and_makes_dust_act_first() -> void:
+	var sc = Scenario.load_id("opening", 1)
+	_to_choice(sc, "What do you do?")
+	var idx := -1
+	for i in sc.choice.size():
+		if sc.choice[i].get("special", false):
+			idx = i
+	check(idx >= 0, "the workshop hub offers a special stat option")
+	check(String(sc.choice[idx].text).begins_with("[Perception 11]"), "it is labelled with its stat: %s" % sc.choice[idx].text)
+	sc.act("choose:%d" % idx)
+	eq(sc.flags.get("op.ready"), true, "the stat option sets op.ready")
+	eq(sc.flags.get("affection.ashe"), 1, "and earns Ashe's approval")
+	while sc.mode != "combat":
+		sc.act("choose:0" if sc.mode == "choice" else "next")
+	eq(sc.fight_step.id, "F1", "first fight is the lounge")
+	eq(sc.combat.current_id, "dust", "Dust acts first in F1 after counting the explosions")
+
+func test_standing_by_someone_raises_both_and_changes_options() -> void:
+	for pick in [0, 1]:
+		var sc = Scenario.load_id("opening", 1)
+		_to_choice(sc, "Who do you stand by?")
+		sc.act("choose:%d" % pick)
+		var who: String = "deena" if pick == 0 else "statda"
+		eq(sc.flags.get("op.stood_by"), who, "stood by %s" % who)
+		eq(sc.flags.get("affection.deena"), 1, "Deena +1 either way (tutorial)")
+		eq(sc.flags.get("affection.statda"), 1, "Statda +1 either way (tutorial)")
+		eq(sc.stage.get("stand"), who, "Dust is staged beside %s" % who)
+		check(sc.transcript.any(func(l): return l.begins_with("Affection:")), "the player sees the affection change")
+		_to_choice(sc, "What do you say?")
+		var texts: Array = sc.choice.map(func(o): return o.text)
+		check(texts.has("Hey. We're getting out of this. All of us.") == (who == "deena"), "Deena's option only after standing by her")
+		check(texts.has("Hell of a crew to stick around for.") == (who == "statda"), "Statda's option only after standing by her")
+
+func test_tutorial_prompts_reveal_ashe() -> void:
+	var sc = Scenario.load_id("opening", 1)
+	_to_choice(sc, "Who do you stand by?")
+	check(sc.transcript.any(func(l): return l.begins_with("TIP:") and l.ends_with("recruit.")), "the affection prompt ends on 'recruit.'")
+
+func test_medkit_heals_and_runs_out() -> void:
+	var c = Data.new_combat("op_f2_hall", 1)
+	c.start()
+	var st = c.by_id["statda"]
+	var de = c.by_id["deena"]
+	de.hp = 20
+	de.pos = st.pos + Vector2i(1, 0)
+	c.force_turn("statda")
+	var r: Dictionary = c.act("medkit:deena")
+	check(r.ok, "Statda can Medkit an ally next to her")
+	eq(de.hp, 55, "the Medkit heals 35")
+	eq(int(st.charges.medkit), 1, "one charge used")
+
+func test_f2_three_heroes_and_f3_five_heroes_win_with_smart_play() -> void:
+	var AI = load("res://engine/ai.gd")
+	for id in ["op_f2_hall", "op_f3_bay"]:
+		var wins := 0
+		for s in range(1, 11):
+			if AI.autoplay(Data.new_combat(id, s)) == "victory":
+				wins += 1
+		check(wins >= 8, "%s: smart play wins (%d/10)" % [id, wins])
+	var c = Data.new_combat("op_f3_bay", 1)
+	eq(c.units.filter(func(u): return u.team == "party").size(), 5, "F3 fields all five heroes")

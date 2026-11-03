@@ -10,9 +10,12 @@
    "id": "OP1",
    "title": "The Workshop",
    "location": "galactic_c_workshop",
-   "setting": "The Galactic C's workshop, a converted passenger galley. Chrome, teal vinyl, a cassette deck playing low, tools everywhere. Through a porthole: Lumenhaven, a neon-lit planet ringed with orbital stations. Ashe, sleeves rolled, has his arm inside an open wall panel. Dust sits on a crate flipping a credit chip.",
    "music": "galactic_c_theme",
+   "setting": "The Galactic C's workshop, a converted passenger galley: chrome, teal vinyl, a cassette deck playing low, tools everywhere. Through the porthole, Truevivor III turns below, ringed by orbital defence stations. Ashe leans on the workbench, his plain claymore on the bench behind him. Dust has just brought two mugs of coffee.",
    "beats": [
+    {
+     "narrate": "Orbit over Truevivor III. The Galactic C's workshop. A cassette deck plays low. Ashe leans on the workbench, grease to the shoulder; his plain claymore lies behind him. Dust hands him a mug of coffee."
+    },
     {
      "line": "OP1_ASH_01"
     },
@@ -20,94 +23,213 @@
      "line": "OP1_DST_01"
     },
     {
+     "narrate": "Ashe shakes his head with a knowing smile."
+    },
+    {
      "line": "OP1_ASH_02"
     },
     {
-     "line": "OP1_DST_02"
+     "narrate": "Dust just shakes his head."
     },
     {
      "line": "OP1_ASH_03"
     },
     {
-     "line": "OP1_DST_03"
+     "line": "OP1_DST_02"
     },
     {
      "line": "OP1_ASH_04"
     },
     {
-     "choice": [
-      {
-       "text": "Then why take the job?",
-       "beats": [
-        {
-         "line": "OP1_ASH_05"
-        }
-       ],
-       "effects": {
-        "influence.ashe": 1
-       }
-      },
-      {
-       "text": "Maybe I want to go back.",
-       "beats": [
-        {
-         "line": "OP1_ASH_06"
-        }
-       ],
-       "effects": {
-        "op.dust_wants_back": true
-       }
-      },
-      {
-       "text": "I'll charm her. Princesses love me.",
-       "beats": [
-        {
-         "line": "OP1_ASH_07"
-        },
-        {
-         "line": "OP1_DST_04"
-        },
-        {
-         "line": "OP1_ASH_08"
-        }
-       ],
-       "effects": {
-        "dust.charm": 1
-       }
-      }
-     ]
+     "line": "OP1_DST_03"
     },
     {
+     "narrate": "Silence a moment."
+    },
+    {
+     "line": "OP1_ASH_05"
+    },
+    {
+     "line": "OP1_DST_04"
+    },
+    {
+     "line": "OP1_ASH_06"
+    },
+    {
+     "line": "OP1_DST_05"
+    },
+    {
+     "narrate": "A distant explosion. Ashe and Dust look up, then think nothing of it."
+    },
+    {
+     "line": "OP1_ASH_07"
+    },
+    {
+     "line": "OP1_DST_06"
+    },
+    {
+     "line": "OP1_ASH_08"
+    },
+    {
+     "line": "OP1_DST_07"
+    },
+    {
+     "narrate": "Another distant explosion, a bit louder. It's ignored."
+    },
+    {
+     "line": "OP1_ASH_09"
+    },
+    {
+     "narrate": "Boots pound down the corridor. Statda skids past the open hatch: dark blue coveralls, coke-bottle glasses."
+    },
+    {
+     "stage": {
+      "extras": [
+       "statda"
+      ]
+     }
+    },
+    {
+     "line": "OP1_STD_01"
+    },
+    {
+     "line": "OP1_ASH_10"
+    },
+    {
+     "line": "OP1_STD_02"
+    },
+    {
+     "stage": {
+      "extras": []
+     }
+    },
+    {
+     "narrate": "She runs on toward the cockpit."
+    },
+    {
+     "line": "OP1_DST_08"
+    },
+    {
+     "line": "OP1_STD_03"
+    },
+    {
+     "narrate": "Ashe returns to the conversation, not even considering what Statda said."
+    },
+    {
+     "line": "OP1_DST_09"
+    },
+    {
+     "narrate": "Another explosion, closer. And more beyond it. Ashe is now paying attention."
+    },
+    {
+     "tip": "Options marked in gold need a stat. Dust meets this one. Special options always lead somewhere better, or more interesting, than the rest."
+    },
+    {
+     "prompt": "What do you do?",
      "choice": [
       {
-       "text": "[Examine] Ashe's sword on the bench",
+       "text": "[Examine] Ashe's sword",
+       "repeat": true,
        "beats": [
         {
-         "narrate": "Morningwake: white enamel and a gold sunburst. One corner is chipped, and black shows through."
+         "narrate": "A claymore on the bench. Plain steel: no enamel, no gold, no name engraved. Oiled, edge dressed. It looks like it was forged yesterday."
         },
         {
-         "line": "OP1_DST_05"
+         "line": "OP1_DST_10"
         },
         {
-         "line": "OP1_ASH_09"
+         "line": "OP1_ASH_11"
         }
-       ],
-       "repeat": true
+       ]
       },
       {
-       "text": "[Examine] Kindling, your sword",
+       "text": "[Examine] Kindling",
+       "repeat": true,
        "beats": [
         {
-         "line": "OP1_DST_06"
+         "narrate": "Dust's curved two-hander. A chip bites into the guard, never dressed out."
         },
         {
-         "line": "OP1_ASH_10"
+         "line": "OP1_ASH_12"
+        },
+        {
+         "line": "OP1_DST_11"
+        },
+        {
+         "line": "OP1_ASH_13"
+        },
+        {
+         "line": "OP1_DST_12"
         }
-       ],
-       "repeat": true
+       ]
       },
       {
-       "text": "(Leave it.)",
+       "text": "\"About the princess…\"",
+       "repeat": true,
+       "effects": {
+        "op.melonsi_lesson": true
+       },
+       "beats": [
+        {
+         "line": "OP1_DST_13"
+        },
+        {
+         "line": "OP1_ASH_14"
+        },
+        {
+         "narrate": "Dust opens his mouth. Nothing comes out."
+        },
+        {
+         "line": "OP1_ASH_15"
+        },
+        {
+         "narrate": "Dust blushes deep red."
+        },
+        {
+         "line": "OP1_ASH_16"
+        }
+       ]
+      },
+      {
+       "text": "[Talk] Lady Dusk",
+       "repeat": true,
+       "beats": [
+        {
+         "line": "OP1_DST_14"
+        },
+        {
+         "line": "OP1_LDY_01"
+        }
+       ]
+      },
+      {
+       "text": "Count the gaps between the explosions.",
+       "req": {
+        "attr": "perception",
+        "min": 11,
+        "who": "op_dust"
+       },
+       "effects": {
+        "op.ready": true,
+        "affection.ashe": 1
+       },
+       "beats": [
+        {
+         "narrate": "Dust listens. Boom. Four seconds. Boom. Three. Each one closer than the last, walking a straight line toward the hull."
+        },
+        {
+         "line": "OP1_DST_15"
+        },
+        {
+         "narrate": "Ashe looks at him for one long second. Then he sets the mug down, picks up the claymore, and slings it."
+        },
+        {
+         "line": "OP1_ASH_17"
+        }
+       ]
+      },
+      {
+       "text": "(Say nothing. Listen.)",
        "beats": []
       }
      ]
@@ -122,133 +244,242 @@
    "music": "under_fire",
    "beats": [
     {
-     "narrate": "The ship jolts. Every light flickers. Through the porthole, streaks of orange: orbital battery fire."
+     "narrate": "The explosions start happening around the craft. The deck bucks; the lights stutter."
     },
     {
-     "line": "OP2_SHP_01"
+     "line": "OP2_LDY_01"
     },
     {
-     "line": "OP2_UNT_01"
+     "line": "OP2_ASH_01"
+    },
+    {
+     "narrate": "Static crackles over the intercom."
+    },
+    {
+     "line": "OP2_INT_01"
+    },
+    {
+     "narrate": "Static interrupts."
     },
     {
      "line": "OP2_DST_01"
     },
     {
-     "line": "OP2_ASH_01"
+     "line": "OP2_ASH_02"
+    },
+    {
+     "narrate": "With much more static, a different voice, thick with a mercenary accent:"
+    },
+    {
+     "line": "OP2_MRC_01"
+    },
+    {
+     "narrate": "It cuts out."
+    },
+    {
+     "line": "OP2_ASH_03"
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "id": "RUN",
+   "title": "To the Cockpit",
+   "location": "galactic_c_corridor",
+   "music": "under_fire",
+   "run": true,
+   "beats": [
+    {
+     "narrate": "Ashe and Dust run for the cockpit: down the corridor, the deck pitching under their boots, red light strobing, a porthole full of tracer fire flashing past."
     }
    ]
   },
   {
    "type": "scene",
    "id": "OP3",
-   "title": "The Plan",
+   "title": "The Cockpit",
    "location": "galactic_c_cockpit",
    "music": "under_fire",
-   "setting": "The cockpit: wraparound windows, the planet filling the view, defence stations glittering in orbit, orange tracers. Deena comes skidding in, wrench in hand, coral hair half-down.",
+   "setting": "Wraparound viewports; Truevivor III fills the glass; orange tracers lance up from the orbital stations. Deena at the console on the right, Statda on the left, K'saabu filling the hatch behind them.",
    "beats": [
     {
-     "line": "OP3_DNA_01"
+     "narrate": "The cockpit. Truevivor III fills the viewports; orange tracers lance up from the orbital stations. Deena is at the console on the right. Statda is on the left. K'saabu fills the hatch behind them, cannon under one arm."
     },
     {
-     "line": "OP3_KSB_01"
+     "narrate": "Ashe drops into the pilot's seat. Deena and Statda both wave Dust over."
+    },
+    {
+     "tip": "There will be many choices and actions you make that build or lose affection with the other heroes. Whoever you stand by gets a small boost in affection. Whomever you don't stand by... in this case, also gets a small boost, because it's the tutorial. But dialogue options change. Don't expect such ease of action in the future, recruit."
+    },
+    {
+     "prompt": "Who do you stand by?",
+     "choice": [
+      {
+       "text": "Stand by Deena (right)",
+       "effects": {
+        "affection.deena": 1,
+        "affection.statda": 1
+       },
+       "beats": [
+        {
+         "set": {
+          "op.stood_by": "deena"
+         }
+        },
+        {
+         "stage": {
+          "stand": "deena"
+         }
+        },
+        {
+         "narrate": "Deena's lips move. She thinks nobody can hear her."
+        },
+        {
+         "line": "OP3_DNA_09"
+        }
+       ]
+      },
+      {
+       "text": "Stand by Statda (left)",
+       "effects": {
+        "affection.statda": 1,
+        "affection.deena": 1
+       },
+       "beats": [
+        {
+         "set": {
+          "op.stood_by": "statda"
+         }
+        },
+        {
+         "stage": {
+          "stand": "statda"
+         }
+        },
+        {
+         "narrate": "Statda pushes her glasses up and whispers to herself, too low for anyone but Dust."
+        },
+        {
+         "line": "OP3_STD_04"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "line": "OP3_DNA_01"
     },
     {
      "line": "OP3_DNA_02"
     },
     {
-     "line": "OP3_KSB_02"
+     "narrate": "Statda stands with her arms crossed, shaking her head."
+    },
+    {
+     "line": "OP3_STD_01"
+    },
+    {
+     "line": "OP3_KSB_01"
+    },
+    {
+     "narrate": "Nobody looks at K'saabu."
     },
     {
      "line": "OP3_DNA_03"
     },
     {
-     "line": "OP3_ASH_01"
+     "line": "OP3_STD_02"
     },
     {
-     "line": "OP3_DNA_04"
+     "line": "OP3_ASH_01"
     },
     {
      "line": "OP3_ASH_02"
     },
     {
-     "line": "OP3_DST_01"
-    },
-    {
-     "line": "OP3_DST_02"
+     "line": "OP3_DNA_04"
     },
     {
      "line": "OP3_ASH_03"
     },
     {
-     "line": "OP3_DNA_05"
+     "line": "OP3_DST_01"
     },
     {
      "line": "OP3_ASH_04"
     },
     {
-     "line": "OP3_DNA_06"
-    },
-    {
-     "line": "OP3_DNA_07"
+     "line": "OP3_DNA_05"
     },
     {
      "line": "OP3_ASH_05"
     },
     {
-     "line": "OP3_DNA_08"
-    },
-    {
-     "line": "OP3_KSB_03"
+     "line": "OP3_DNA_06"
     },
     {
      "line": "OP3_ASH_06"
     },
     {
-     "line": "OP3_DNA_09"
+     "line": "OP3_DNA_07"
     },
     {
-     "line": "OP3_DST_03"
-    },
-    {
+     "prompt": "What do you say?",
      "choice": [
+      {
+       "text": "Hey. We're getting out of this. All of us.",
+       "if": [
+        "op.stood_by",
+        "deena"
+       ],
+       "effects": {
+        "affection.deena": 1
+       },
+       "beats": [
+        {
+         "line": "OP3_DNA_08"
+        }
+       ]
+      },
+      {
+       "text": "Hell of a crew to stick around for.",
+       "if": [
+        "op.stood_by",
+        "statda"
+       ],
+       "effects": {
+        "affection.statda": 1
+       },
+       "beats": [
+        {
+         "line": "OP3_STD_03"
+        }
+       ]
+      },
       {
        "text": "It's a good plan.",
        "beats": [
         {
-         "line": "OP3_DST_04"
-        },
-        {
-         "line": "OP3_DNA_10"
-        }
-       ],
-       "effects": {
-        "influence.deena": 1
-       }
-      },
-      {
-       "text": "What if we took the station?",
-       "beats": [
-        {
-         "line": "OP3_KSB_04"
-        },
-        {
          "line": "OP3_ASH_07"
         }
-       ],
-       "effects": {
-        "influence.ksaabu": 2
-       }
+       ]
       },
       {
-       "text": "Deena. We've got this.",
+       "text": "The station's not the worst idea.",
+       "effects": {
+        "affection.ksaabu": 1
+       },
        "beats": [
         {
-         "line": "OP3_DNA_11"
+         "line": "OP3_KSB_02"
+        },
+        {
+         "narrate": "He thumps Dust on the back hard enough to stagger him."
+        },
+        {
+         "line": "OP3_ASH_08"
         }
-       ],
-       "effects": {
-        "influence.deena": 2
-       }
+       ]
       }
      ]
     }
@@ -265,7 +496,16 @@
      "narrate": "A heavy CLANG. The whole ship lurches sideways. Red emergency lights flood the cockpit."
     },
     {
-     "line": "OP4_SHP_01"
+     "line": "OP4_LDY_01"
+    },
+    {
+     "narrate": "The EMP hits. Her voice dies mid-word. Every screen goes black. The engines die. Silence, except the wind starting to howl against the hull."
+    },
+    {
+     "narrate": "Then rifle fire punches through the cockpit hatch: the boarders' first wave. Everyone hits the deck."
+    },
+    {
+     "line": "OP4_STD_01"
     },
     {
      "line": "OP4_ASH_01"
@@ -274,7 +514,7 @@
      "altitude": 9000
     },
     {
-     "narrate": "ALTITUDE 9,000 m. It drops every combat round and every step between fights. It won't fail you; it decides how well Ashe lands."
+     "narrate": "ALTITUDE 9,000 m. It drops every combat round and every walk between fights. It won't fail you; it decides how well Ashe lands."
     }
    ]
   },
@@ -291,11 +531,11 @@
     }
    ],
    "prompts": [
-    "The timeline at the top shows who acts next. Faster units act more often.",
-    "Move up to your Move range, then take one action. Seats give half cover.",
-    "The Breacher hits hardest. Dropping one enemy fast beats wounding three.",
-    "Attacks from the side or back hit harder.",
-    "Dust and Ashe can Mend: a small Eternity heal."
+    "Top of the screen's the timeline, recruit. Shows who moves next. Faster folks go more often.",
+    "Move, then act. One action a turn. Those seats are half cover. Use 'em.",
+    "The one with the shotgun hits hardest. Put the big one down first. Three wounded men still shoot. One dead one don't.",
+    "Hit 'em from the side or the back and it hurts more.",
+    "You and me can Mend. Small heal, costs Focus. Don't wait till you're on the floor."
    ],
    "barks": [
     {
@@ -309,25 +549,33 @@
     {
      "line": "F1_ASH_02"
     }
-   ]
+   ],
+   "first_if": {
+    "flag": "op.ready",
+    "unit": "dust"
+   }
   },
   {
    "type": "walk",
    "id": "T1",
-   "title": "Run to the hold",
+   "title": "The Med Bay",
+   "location": "galactic_c_hall",
    "altitude": -500,
    "beats": [
     {
-     "narrate": "A short run aft down a tilted corridor; the floor is at an angle now. Cut to the cargo hold."
+     "narrate": "Cut to the aft hallway. Statda ducks into the med bay and comes out with a long rifle."
+    },
+    {
+     "line": "T1_STD_01"
     }
    ]
   },
   {
    "type": "fight",
    "id": "F2",
-   "title": "The Cargo Hold",
-   "arena": "op_f2_hold",
-   "location": "galactic_c_hold",
+   "title": "The Aft Hallway",
+   "arena": "op_f2_hall",
+   "location": "galactic_c_hall",
    "music": "boarded",
    "intro": [
     {
@@ -335,15 +583,19 @@
     },
     {
      "line": "F2_KSB_01"
+    },
+    {
+     "narrate": "He steps in front of Deena."
     }
    ],
    "prompts": [
-    "Deena is very fast; she'll often act before enemies do. She's also brittle. Keep her in cover.",
-    "Deena carries one Stun Grenade. Save it; you'll want it later.",
-    "Pass Turn: Deena can give her turn to an ally, who acts immediately (cooldown 3). Try passing to K'saabu before the troopers spread out.",
-    "K'saabu is slow, but every cannon shot hits a 3x3 area. Here there's nothing to protect, so unleash him.",
-    "In many fights, civilians and delicate equipment will be in the blast. Move them first, or don't fire.",
-    "K'saabu can raise a personal shield and Taunt enemies into attacking him instead of Deena."
+    "Deena's fast. She'll move before almost anyone. She's also made of glass. Keep her in cover.",
+    "Deena's got one Stun Grenade. Save it. You'll want it later.",
+    "Pass Turn: Deena can hand her turn to someone else, right now. Cooldown's three rounds.",
+    "K'saabu's slow, but every cannon shot hits a three-by-three. Nothing in this hallway to break. Let him off the leash.",
+    "Most places won't be this empty. Civilians, hostages, delicate gear: they all get hit too. Move 'em, or don't fire.",
+    "Statda's a sniper. Long range, hits hard. She carries a Medkit too: a solid heal for anyone within reach. Limited supply.",
+    "K'saabu can raise a shield and Taunt. Make 'em shoot the big man, not the mechanic."
    ],
    "barks": [
     {
@@ -362,6 +614,12 @@
        2
       ]
      }
+    },
+    {
+     "on": "down",
+     "team": "enemy",
+     "by": "Statda",
+     "line": "F2_STD_01"
     }
    ]
   },
@@ -372,7 +630,7 @@
    "altitude": -500,
    "beats": [
     {
-     "narrate": "Ashe and Dust drop into the hold from a ceiling hatch."
+     "narrate": "Ashe and Dust meet the others at the bulkhead outside the embarkation bay."
     },
     {
      "line": "T2_ASH_01"
@@ -383,7 +641,8 @@
     {
      "line": "T2_ASH_02"
     }
-   ]
+   ],
+   "location": "galactic_c_bay"
   },
   {
    "type": "fight",
@@ -394,7 +653,7 @@
    "music": "boarded",
    "intro": [
     {
-     "narrate": "The crew crouches behind the check-in desk, looking through the open bulkhead at six boarders. Their uniforms match. Nothing else does: every weapon is different, battered, half-repaired."
+     "narrate": "The crew crouch behind the check-in desk, looking through the open bulkhead at the boarders. Their uniforms match. Nothing else does: every weapon is different, in different states of repair."
     },
     {
      "line": "F3_ASH_01"
@@ -425,8 +684,9 @@
     }
    ],
    "prompts": [
-    "Any character can Search as an action. Higher Perception spots more. Deena's Perception is very high.",
-    "The Sergeant's Deflector reflects ranged and AoE attacks fired into it. While it's up, K'saabu's cannon is dangerous near him. Think about how to separate him from his squad."
+    "Five of you now. More guns, more options. Don't waste 'em.",
+    "Anybody can Search. Takes an action. Sharper eyes find more. Deena's got the sharpest.",
+    "The Sergeant's got a Deflector. Shoot into it and it shoots you back, cannon included. Split him off from his boys."
    ],
    "barks": [
     {
@@ -460,6 +720,12 @@
      "on": "down",
      "target": "sergeant",
      "line": "F3_SGT_02"
+    },
+    {
+     "on": "down",
+     "target": "marksman",
+     "by": "Statda",
+     "line": "F3_STD_01"
     }
    ],
    "default_flag": [
@@ -503,7 +769,7 @@
      "line": "OP5_ASH_01"
     },
     {
-     "narrate": "Ashe sprints for the cockpit. Deena is sitting on the floor against a luggage cart, pistol in her lap, staring at the body of the trooper she shot."
+     "narrate": "Ashe sprints for the cockpit. Deena sits on the floor against a luggage cart, pistol in her lap, staring at the trooper she shot. Statda kneels beside her, opens her Medkit, and starts on the cut over Deena's eye without being asked."
     },
     {
      "line": "OP5_DNA_01"
@@ -512,7 +778,7 @@
      "line": "OP5_DST_02"
     },
     {
-     "narrate": "He helps her up. K'saabu lumbers over and wraps both of them in an enormous, damp hug, lifting them off the floor."
+     "narrate": "He helps her up. K'saabu lumbers over and wraps them both in an enormous hug, lifting them off the floor."
     },
     {
      "line": "OP5_KSB_01"
@@ -521,10 +787,7 @@
      "line": "OP5_DST_03"
     },
     {
-     "narrate": "The ship's nose drops. The roar becomes a scream. The city's neon blooms out of the clouds, impossibly fast. The screen floods white."
-    },
-    {
-     "line": "OP5_DNA_02"
+     "narrate": "The ship's nose drops. The roar becomes a scream. Through the viewports the Neon Slums bloom out of the clouds, impossibly fast. The screen floods white."
     },
     {
      "narrate": "Black. One second of silence."
@@ -536,29 +799,50 @@
    "id": "OP6",
    "title": "The Warehouse",
    "location": "lowlight_street",
-   "music": "lowlight_rain",
-   "setting": "Morning-dark in the Lowlight. Rain. The Galactic C is embedded nose-first in the side of a warehouse, three storeys up, steaming, neon signs flickering around the hole. The 'hampion' on the hull is lit by a pink holo-advert for noodles.",
+   "music": "neon_slums_rain",
+   "setting": "Morning-dark in the Neon Slums of Truevivor III. Rain. The Galactic C is embedded nose-first in the side of a warehouse, three storeys up, steaming, neon signs flickering around the hole.",
    "beats": [
+    {
+     "narrate": "Morning-dark in the Neon Slums of Truevivor III. Rain. The Galactic C is embedded nose-first in the side of a warehouse, three storeys up, steaming."
+    },
     {
      "line": "OP6_DNA_01"
     },
     {
-     "line": "OP6_KSB_01"
-    },
-    {
-     "line": "OP6_ASH_01"
+     "line": "OP6_LDY_01"
     },
     {
      "line": "OP6_DST_01"
     },
     {
-     "line": "OP6_ASH_02"
+     "line": "OP6_ASH_01"
     },
     {
-     "narrate": "Below, a door bangs open. A short, furious woman in a neon raincoat, Mama Quell, glares up at them, a cleaver in one hand and an invoice already in the other."
+     "narrate": "A door bangs open below. A short, broad woman in a neon raincoat stalks out into the rain and glares up at the ship in her wall."
+    },
+    {
+     "stage": {
+      "extras": [
+       "mama_quell"
+      ]
+     }
     },
     {
      "line": "OP6_MQ_01"
+    },
+    {
+     "stage": {
+      "extras": [
+       "mama_quell",
+       "gangers"
+      ]
+     }
+    },
+    {
+     "narrate": "Then the gangers pour out around her: mohawks, chains, electro-axes, mismatched armour. A dozen of them fan out from the warehouse and the alleys. Every weapon points up at the crew. None of them moves until she does."
+    },
+    {
+     "line": "OP6_MQ_02"
     },
     {
      "narrate": "Act I begins."

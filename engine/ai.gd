@@ -200,6 +200,13 @@ static func _actions_from(c, u, t: Vector2i, hostiles: Array, field: Dictionary)
 		for a in c.units:
 			if a.team == u.team and a.downed_turns >= 0 and not a.out and Grid.cheb(a.pos, t) <= 5 and c.grid.has_los(t, a.pos):
 				out.append({"id": "mend:%s" % a.id, "score": 45.0 + a.downed_limit - a.downed_turns})
+	if "medkit" in u.abilities and u.charges.get("medkit", 0) > 0:
+		for a in c.units:
+			if a.team == u.team and a.is_active() and Grid.cheb(a.pos, t) <= c.MEDKIT_RANGE and c.grid.has_los(t, a.pos):
+				if a.downed_turns >= 0 and not a.out:
+					out.append({"id": "medkit:%s" % a.id, "score": 46.0})
+				elif a.can_act() and a.hp < a.max_hp * 0.45:
+					out.append({"id": "medkit:%s" % a.id, "score": c.MEDKIT_HEAL * 1.1})
 	# Search once, early, with whoever sees best.
 	if u.team == Unit.TEAM_PARTY and c.insights.any(func(i): return not i.found) and u.attrs.perception >= 14:
 		out.append({"id": "search", "score": 14.0})

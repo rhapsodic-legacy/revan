@@ -14,16 +14,25 @@ const DITHER = preload("res://render/dither.gdshader")
 const SHRINK := 2
 const COLORS := {
 	"dust": Color(0.86, 0.62, 0.22), "ashe": Color(0.95, 0.93, 0.86), "deena": Color(0.30, 0.55, 1.0),
-	"ksaabu": Color(0.22, 0.58, 0.32), "mama_quell": Color(1.0, 0.25, 0.7),
+	"ksaabu": Color(0.22, 0.58, 0.32), "mama_quell": Color(1.0, 0.25, 0.7), "statda": Color(0.16, 0.24, 0.62),
+	"ganger": Color(0.75, 0.3, 0.15),
 	"sergeant": Color(0.78, 0.78, 0.82), "breacher": Color(0.50, 0.42, 0.42), "marksman": Color(0.42, 0.48, 0.56),
 }
-const NAMES := {"dust": "Dust", "ashe": "Ashe", "deena": "Deena", "ksaabu": "K'saabu", "mama_quell": "Mama Quell"}
-const SPEAKER_IDS := {"Dust": "dust", "Ashe": "ashe", "Deena": "deena", "K'saabu": "ksaabu", "Mama Quell": "mama_quell"}
-const CAST := {
-	"OP1": ["dust", "ashe"], "OP2": ["dust", "ashe"], "OP3": ["dust", "ashe", "deena", "ksaabu"],
-	"OP4": ["dust", "ashe", "deena", "ksaabu"], "T1": ["dust", "ashe"], "T2": ["dust", "ashe", "deena", "ksaabu"],
-	"OP5": ["dust", "deena", "ksaabu"], "OP6": ["dust", "ashe", "deena", "ksaabu", "mama_quell"],
+const NAMES := {"dust": "Dust", "ashe": "Ashe", "deena": "Deena", "ksaabu": "K'saabu", "mama_quell": "Mama Quell", "statda": "Statda"}
+const SPEAKER_IDS := {"Dust": "dust", "Ashe": "ashe", "Deena": "deena", "K'saabu": "ksaabu", "Mama Quell": "mama_quell", "Statda": "statda"}
+## Who stands where in each dialogue scene: id -> [x, z]. Camera looks toward -z.
+const STAGING := {
+	"OP1": {"ashe": [-0.9, 0.3], "dust": [0.9, 0.6]},
+	"OP2": {"ashe": [-0.9, 0.3], "dust": [0.9, 0.6]},
+	"RUN": {"ashe": [-0.5, 7.0], "dust": [0.6, 8.2]},
+	"OP3": {"statda": [-2.6, -1.2], "ashe": [0.0, -1.5], "deena": [2.6, -1.2], "ksaabu": [-4.2, 1.6], "dust": [0.9, 1.4]},
+	"OP4": {"statda": [-2.6, -1.2], "ashe": [0.0, -1.5], "deena": [2.6, -1.2], "ksaabu": [-4.2, 1.6], "dust": [0.9, 1.4]},
+	"T1": {"statda": [-0.8, 0.4], "deena": [0.6, 0.2], "ksaabu": [1.8, 1.2]},
+	"T2": {"statda": [-2.6, 0.6], "dust": [-1.3, 0.3], "ashe": [0.0, 0.2], "deena": [1.3, 0.3], "ksaabu": [2.7, 0.8]},
+	"OP5": {"statda": [-1.6, 0.5], "deena": [-0.4, 0.3], "dust": [0.8, 0.4], "ksaabu": [2.1, 0.8]},
+	"OP6": {"statda": [-2.4, 0.4], "dust": [-1.1, 0.2], "ashe": [0.2, 0.1], "deena": [1.4, 0.2], "ksaabu": [2.7, 0.6]},
 }
+const EXTRAS := {"statda": [3.2, -0.6], "mama_quell": [-3.0, 2.6]}
 
 var sc
 var seed_value := 1
@@ -52,7 +61,10 @@ var cam_look_goal := Vector3.ZERO
 var cam_look := Vector3.ZERO
 var follow := false                 # over-the-shoulder fight camera
 var last_party_id := ""
+var zoom := 1.0                     # mouse wheel, fight camera
 var drift := 0.0
+var running := false                # the RUN scene: Ashe and Dust sprint down the corridor
+var run_t := 0.0
 
 var title_lbl: Label
 var alt_lbl: Label
@@ -191,6 +203,7 @@ func _build_ui() -> void:
 	dlg_panel.offset_left = 120
 	dlg_panel.offset_right = -120
 	dlg_panel.offset_bottom = -16
+	dlg_panel.grow_vertical = Control.GROW_DIRECTION_BEGIN   # long choice lists grow upward, never off screen
 	add_child(dlg_panel)
 	var dv := VBoxContainer.new()
 	dlg_panel.add_child(dv)
@@ -213,16 +226,20 @@ func _build_ui() -> void:
 	hud_panel.set_anchors_preset(Control.PRESET_BOTTOM_WIDE)
 	hud_panel.offset_top = -150
 	hud_panel.offset_right = -330
+	hud_panel.mouse_filter = Control.MOUSE_FILTER_IGNORE   # clicks fall through to the battlefield except on buttons
 	add_child(hud_panel)
 	var hh := HBoxContainer.new()
+	hh.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	hud_panel.add_child(hh)
 	card_lbl = RichTextLabel.new()
 	card_lbl.bbcode_enabled = true
 	card_lbl.custom_minimum_size = Vector2(250, 120)
 	card_lbl.scroll_active = false
+	card_lbl.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	hh.add_child(card_lbl)
 	actions_box = HFlowContainer.new()
 	actions_box.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	actions_box.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	hh.add_child(actions_box)
 
 	var logp := _panel(Color(0, 0, 0, 0.45))
@@ -231,22 +248,27 @@ func _build_ui() -> void:
 	logp.offset_top = 70
 	logp.offset_bottom = -16
 	logp.name = "LogPanel"
+	logp.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	add_child(logp)
 	log_lbl = RichTextLabel.new()
 	log_lbl.bbcode_enabled = true
 	log_lbl.scroll_following = true
+	log_lbl.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	log_lbl.add_theme_font_size_override("normal_font_size", 13)
 	logp.add_child(log_lbl)
 
 	tip_panel = _panel(Color(0.08, 0.06, 0.0, 0.9))
-	tip_panel.position = Vector2(16, 80)
-	tip_panel.custom_minimum_size = Vector2(380, 0)
+	# Tips sit over the (click-through) log column on the right, never over the battlefield.
+	tip_panel.set_anchors_preset(Control.PRESET_TOP_RIGHT)
+	tip_panel.offset_left = -330
+	tip_panel.offset_top = 70
+	tip_panel.custom_minimum_size = Vector2(330, 0)
 	add_child(tip_panel)
 	var tvb := VBoxContainer.new()
 	tip_panel.add_child(tvb)
 	tip_lbl = Label.new()
 	tip_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	tip_lbl.custom_minimum_size = Vector2(360, 0)
+	tip_lbl.custom_minimum_size = Vector2(306, 0)
 	tip_lbl.add_theme_color_override("font_color", Color(1.0, 0.85, 0.4))
 	tvb.add_child(tip_lbl)
 	var tb := Button.new()
@@ -269,7 +291,7 @@ func _build_ui() -> void:
 
 func _refresh() -> void:
 	var st: Dictionary = sc.step()
-	var key: String = "%s#%d#%s" % [st.get("id", "end"), sc.attempts, sc.combat != null]
+	var key: String = "%s#%d#%s#%s" % [st.get("id", "end"), sc.attempts, sc.combat != null, JSON.stringify(sc.stage)]
 	if key != built_key:
 		built_key = key
 		_build_world(st)
@@ -294,11 +316,16 @@ func _refresh_dialogue() -> void:
 	var b: Dictionary = sc.current_beat
 	if sc.mode == "choice":
 		speaker_lbl.text = "Dust"
-		text_lbl.text = "[i]What do you say?[/i]"
+		var pr: String = b.get("prompt", "")
+		text_lbl.text = "[i]%s[/i]" % (pr if pr != "" else "What do you say?")
 		for i in sc.choice.size():
 			var btn := Button.new()
-			btn.text = "▸ " + sc.choice[i].text
+			btn.text = ("★ " if sc.choice[i].get("special", false) else "▸ ") + sc.choice[i].text
 			btn.alignment = HORIZONTAL_ALIGNMENT_LEFT
+			btn.add_theme_font_size_override("font_size", 17)
+			if sc.choice[i].get("special", false):
+				btn.add_theme_color_override("font_color", Color(1.0, 0.82, 0.25))
+				btn.add_theme_color_override("font_hover_color", Color(1.0, 0.92, 0.5))
 			var id := "choose:%d" % i
 			btn.pressed.connect(func(): _do(id))
 			choices_box.add_child(btn)
@@ -309,9 +336,16 @@ func _refresh_dialogue() -> void:
 		btn.text = "Retry the fight"
 		btn.pressed.connect(func(): _do("retry"))
 		choices_box.add_child(btn)
+	elif b.has("tip"):
+		speaker_lbl.text = "TIP"
+		text_lbl.text = "[color=#ffd27a]%s[/color]" % b.tip
 	elif b.has("narrate"):
 		speaker_lbl.text = ""
-		text_lbl.text = "[i]%s[/i]" % b.narrate
+		var nt: String = b.narrate
+		if nt.begins_with("Affection:"):
+			text_lbl.text = "[color=#ff9ec7]%s[/color]" % nt
+		else:
+			text_lbl.text = "[i]%s[/i]" % nt
 	else:
 		speaker_lbl.text = b.get("speaker", "")
 		var t: String = b.get("text", "")
@@ -402,11 +436,13 @@ func _action_button(a: Dictionary) -> void:
 		"shove": label = "Shove %s (%d%%)" % [c.by_id[a.target].name, a.chance]
 		"push": label = "Push %s (%d%%)" % [c.by_id[a.target].name, a.chance]
 		"revive": label = "Revive %s" % c.by_id[a.target].name
+		"medkit": label = "Medkit %s (+%d, %d left)" % [c.by_id[a.target].name, a.heal, int(a.left)]
 		"grenade": label = "Stun Grenade (%d caught)" % a.hits.size()
 	var b := Button.new()
 	b.text = label
 	b.add_theme_font_size_override("font_size", 13)
 	var id: String = a.id
+	b.set_meta("action_id", id)
 	b.pressed.connect(func(): _do(id))
 	actions_box.add_child(b)
 
@@ -450,19 +486,32 @@ func _build_world(st: Dictionary) -> void:
 			_sync_units(preview)
 	else:
 		Blockout.build_set(env_root, loc)
-		var cast: Array = CAST.get(st.get("id", ""), ["dust", "ashe"])
-		for i in cast.size():
-			var x := (i - (cast.size() - 1) / 2.0) * 1.4
-			var z := 0.5 if loc != "lowlight_street" else 1.5
-			if cast[i] == "mama_quell":
-				x = -3.5
-				z = 2.5
-			var n := _make_unit(cast[i], NAMES.get(cast[i], cast[i]), COLORS.get(cast[i], Color.WHITE), cast[i] == "ksaabu")
-			n.position = Vector3(x, 0, z)
-			n.rotation.y = PI
+		var spots: Dictionary = STAGING.get(st.get("id", ""), {"dust": [0.7, 0.5], "ashe": [-0.7, 0.5]}).duplicate()
+		var stand: String = sc.stage.get("stand", "")
+		if stand != "" and st.get("id", "") in ["OP3", "OP4"]:
+			spots["dust"] = [-1.7, -0.8] if stand == "statda" else [1.7, -0.8]
+		for id in sc.stage.get("extras", []):
+			if id == "gangers":
+				for i in 12:
+					var g := _make_unit("ganger_%d" % i, "", COLORS.ganger.lerp(Color(0.5, 0.5, 0.55), (i % 3) * 0.3), false)
+					g.position = Vector3(-5.5 + (i % 6) * 1.1 + (0.5 if i >= 6 else 0.0), 0, 3.2 + (i / 6) * 1.0)
+					g.rotation.y = PI
+					g.remove_meta("tag")
+					unit_root.add_child(g)
+			elif EXTRAS.has(id):
+				spots[id] = EXTRAS[id]
+		for id in spots.keys():
+			var n := _make_unit(id, NAMES.get(id, id), COLORS.get(id, Color.WHITE), id == "ksaabu")
+			n.position = Vector3(spots[id][0], 0, spots[id][1])
+			n.rotation.y = PI if st.get("id", "") != "RUN" else 0.0
 			unit_root.add_child(n)
+		running = st.get("run", false)
+		run_t = 0.0
 		cam_target = Vector3(0, 1.0, 0)
-		cam_offset = Vector3(0, 2.2, 6.5) if loc != "lowlight_street" else Vector3(0, 2.5, 8.5)
+		cam_offset = Vector3(0, 2.2, 6.5) if loc != "lowlight_street" else Vector3(0, 2.6, 9.5)
+		if running:
+			cam_target = Vector3(0, 1.0, 6.5)
+			cam_offset = Vector3(0.5, 1.0, 3.6)
 		follow = false
 	_place_cam(true)
 
@@ -488,7 +537,9 @@ func _cull_walls() -> void:
 		var along: float = (w.position - cam.position).dot(fwd)
 		w.visible = not follow or along > focus
 
-## Behind and above the acting hero, over the right shoulder, looking at the enemy.
+## Behind and above the heroes, looking past them at the enemy (Jesse: "from behind the heroes, and up,
+## like over their shoulders"). Frames the whole party and the acting hero's reach, so every tile a player
+## might want to click stays on screen and above the HUD. Mouse wheel zooms.
 func _shoulder_goal() -> void:
 	var c = sc.combat if sc.combat != null else preview
 	if c == null:
@@ -504,22 +555,38 @@ func _shoulder_goal() -> void:
 	if u == null:
 		return
 	last_party_id = u.id
-	var me := Blockout.tile_pos(c.grid, u.pos)
+	var party := Vector3.ZERO
+	var np := 0
 	var foes := Vector3.ZERO
-	var n := 0
+	var nf := 0
 	for x in c.units:
-		if x.team == "enemy" and x.is_active():
-			foes += Blockout.tile_pos(c.grid, x.pos)
-			n += 1
+		if not x.is_active() or x.is_object() or x.hidden:
+			continue
+		var wp := Blockout.tile_pos(c.grid, x.pos)
+		if x.team == "party":
+			party += wp
+			np += 1
+		elif x.team == "enemy":
+			foes += wp
+			nf += 1
+	var me := Blockout.tile_pos(c.grid, u.pos)
+	party = (party / np).lerp(me, 0.5) if np > 0 else me
 	var dir := Vector3(0, 0, -1)
-	if n > 0:
-		var d := foes / n - me
+	if nf > 0:
+		var d := foes / nf - party
 		d.y = 0
 		if d.length() > 0.5:
 			dir = d.normalized()
+	var spread := 4.0
+	if nf > 0:
+		spread = clampf((foes / nf - party).length(), 4.0, 12.0)
+	var reach := float(u.move) + 1.0
+	var back := (4.5 + spread * 0.35 + reach * 0.35) * zoom
+	var up := (5.5 + spread * 0.4 + reach * 0.3) * zoom
 	var right := dir.cross(Vector3.UP).normalized()
-	cam_pos_goal = me - dir * 4.2 + right * 1.3 + Vector3(0, 3.6, 0)
-	cam_look_goal = me + dir * 4.5 + Vector3(0, 0.3, 0)
+	cam_pos_goal = party - dir * back + right * 1.0 + Vector3(0, up, 0)
+	# Look a little past the middle so the field sits above the HUD.
+	cam_look_goal = party + dir * (spread * 0.45) + Vector3(0, -1.2, 0)
 
 func _update_tags() -> void:
 	var live := {}
@@ -654,6 +721,9 @@ func _unhandled_input(e: InputEvent) -> void:
 			or (e is InputEventKey and e.pressed and e.keycode in [KEY_SPACE, KEY_ENTER])):
 		_do("next")
 		return
+	if sc.mode == "combat" and e is InputEventMouseButton and e.pressed and e.button_index in [MOUSE_BUTTON_WHEEL_UP, MOUSE_BUTTON_WHEEL_DOWN]:
+		zoom = clampf(zoom * (0.9 if e.button_index == MOUSE_BUTTON_WHEEL_UP else 1.1), 0.6, 1.6)
+		return
 	if sc.mode != "combat" or sc.combat.current() == null or sc.combat.current().team != "party":
 		return
 	if e is InputEventMouseMotion:
@@ -724,6 +794,14 @@ func _agent_step(instant := false) -> void:
 
 func _process(delta: float) -> void:
 	drift += delta
+	if running:
+		run_t += delta
+		var k := clampf(run_t / 3.2, 0.0, 1.0)
+		for n in unit_root.get_children():
+			var base_z := 7.0 if n.name == "ashe" else 8.2
+			n.position.z = lerpf(base_z, -5.5, k)
+			n.position.y = absf(sin(run_t * 11.0 + (0.0 if n.name == "ashe" else 1.3))) * 0.12 * (1.0 - k)
+		cam_target = Vector3(0, 1.0, lerpf(6.5, -5.0, k))
 	_place_cam()
 	frames += 1
 	if shot_path != "":

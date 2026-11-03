@@ -1,5 +1,5 @@
 {
- "_note": "Combat templates. Numbers are tuning placeholders (bible 03 \u00a73, \u00a76.7); personalities and lore live in docs/bible.",
+ "_note": "Combat templates. Numbers are tuning placeholders (bible 03 §3, §6.7); personalities and lore live in docs/bible.",
  "dust": {
   "name": "Dust",
   "glyph": "D",
@@ -511,6 +511,41 @@
    "max": 18,
    "accuracy": 72,
    "name": "Pistol"
+  }
+ },
+ "op_statda": {
+  "name": "Statda",
+  "glyph": "T",
+  "team": "party",
+  "level": 1,
+  "essential": true,
+  "role": "marksman",
+  "voice": "STD",
+  "hp": 85,
+  "speed": 115,
+  "move": 5,
+  "attrs": {
+   "might": 9,
+   "grace": 15,
+   "vigor": 9,
+   "perception": 15,
+   "resolve": 12,
+   "eternity": 7
+  },
+  "weapon": {
+   "kind": "ranged",
+   "range": 10,
+   "min": 18,
+   "max": 26,
+   "accuracy": 84,
+   "name": "Long rifle"
+  },
+  "abilities": [
+   "medkit",
+   "lock"
+  ],
+  "charges": {
+   "medkit": 2
   }
  }
 }

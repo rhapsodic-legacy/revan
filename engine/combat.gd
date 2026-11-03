@@ -12,6 +12,8 @@ const W_HEAVY := 1.3
 const W_HOLD := 0.25
 const DEFLECT_RADIUS := 2
 const MEND_COST := 6
+const MEDKIT_HEAL := 35
+const MEDKIT_RANGE := 2
 const PUSH_COST := 5
 const PASS_COOLDOWN := 3
 
@@ -25,6 +27,7 @@ var rng
 var narration: Array = []
 var time := 0.0
 var next_tick := {}
+var first_mover := ""            # scripted: this unit takes the first turn (e.g. a dialogue reward)
 var current_id := ""
 var bonus_turn := false
 var turn := {}
@@ -82,6 +85,9 @@ func start() -> void:
 	for u in units:
 		if u.can_act():
 			next_tick[u.id] = 1000.0 / u.speed
+	if first_mover != "" and next_tick.has(first_mover):
+		next_tick[first_mover] = 0.0
+		say("%s is ready for them: acts first." % by_id[first_mover].name)
 	say("Combat begins: %s. Objective: %s" % [arena_name, objective])
 	_advance()
 
@@ -493,6 +499,10 @@ func legal_actions() -> Array:
 			for t in units:
 				if t.team == u.team and t.is_active() and (t.downed_turns >= 0 or (t.can_act() and t.hp < t.max_hp)) and Grid.cheb(t.pos, u.pos) <= 5 and grid.has_los(u.pos, t.pos):
 					out.append({"id": "mend:%s" % t.id, "type": "mend", "target": t.id, "heal": mend_amount(u), "focus": MEND_COST})
+		if "medkit" in u.abilities and u.charges.get("medkit", 0) > 0:
+			for t in units:
+				if t.team == u.team and t.is_active() and (t.downed_turns >= 0 or (t.can_act() and t.hp < t.max_hp)) and Grid.cheb(t.pos, u.pos) <= MEDKIT_RANGE and grid.has_los(u.pos, t.pos):
+					out.append({"id": "medkit:%s" % t.id, "type": "medkit", "target": t.id, "heal": MEDKIT_HEAL, "left": u.charges.medkit})
 		for t in units:
 			if t.team == u.team and t.downed_turns >= 0 and not t.out and Grid.cheb(t.pos, u.pos) == 1:
 				out.append({"id": "revive:%s" % t.id, "type": "revive", "target": t.id})
@@ -650,6 +660,17 @@ func act(action_id: String) -> Dictionary:
 			if t.downed_turns >= 0:
 				t.downed_turns = -1
 				say("%s is back on their feet." % t.name)
+			_acted(W_NORMAL)
+		"medkit":
+			u.charges["medkit"] -= 1
+			var mt = by_id[found.target]
+			var mh := mini(MEDKIT_HEAL, mt.max_hp - mt.hp)
+			mt.hp += mh
+			say("%s patches up %s with her Medkit: +%d (%d left)." % [u.name, mt.name, mh, u.charges.medkit])
+			if mt.downed_turns >= 0:
+				mt.downed_turns = -1
+				say("%s is back on their feet." % mt.name)
+			emit("use", {"by": u.id, "what": "medkit"})
 			_acted(W_NORMAL)
 		"revive":
 			var r = by_id[found.target]
