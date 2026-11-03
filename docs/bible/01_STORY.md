@@ -27,6 +27,7 @@ Every world keeps its own defence fleet for its own skies. When the Srov ask wor
 
 ## 2. History (Jesse's canon)
 
+- **The Fall (~2,500 years ago):** civil war stretched across most of the galaxy; many worlds were sundered, and a way of life that spanned the galaxy was lost (some of it still lost). Before the Fall, the galaxy was governed by the **USNC (United Star Nations Council)**; the Galactic Unity replaced it. Countess Viviana comes from a forgotten pre-Fall super-soldier program.
 - **Vors Akulsa** knew of the **Immortal Empire** and its Emperor and built an **Armada** to face it. Juggernaut-class cruisers not seen in thousands of years tore through the core worlds, whose defence was people's own flotillas of smuggler craft with stolen laser cannons: **a hundred worlds fell in less than a hundred days.**
 - Akulsa took **Tyranus** from the Emperor's worlds as a child, to raise the most powerful apprentice he could against the Emperor. He told Tyranus he was captured from a world where families with children potent in Eternity are taken, the parents sacrificed and the children trained for the Emperor's Immortal Army, and that the Emperor cut down his mother and sacrificed his father to his dark gods. (In a way, true.) **The truth: the Emperor is Tyranus's father.**
 - **12 years ago: Vors Kultaka betrayed Akulsa**, an infamous act most people know. The Srov boarded Akulsa's ship. Akulsa was taken prisoner and memory-wiped, and so was his very young apprentice, Tyranus.
@@ -61,11 +62,49 @@ Ashe and Dust as mercenaries. Dust "won" the ***Galactic Companion*** (repainted
 ## 4. ACT I: The Rescue
 **Jesse's plot:** the Srov send Ashe and Dust (with Deena and K'saabu) to rescue **Princess Melonsi Ananna**, a powerful Srov Seer who was on a core world asking it to join the Srov hunt for the scattered Vors. Her party was betrayed from within and ambushed. All were thought dead, but her body was never found, so she's thought captured. Ashe believes the mission is a covert way to get him and Dust back into Srov training. The crew crash-lands in the city's slums (the Opening) and fights through the **urban neonpunk jungle** to rescue her.
 
-**[proposed] beats, for Jesse to approve or replace:**
-- The warehouse they crashed into belongs to a slum fence who wants paying for the wall; her job gets them the parts to repair the *Galactic C*.
-- The trail runs through the slums, a ruined roller-disco, and drowned undercity arcades.
-- Unity forces hunt the crew all act (they were flagged as a Vors ship).
-- **Where Melonsi is (Jesse's):** she escaped the clutches of Voidreaper and Kultaka, then *let herself* be captured by a powerful crime syndicate. Wrapped in cloaks, she works as the crime lord's apothecary, staying close enough that when dark forces come looking for her she can keep his mind free of them. She'd never admit it, but she's desperate, and doesn't know if she'll ever get out. The crew has to get her out of the syndicate's lair. [Syndicate and crime lord: original designs to propose.]
+### 4.1 The gang (Jesse's, 2026-11-03)
+When the crew crash-lands (the Opening), **gangers start yelling at them for crashing into their warehouse.** [Gang name: OPEN]
+- **Who they are:** a big gang, well connected, and a bunch of idiots (Jesse's touchstone: the punk gang in *Crocodile Dundee II*). Dangerous enough that Ashe's crew won't engage them lightly; idiotic enough that talking your way to a solution is easy enough.
+- **Morally ambiguous**, especially on a first playthrough. They are definitely a gang: they beat people up, are at war with other gangs (and kill other gangers), rob, vandalise, and even take slaves. But any slave who works for them for a year becomes a ganger, and they won't enslave children (**Ganger's Honour**). There is something endearing about these violent idiots: the dumpster-fire trash that even the dumpster rejected. They aren't prejudiced against any alien species and only care about **loyalty and competence.**
+- **The design point:** the player gets a very familiar circumstance (a home base, quests, humble beginnings, different ways to solve a mission), and will likely grow fond of the gang, or at least some of its members. It's the player's **first experience of long-term benefits from choices made**; the gang's turf becomes a home base of sorts.
+
+**The first confrontation (a dialogue tutorial).**
+- The player gets dialogue options, some **greyed out by stats and niche awarenesses.** Tutorial prompts explain that an outcome might not be immediately obvious, and that different outcomes are possible based on choices.
+- **Talk your way out (best):** an award with a humorous name ("Peaceful Idiots" or similar) and a dollop of XP, **more than fighting gives.**
+- **Fight (least optimal):** the least XP, the least gear, and no hookups (the gang opens up options for the area). If the player starts the fight, a prompt tells them **they can't win this fight, but can survive it by escaping the facility.**
+- **At war with the gang:** the player loses everything the gang offers, and the area becomes much harder. Fun for veterans, and it can come with an award (e.g. if certain members are dead by the end of the chapter).
+
+**Side content:** the gang leads to side quests, and perhaps an optional crewmate, **Taz the Spaz**, who wields an electro-axe and uses combat drugs.
+
+**The deal (likely outcome of meeting their leader).**
+- A couple of the other gangs are getting gear from **"Upside"** (the area beyond the slums; name tentative). It's weird that anyone would trade with gangers, and gangers don't have many Galactic Credits, so these non-retrofitted weapons aren't being bought outright. Something's not quite right. The gang doesn't really care; other gangs getting better weapons is bad for them.
+- If Ashe and his crew put a stop to it (wipe those gangs out, and maybe find the benefactor and "convince" them to deal with this gang, and only this gang), the gang will tell Ashe where to find the right parts to fix his ship. **In the meantime, they hold the *Galactic C* as collateral.**
+
+**Pointing the crew to Melonsi.** The gang says they kept their end of the bargain. They don't know anything about a princess in the slums ("if there was a princess who looked like that, we'd know"). But there are a couple of **cartels** the crew should introduce themselves to: brokers of information, far better placed to know Upside business or how to get it. **One cartel is known for trading secrets in return for things.** That's the first place, and it's where **Melonsi is hiding as the apothecary.**
+
+**Ashe's warning (earlier in the act).** Developers' excavations surface an **impossibly ancient vault**, from before **the Fall**. Ashe warns the gang that the plunder might be promising, but who knows what could be in such a thing. They go anyway.
+
+### 4.2 Return to the warehouse: the massacre (Jesse's)
+After rescuing Melonsi, the crew returns for the ship, and **everyone is dead.**
+- A creepy fog has settled over the area. Lights blink or are out; doors swing on their hinges. **Abominations** roam (six-legged dogs with glowing red eyes, and other shadow things), and the party must defeat them.
+- **Search reveals survivors** holed up in an old meat freezer: children and young mothers. Outside it, bodies hang upside down, drained of blood. (Shot: their shadowy silhouettes against a fire-lit wall, one bloody hand hanging in view, so the player deduces what they're seeing.)
+- The survivors can only speak of screaming, which stopped about 24 hours ago. One hands Ashe a **journal** while Melonsi heals the wounded.
+
+**The journal** (optional reading the player can keep; it opens dialogue options). It reads much like the ship captain's log in *Dracula*.
+- The gangers brought back many strange artefacts from the vault, including a **6-foot metal box**, clearly hollow (something inside bangs about when shaken), with no seam or lid, protected by an energy field that only a password on a keypad can disable.
+- Innocent tidings at first: gangers going missing, always ones alone and away from the others. Nothing odd there; all sorts of nasties roam the slums and pick off idiots who walk alone in the shadows.
+- But the disappearances were constant. People vanished from rooms where they were alone. People spoke of a tall, thin woman with ash-white skin and deadly beauty, who moved like a ghost and was thought to be one.
+- Gangers on high alert, safeties off, were taken without a shot fired. Someone looking through the treasure room saw the metal box **open**. Inside was a crimson sheet, like the bed a dead person would lie in.
+- Pages are unreadable from blood. It skips forward: *"They figured out... the she-ghost came in that metal box. They tried to kill it, and became its victims. Almost everyone is dead now. She hangs them upside down to get all their blood... Nosferatu... Nosferatu... That's what she is..."*
+
+### 4.3 Viviana aboard the *Galactic C* (Jesse's)
+- On the ship, **Melonsi senses Viviana right away.** They corner her, ready to kill her.
+- **Viviana's account:** she killed many gangers, the ones who tried to kill her. Everyone else was killed by the shadow monstrosities. She hangs the dead upside down not to feed, but because it's part of her **mental programming**: it causes fear in the enemies of the **USNC** (United Star Nations Council, the galactic federation before the Fall, which the Galactic Unity replaced). She can't help her programming; resisting it causes her severe mental pain. She didn't kill anyone who didn't try to kill her, but she did kill many gangers. (Images flash of the gangers she killed, alive as the player knew them.)
+- **Tone:** morally ambiguous and melancholic.
+- **Melonsi still wants to kill her,** and is dissuaded:
+  1. First, Viviana says the only reason the darkness creatures didn't get the people in the meat freezer is that she hung all those rotting bodies around it, **masking the scent.**
+  2. Second, Viviana asks Melonsi where she got an item she's wearing: very high fashion, something Viviana hasn't seen since before she was taken for experimentation. Bizarrely, this earns her more mercy than anything else she says. (Funny in the moment, and telling of how far Melonsi is from not being ego-driven.)
+- The dialogue here has lots of role-play opportunity; to be worked out together.
 
 Once aboard the repaired *Galactic C*, **Melonsi uses her power to force the crew to the Srov homeworld.**
 
@@ -161,8 +200,9 @@ Once aboard the repaired *Galactic C*, **Melonsi uses her power to force the cre
 ---
 
 ## 12. Open questions for Jesse
-1. **Act III–V crewmates:** ✅ picked (2026-11-03); see `08_CREW_CANDIDATES.md`. Still open: which act and world each joins on (incl. where Viviana is found), and the third crewmate in Hal's "Cogito ergo sum" scene.
+1. **Act III–V crewmates:** ✅ picked (2026-11-03); see `08_CREW_CANDIDATES.md`. Viviana joins in Act I (§4.3). Still open: which act and world each of the others joins on.
 2. **Act V:** which crewmates can die, and which choices decide it?
 3. **The Srov homeworld:** a name, and what the trials' "many paths" are.
 4. **The Rubricon of the Dark Seers:** full wording, to work out together.
 5. **Romance thresholds for Countess Viviana** (with Dust and with Ashe).
+6. **Act I names:** the gang, its leader, and the cartel Melonsi hides in (my Krell proposal in 08 §4 is still only a proposal). Is "Upside" the final name?
