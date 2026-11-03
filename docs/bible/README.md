@@ -85,7 +85,6 @@ The story is built on three nested reveals. To keep it cohesive through polishin
 2. **The Hollow (cave trial):** Dust fights a figure in black armour and a **black visor-mask with two white pinprick eyes**, with frost spreading around it. He cracks the mask and sees his own face. Players read it as "the darkness is me." Act V: it's the Emperor's mask, and the Emperor reminds him of the cave.
 3. **Ashe looks 25 and says he's 52** (strong Seers barely age; so does the Emperor). **Ashe's sword Morningwake** is white enamel with a gold sunburst. One chip shows **black lacquer beneath**. It is Akulsa's sword *Nightfall*, repainted.
 4. **Ashe's harp lullaby** is the Vors march, slowed down and played gently. Players who know the march theme can hear it.
-5. **The masked master's voice in the fragments** is Ashe's actor, heavily mask-filtered. On replay it's recognizable.
 6. **The Unbowed Vors kneel to Dust** as "the Grandmaster's boy," which players can read as far more than it is.
 7. **Ondine's dying words:** "Forgive me... and forgive *him*." She is looking at Ashe. Players assume she means herself.
 8. **The Candlemouth scripture** speaks of "the Son Who Was Carried Into Snow." The Tal Vorrun throne-vision shows a child carried through snow by a masked man.

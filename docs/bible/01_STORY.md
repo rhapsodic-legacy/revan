@@ -61,17 +61,12 @@ Every Unity world keeps its own fleet for its own skies. Nobody gives battleship
 
 ---
 
-## 3. Dust's memory fragments
-The fragments are **Tyranus's own memories**, from when he was a small boy at Akulsa's side: seen from a child's height, blurred at the edges, with the master always **masked** and his voice always filtered. Dust (and the player) piece together that he was someone close to the heart of the Vors. Ashe being Akulsa stays hidden until Kultaka says it in Act IV.
-
----
-
 ## 4. Act structure and pacing
 
 | Act | Title | Main location(s) | Hours | Ends with |
 |---|---|---|---|---|
 | Opening | **Fast and Hard** | The *Galactic C*, boarded and gliding | 0.6 | Crash into a warehouse in Lumenhaven's slums |
-| I | **The Princess of Seonha** | Lumenhaven (Unity core world) | 8 | Melonsi rescued (sort of); off-world escape; the first fragment |
+| I | **The Princess of Seonha** | Lumenhaven (Unity core world) | 8 | Melonsi rescued (sort of); off-world escape |
 | II | **Anchors** | Calder, Gallowmarket, Vesper (any order) | 13 | Dust learns he was close to Akulsa; the Beacon plan |
 | III | **Ashfall** | Ithrael, the Srov temple | 5 | The Hollow; Ondine dies naming him Tyranus; Melonsi's betrayal |
 | IV | **The Hollow Crown** | Tal Vorrun | 5 | Kultaka reveals Ashe is Akulsa |
@@ -105,7 +100,6 @@ Aboard the *Galactic C*, inbound to Lumenhaven on a Srov contract to find Prince
 
 **I-4 The B-Side (≈1.5h).** Melonsi's thread-sight follows the ambushers into the drowned arcades: a **Candlemouth** cell that has been snatching Seers off Lumenhaven's streets for the rogue Vors. **K'saabu's moment**: half the dungeon is underwater, and he goes where no one else can (solo underwater segment, his grunts subtitled). Boss: **Deacon Ninefingers**, who drowns Seers in candle wax. Evidence: the Candlemouths are selling captured Seers to "the Cardinal" (Kultaka). The betrayer's name: **Sir Halden Rook**, captain of Melonsi's own guard.
 
-**I-5 First fragment (≈0.25h).** In the B-Side, a Vors war-memorial. Dust touches its mask. **Fragment 1 (a child's view):** the bridge of a Juggernaut, seen from waist height; a war-table too tall to see over, a hundred worlds lit red; a masked man's gloved hand on his small shoulder, and a filtered voice: *"A hundred worlds. Then we can begin."* Dust comes to on the floor with a nosebleed. Ashe is the one who catches him, and Ashe has gone pale.
 
 **I-6 The Gala (≈1.5h).** Rook will sell Melonsi's location to Kultaka's buyer at the Founders' Gala in the Halo Spires. The crew infiltrates (social skill checks; Melonsi in her element; Deena in a borrowed gown demanding to be wined and dined). Then the lights die. **Kultaka appears** as a towering hologram, his cantors singing, and gives a sermon to the room: *"Lumenhaven. I've come to collect a debt your grandparents forgot they owed."* His assassins **the Three Graces** strike. Rook makes his move on Melonsi. Kultaka's holo finds Dust in the crowd, and its smile slows: *"Well. Look who's grown."* (Players: *he knows me.*) Boss: **the Three Graces + Rook** across a ballroom with collapsing light rigs.
 
@@ -114,21 +108,22 @@ Aboard the *Galactic C*, inbound to Lumenhaven on a Srov contract to find Prince
 **I-8 Running the blockade (≈0.75h).** The *C* is repaired. Unity Naval Command, rattled by the Gala, has locked down the planet. Escape: a ship-combat set piece (turn-based, small) through the orbital batteries that started the game, with a payoff: **K'saabu finally gets to commandeer a space station** (the Unity defense platform guarding the lane). The others go along with it because, this time, it's the only plan. Deena, furious: "Do *not* tell him this worked."
 
 **Act I bosses:** Scavenger King, Deacon Ninefingers, the Three Graces + Sir Halden Rook.
-**Act I end state:** the crew has Melonsi; Kultaka is real, and he knows Dust; the Srov want them home; Dust has seen himself, as a small boy, on a Vors warship.
+**Act I end state:** the crew has Melonsi; Kultaka is real, and he knows Dust; the Srov want them home; Kultaka seems to know Dust.
 
 **Act I to II bridge.** Before heading for Ithrael, the crew follows the Candlemouth ledgers: the stolen Seers were shipped to three places. Melonsi reads the list and stops: *"Calder. Gallowmarket. Vesper."* Dust: *"...those are mine."* They are the three places of his childhood: the village, the slave market, the place the Srov found him.
 
 ---
 
+> ⚠ **Acts II–V below are Claude's placeholder draft, not Jesse's plot.** Jesse is supplying the plot; replace these sections with it. Don't build anything from them until Jesse confirms.
+
 ## 7. ACT II: Anchors (Calder, Gallowmarket, Vesper, any order)
 
-Each world has five strands: **Anchor** (a false memory meets reality), **Harvest** (a Seer-abduction operation), a **companion quest**, an **ally** for the eventual Last Flotilla, and a **fragment** that unlocks a Weave ability. Level bands scale to the order chosen. Each world takes 3.5–4.5 hours.
+Each world has five strands: **Anchor** (a false memory meets reality), **Harvest** (a Seer-abduction operation), a **companion quest**, and an **ally** for the eventual Last Flotilla. Level bands scale to the order chosen. Each world takes 3.5–4.5 hours.
 
 ### II-A Calder: "The Village That Didn't Burn"
 Rain-sea world, stilt villages, bioluminescent tides, lantern-churches on sea-stacks.
 - **Anchor.** Dust's oldest memory: **Merrow's Reach** burning, his mother pushing him into a boat. It's intact. **Marta Fenn** opens the blue door. He knows her face; she has never seen him. Her son **Teo** died in the Hundred Days, aged six, when Vors guns hit the shipyard crèche. A Srov healer sat with him while he died and listened to him talk about home. **Dust's early childhood belonged to a dead boy.** Choice: *tell her / leave / stay for supper and let her believe.*
 - **Harvest + companion quest (K'saabu).** The **Candlemouths** run the lantern-churches and drown Seers in the **Quiet Graves** under the sea. K'saabu's mystery is solved: he is a **Calder deep-dweller**, a species the Candlemouths enslaved to tend the graves. He fled years ago and climbed aboard the first ship he found. The cult's **Choirmother** owned him. Boss: **the Choirmother** (tide mechanics; she speaks in every voice she drowned). K'saabu's choice: kill her / free the other deep-dwellers first (harder fight, big ally) / drag her into the deep.
-- **Fragment 2 (a child's view):** small Tyranus at the masked master's side on the bridge as the order is given over Calder. *"Fire."* Dust was standing right there when Teo died. **Unlocks: Gravefire Brand.**
 - **Clue:** Candlemouth scripture of **"the Son Who Was Carried Into Snow."**
 - **Ally:** Lantern Keepers and Calder fishing fleet (plus deep-dwellers, if freed).
 
@@ -139,7 +134,6 @@ Asteroid casino-station, slave auction under a disco ball, neon-noir.
 - **Harvest.** Kultaka's buyers purchase Seers at the Gilded Auction. Tonight's lot: a Vors prisoner in porcelain: **Seraphine Vey**. Free her (buy, gamble in "Jackpot Hymn", heist, or fight). She looks at Dust, and her hand goes to her mouth. *"...Oh, my little lord. What did they do to you?"* She kneels. She knows exactly who he is, and who he isn't, and she says nothing.
 - **Melonsi's quest.** Jack's trophy room holds the flight recorder of the **Seonha royal fleet**, her brother's flagship. Its last order bears the seal **AKULSA**. Melonsi: *"If Akulsa's soul really lives in anyone, I will cut it out of them."* She looks at Dust as she says it, and the romance starts to fray.
 - **Sable** attacks in the auction dome (round two; she withdraws at 25%). *"You don't remember the oath. We were seven. We swore it in blood, and you don't even remember."*
-- **Fragment 3:** a Tal Vorrun balcony in red lightning, seen from a child's height. Seraphine kneels to fix his collar; the masked master stands behind her. The filtered voice: *"Love is the first thing they'll take from him. Teach him to make them pay for it."* **Unlocks: Stitch.**
 - **Ally:** the Rim Runners (smuggler gunships).
 
 ### II-C Vesper: "The Glasswood"
@@ -148,7 +142,6 @@ A forest of ringing crystal trees.
 - **The Unbowed.** Old **Castellan Mordaine Hesk** and forty Vors veterans guard the wreck. They see Dust and **kneel**: *"The Grandmaster's boy! Akulsa's blood lives!"* (They mean it as a title. They don't know how true it isn't.) Ashe stays outside: crystal gives him headaches.
 - **Harvest.** Kultaka's excavators cut into the wreck for Akulsa's war-archive. Dungeon: the shattered, vertical *Last Hymn*. Boss: **the Reliquary Engine** (a dig-walker whose song shatters crystal floors).
 - **Seraphine's quest:** Akulsa's chapel and her shrine of masks.
-- **Fragment 4 (the big one, a child's view):** the Betrayal at the Glasswood. Kultaka's guns, the bridge splitting, the masked master thrown down under burning girders. Kultaka through the fire: *"It's over, my lord. Give me the boy."* The child steps between them with a smoky-gold sword raised. Srov gold flame floods in. Ondine's face. A needle of light at his temple. Black. (The master's mask never comes off.)
 - **Discoveries:** **Gravesong** (Tyranus's child-blade, reforged by Akulsa into a man's sword and left in the chapel). Akulsa's war-archive: the Narrows, Hesper's Cinder, and **the Ever-Throne**.
 - **Ally:** the Unbowed and the Juggernaut ***Requiem Indomitable***.
 
@@ -169,7 +162,7 @@ The Srov temple on Ithrael: a monastery carved into a salt cliff, with resonance
 
 **III-4 The raid (≈1.25h).** That night Kultaka's Juggernauts fall on Ithrael. Fighting retreat through the temple: doors, bells, chokepoints. Sable leads the ground assault.
 
-**III-5 The Hushword (≈0.5h).** Kultaka sings the old Vors oath across the burning temple, and Dust's eyes go black as memories flood him (**Fragment 5**: the oath sworn by two seven-year-olds, Tyranus and Sable). **Melonsi's betrayal:** the Council sent her to Lumenhaven with more than a message. She carries the **Hushword**, a trigger planted in Dust's mind that collapses him back into the wipe. Ondine orders her to speak it.
+**III-5 The Hushword (≈0.5h).** Kultaka sings the old Vors oath across the burning temple, and Dust's eyes go black. **Melonsi's betrayal:** the Council sent her to Lumenhaven with more than a message. She carries the **Hushword**, a trigger planted in Dust's mind that collapses him back into the wipe. Ondine orders her to speak it.
 > **Branch (Melonsi influence and romance):**
 > - **High:** she refuses. *"I've been told what to be my whole life. Not this."* Ondine turns to speak it herself.
 > - **Low:** she speaks it. Dust collapses, and the party must hold a ring around his body (a hard fight). Afterward Melonsi says only: *"I was ordered."*
@@ -190,7 +183,7 @@ The Vors throneworld: endless storm, red lightning, cathedral-fortresses the siz
 
 **IV-2 The Throne (≈0.75h).** The **Vors Throne** judges whoever sits. Dust sits. Vision: **a baby carried through snow by a masked man; a woman's body behind them; black flame on the horizon.** (Players: *Akulsa's origin? Mine?*) The throne neither accepts nor rejects him. Ashe won't enter the room.
 
-**IV-3 Sable (≈1h).** Final duel in the Hall of Oaths. If Dust has Fragment 5, he can speak the oath back. Redeemed: guest for Act V. Killed: she dies saying the oath alone.
+**IV-3 Sable (≈1h).** Final duel in the Hall of Oaths. If Dust has learned the oath, he can speak it back. Redeemed: guest for Act V. Killed: she dies saying the oath alone.
 
 **IV-4 THE HOLLOW CROWN (≈0.75h).** Dust claims the throne before the Vors captains; the Juggernauts' bells ring for him. Kultaka walks in, slow-clapping, cantors singing.
 > **KULTAKA:** "Oh, look at it. A boy in a borrowed crown. Is that what you think you are? His heir? His successor?" *(he laughs, delighted)* "You were his *shadow*, child. Three feet tall and following him everywhere. And the master himself..."

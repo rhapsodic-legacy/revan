@@ -12,7 +12,7 @@
 - **Personality:** a fledgling hero who is optimistic and incorruptible underneath a roguish, cocky charm. He's sure he can talk his way out of anything he talked his way into, and he's usually wrong; Ashe usually has to come and get him. He never leaves anyone behind. He jokes most when he's scared.
 - **Look:** lean, quick, unruly dark hair with a white streak over a small, round, too-neat scar at the left temple (the mark of the Srov mind-seal, not a rock). A battered spacer jacket over Srov-cut undershirt (the last thing he kept from the temple), fingerless gloves, boots that have been resoled three times.
 - **Sword: Kindling** (his own, made as a temple boy and rebuilt over the years). Slim, single-edged, eastern-style blade with a mismatched western knuckle-guard he added after a bar fight. Flame: **"sooty" gold with a black heart**. He thinks it's a quirk. Ashe has always told him not to kindle in public. At full strength (Act III) it burns **pure black**.
-- **Seer gift: the Weave.** He sees threads and the gaps between them. Early: Push, Pull, Mend (basic healing). Grows with each memory fragment.
+- **Seer gift: the Weave.** He sees threads and the gaps between them. Early: Push, Pull, Mend (basic healing).
 - **Voice:** young, warm, quick, wry; drops low and steady when he's dead serious, and those are the moments people remember.
 - **Arc:** a good kid learns he was raised at a conqueror's side and carries an emperor's blood, and has to choose, with all of it in him, to still be the kid who never leaves anyone behind.
 
@@ -24,7 +24,7 @@
 - **Sword: Morningwake / Nightfall.** A heavy, two-handed, curved blade in white Srov enamel with a gold sunburst guard, chipped at one corner to show **black lacquer beneath**. In Act IV the enamel shatters: it is **Nightfall**, with a black blade and a crown-of-thorns guard. Flame: dawnfire gold (forced, flickery) → **starless white**.
 - **Voice:** low, gravelly, unhurried drawl; a veteran's swagger and blunt, salty soldier-talk ("greaseballs," "scum paid to kill"); menace and charm in the same breath; chuckles under fire. Calls Dust "kid" and "moron," the second one fondly.
 - **Combat identity:** the commander. **Dawnsight** shows enemy intents on the timeline. **Vigil** intercepts attacks on an ally. **Command**: once per fight he gives an ally an extra Move. After the reveal: **Nightfall stance**, devastating, paid for in his own HP.
-- **Clues:** agelessness; the enamel chip; tactical brilliance "from the army"; flinching at Vors oath-song and the throne; he goes pale at Dust's first fragment.
+- **Clues:** agelessness; the enamel chip; tactical brilliance "from the army"; flinching at Vors oath-song and the throne
 
 ### 1.3 Deena Ateray
 - **Look:** blue-skinned alien, large expressive anime-style eyes, petite, bright coral hair tied up with a wrench through it, mechanic's overalls with a pistol holster and too many pockets, grease on her cheek like a beauty mark.

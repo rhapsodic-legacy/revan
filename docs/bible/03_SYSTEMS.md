@@ -73,7 +73,7 @@ Each character has **three talent trees** (about 12 nodes each), matched to pers
 ### 3.5 Dust: Weave trees and the Path
 - **Serenity tree (Srov):** control, protection, unraveling (Unravel, Hold Thread, Quiet Mind).
 - **Burn tree (Vors):** gravefire offense (Gravefire Brand, Black Bloom, Hunger).
-- **Voidweaver tree:** locked; **one node unlocks per memory fragment** (Fragment 1: Void Step; 2: Gravefire Brand+; 3: Stitch; 4: Unweave; 5: Oathbreaker). *The story directly unlocks the gameplay.*
+- **Voidweaver tree:** unlocks through story milestones (to be set once Jesse's plot for Acts II–V is in).
 - **Path meter (−100 Serenity to +100 Burn):** moved by choices. Strong Path unlocks capstones (Serenity 60+: *The Quiet*; Burn 60+: *Black Sun*). Middle path gets *The Unwoven*, a hybrid capstone.
 
 ---

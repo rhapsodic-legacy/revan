@@ -164,7 +164,6 @@ Battle: one standard battle theme per faction family (4), one boss theme per fac
 |---|---|
 | Dust | 19-year-old man, warm, quick, cocky charm, wry; drops low and steady when serious |
 | Ashe | Gravelly, clipped commander's baritone; sounds 50 with a 25-year-old's energy; dry menace and charm |
-| Akulsa (same actor, processed in fragments) | Same voice through a mask filter: band-pass, light metallic resonance |
 | Deena | Young woman, bright, fast, melodramatic, sing-song when flirting, outraged otherwise |
 | Melonsi | Young woman, precise, regal, unhurried, cool amused contempt that warms over time |
 | Seraphine | Early 30s woman, low, velvety, amused, theatrical, precise diction |
