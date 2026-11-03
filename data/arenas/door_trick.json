@@ -1,0 +1,22 @@
+{
+  "id": "door_trick", "name": "Test Arena 1: The Door",
+  "objective": "Defeat the thugs. Try closing and locking the door to split them up.",
+  "map": [
+    "################",
+    "#.....#........#",
+    "#.....#........#",
+    "#.....+........#",
+    "#.....#........#",
+    "#.....#........#",
+    "################"
+  ],
+  "door_hp": 50,
+  "units": [
+    {"template": "dust", "id": "dust", "pos": [2, 2], "facing": [1, 0]},
+    {"template": "deena", "id": "deena", "pos": [2, 4], "facing": [1, 0]},
+    {"template": "thug", "id": "thug_1", "name": "Thug 1", "pos": [9, 2], "facing": [-1, 0]},
+    {"template": "thug", "id": "thug_2", "name": "Thug 2", "pos": [12, 2], "facing": [-1, 0]},
+    {"template": "thug", "id": "thug_3", "name": "Thug 3", "pos": [9, 4], "facing": [-1, 0]},
+    {"template": "thug", "id": "thug_4", "name": "Thug 4", "pos": [12, 4], "facing": [-1, 0]}
+  ]
+}

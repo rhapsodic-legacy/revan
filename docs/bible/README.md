@@ -84,7 +84,7 @@ Clues (cheap now, pay off later): Ashe's agelessness; the black lacquer under th
 | Opening scenario + storyboard | Penned; refinements R1–R5 accepted |
 | Concept-art prompts | v1 |
 | Act I scenario | Not started |
-| Engine | Not started (repo: github.com/rhapsodic-legacy/revan) |
+| Engine | M1 engine core built: headless rules, AI, agent API, 3 test arenas (repo: github.com/rhapsodic-legacy/revan, branch engine-core) |
 
 ### Open questions for Jesse
 See `01_STORY.md` §12.
