@@ -1,0 +1,81 @@
+{
+ "id": "op_f1_lounge",
+ "name": "F1: The Lounge",
+ "objective": "Clear the boarders out of the lounge.",
+ "map": [
+  "##############",
+  "#............#",
+  "#.==..##..==.#",
+  "#............#",
+  "#............/",
+  "#.==..##..==.#",
+  "#............#",
+  "#............#",
+  "##############"
+ ],
+ "units": [
+  {
+   "template": "op_dust",
+   "id": "dust",
+   "pos": [
+    2,
+    3
+   ],
+   "facing": [
+    1,
+    0
+   ]
+  },
+  {
+   "template": "op_ashe",
+   "id": "ashe",
+   "pos": [
+    2,
+    5
+   ],
+   "facing": [
+    1,
+    0
+   ]
+  },
+  {
+   "template": "breacher",
+   "id": "breacher",
+   "name": "Breacher",
+   "pos": [
+    11,
+    4
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  },
+  {
+   "template": "trooper",
+   "id": "trooper_1",
+   "name": "Trooper 1",
+   "pos": [
+    11,
+    3
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  },
+  {
+   "template": "trooper",
+   "id": "trooper_2",
+   "name": "Trooper 2",
+   "pos": [
+    11,
+    6
+   ],
+   "facing": [
+    -1,
+    0
+   ]
+  }
+ ]
+}

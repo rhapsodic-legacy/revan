@@ -157,6 +157,8 @@ static func _actions_from(c, u, t: Vector2i, hostiles: Array, field: Dictionary)
 					sc += (1.0 - float(h.hp) / h.max_hp) * 8.0
 				if h.role == "leader":
 					sc += 3.0
+				if h.has_status("taunt"):
+					sc += 25.0
 			out.append({"id": "attack:%s" % h.id, "score": sc})
 	else:
 		var centers := {}

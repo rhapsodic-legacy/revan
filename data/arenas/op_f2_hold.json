@@ -1,0 +1,89 @@
+{
+ "id": "op_f2_hold",
+ "name": "F2: The Cargo Hold",
+ "objective": "Stop the boarders in the cargo hold.",
+ "map": [
+  "##############",
+  "#^^^^^^^^^^^^#",
+  "#^^^^^^^^^^^^#",
+  "#............#",
+  "#..##....##..#",
+  "#..##....##..#",
+  "#............#",
+  "#............#",
+  "#.##......##.#",
+  "#............#",
+  "#............#",
+  "#............#",
+  "#............#",
+  "######/#######"
+ ],
+ "units": [
+  {
+   "template": "op_deena",
+   "id": "deena",
+   "pos": [
+    4,
+    2
+   ],
+   "facing": [
+    0,
+    1
+   ],
+   "locked": [
+    "stun_grenade"
+   ]
+  },
+  {
+   "template": "op_ksaabu",
+   "id": "ksaabu",
+   "pos": [
+    6,
+    5
+   ],
+   "facing": [
+    0,
+    1
+   ]
+  },
+  {
+   "template": "trooper",
+   "id": "trooper_1",
+   "name": "Trooper 1",
+   "pos": [
+    5,
+    11
+   ],
+   "facing": [
+    0,
+    -1
+   ]
+  },
+  {
+   "template": "trooper",
+   "id": "trooper_2",
+   "name": "Trooper 2",
+   "pos": [
+    6,
+    12
+   ],
+   "facing": [
+    0,
+    -1
+   ]
+  },
+  {
+   "template": "trooper",
+   "id": "trooper_3",
+   "name": "Trooper 3",
+   "pos": [
+    7,
+    11
+   ],
+   "facing": [
+    0,
+    -1
+   ]
+  }
+ ]
+}

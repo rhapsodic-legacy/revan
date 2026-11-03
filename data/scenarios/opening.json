@@ -1,0 +1,569 @@
+{
+ "id": "opening",
+ "title": "Fast and Hard",
+ "act": "Opening",
+ "lines_file": "res://data/scenarios/opening_lines.json",
+ "altitude_per_round": 300,
+ "steps": [
+  {
+   "type": "scene",
+   "id": "OP1",
+   "title": "The Workshop",
+   "location": "galactic_c_workshop",
+   "setting": "The Galactic C's workshop, a converted passenger galley. Chrome, teal vinyl, a cassette deck playing low, tools everywhere. Through a porthole: Lumenhaven, a neon-lit planet ringed with orbital stations. Ashe, sleeves rolled, has his arm inside an open wall panel. Dust sits on a crate flipping a credit chip.",
+   "music": "galactic_c_theme",
+   "beats": [
+    {
+     "line": "OP1_ASH_01"
+    },
+    {
+     "line": "OP1_DST_01"
+    },
+    {
+     "line": "OP1_ASH_02"
+    },
+    {
+     "line": "OP1_DST_02"
+    },
+    {
+     "line": "OP1_ASH_03"
+    },
+    {
+     "line": "OP1_DST_03"
+    },
+    {
+     "line": "OP1_ASH_04"
+    },
+    {
+     "choice": [
+      {
+       "text": "Then why take the job?",
+       "beats": [
+        {
+         "line": "OP1_ASH_05"
+        }
+       ],
+       "effects": {
+        "influence.ashe": 1
+       }
+      },
+      {
+       "text": "Maybe I want to go back.",
+       "beats": [
+        {
+         "line": "OP1_ASH_06"
+        }
+       ],
+       "effects": {
+        "op.dust_wants_back": true
+       }
+      },
+      {
+       "text": "I'll charm her. Princesses love me.",
+       "beats": [
+        {
+         "line": "OP1_ASH_07"
+        },
+        {
+         "line": "OP1_DST_04"
+        },
+        {
+         "line": "OP1_ASH_08"
+        }
+       ],
+       "effects": {
+        "dust.charm": 1
+       }
+      }
+     ]
+    },
+    {
+     "choice": [
+      {
+       "text": "[Examine] Ashe's sword on the bench",
+       "beats": [
+        {
+         "narrate": "Morningwake: white enamel and a gold sunburst. One corner is chipped, and black shows through."
+        },
+        {
+         "line": "OP1_DST_05"
+        },
+        {
+         "line": "OP1_ASH_09"
+        }
+       ],
+       "repeat": true
+      },
+      {
+       "text": "[Examine] Kindling, your sword",
+       "beats": [
+        {
+         "line": "OP1_DST_06"
+        },
+        {
+         "line": "OP1_ASH_10"
+        }
+       ],
+       "repeat": true
+      },
+      {
+       "text": "(Leave it.)",
+       "beats": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "id": "OP2",
+   "title": "Under Fire",
+   "location": "galactic_c_workshop",
+   "music": "under_fire",
+   "beats": [
+    {
+     "narrate": "The ship jolts. Every light flickers. Through the porthole, streaks of orange: orbital battery fire."
+    },
+    {
+     "line": "OP2_SHP_01"
+    },
+    {
+     "line": "OP2_UNT_01"
+    },
+    {
+     "line": "OP2_DST_01"
+    },
+    {
+     "line": "OP2_ASH_01"
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "id": "OP3",
+   "title": "The Plan",
+   "location": "galactic_c_cockpit",
+   "music": "under_fire",
+   "setting": "The cockpit: wraparound windows, the planet filling the view, defence stations glittering in orbit, orange tracers. Deena comes skidding in, wrench in hand, coral hair half-down.",
+   "beats": [
+    {
+     "line": "OP3_DNA_01"
+    },
+    {
+     "line": "OP3_KSB_01"
+    },
+    {
+     "line": "OP3_DNA_02"
+    },
+    {
+     "line": "OP3_KSB_02"
+    },
+    {
+     "line": "OP3_DNA_03"
+    },
+    {
+     "line": "OP3_ASH_01"
+    },
+    {
+     "line": "OP3_DNA_04"
+    },
+    {
+     "line": "OP3_ASH_02"
+    },
+    {
+     "line": "OP3_DST_01"
+    },
+    {
+     "line": "OP3_DST_02"
+    },
+    {
+     "line": "OP3_ASH_03"
+    },
+    {
+     "line": "OP3_DNA_05"
+    },
+    {
+     "line": "OP3_ASH_04"
+    },
+    {
+     "line": "OP3_DNA_06"
+    },
+    {
+     "line": "OP3_DNA_07"
+    },
+    {
+     "line": "OP3_ASH_05"
+    },
+    {
+     "line": "OP3_DNA_08"
+    },
+    {
+     "line": "OP3_KSB_03"
+    },
+    {
+     "line": "OP3_ASH_06"
+    },
+    {
+     "line": "OP3_DNA_09"
+    },
+    {
+     "line": "OP3_DST_03"
+    },
+    {
+     "choice": [
+      {
+       "text": "It's a good plan.",
+       "beats": [
+        {
+         "line": "OP3_DST_04"
+        },
+        {
+         "line": "OP3_DNA_10"
+        }
+       ],
+       "effects": {
+        "influence.deena": 1
+       }
+      },
+      {
+       "text": "What if we took the station?",
+       "beats": [
+        {
+         "line": "OP3_KSB_04"
+        },
+        {
+         "line": "OP3_ASH_07"
+        }
+       ],
+       "effects": {
+        "influence.ksaabu": 2
+       }
+      },
+      {
+       "text": "Deena. We've got this.",
+       "beats": [
+        {
+         "line": "OP3_DNA_11"
+        }
+       ],
+       "effects": {
+        "influence.deena": 2
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "id": "OP4",
+   "title": "Boarded",
+   "location": "galactic_c_cockpit",
+   "music": "boarded",
+   "beats": [
+    {
+     "narrate": "A heavy CLANG. The whole ship lurches sideways. Red emergency lights flood the cockpit."
+    },
+    {
+     "line": "OP4_SHP_01"
+    },
+    {
+     "line": "OP4_ASH_01"
+    },
+    {
+     "altitude": 9000
+    },
+    {
+     "narrate": "ALTITUDE 9,000 m. It drops every combat round and every step between fights. It won't fail you; it decides how well Ashe lands."
+    }
+   ]
+  },
+  {
+   "type": "fight",
+   "id": "F1",
+   "title": "The Lounge",
+   "arena": "op_f1_lounge",
+   "location": "galactic_c_lounge",
+   "music": "boarded",
+   "intro": [
+    {
+     "line": "F1_ASH_01"
+    }
+   ],
+   "prompts": [
+    "The timeline at the top shows who acts next. Faster units act more often.",
+    "Move up to your Move range, then take one action. Seats give half cover.",
+    "The Breacher hits hardest. Dropping one enemy fast beats wounding three.",
+    "Attacks from the side or back hit harder.",
+    "Dust and Ashe can Mend: a small Eternity heal."
+   ],
+   "barks": [
+    {
+     "on": "down",
+     "team": "enemy",
+     "by": "Dust",
+     "line": "F1_DST_01"
+    }
+   ],
+   "outro": [
+    {
+     "line": "F1_ASH_02"
+    }
+   ]
+  },
+  {
+   "type": "walk",
+   "id": "T1",
+   "title": "Run to the hold",
+   "altitude": -500,
+   "beats": [
+    {
+     "narrate": "A short run aft down a tilted corridor; the floor is at an angle now. Cut to the cargo hold."
+    }
+   ]
+  },
+  {
+   "type": "fight",
+   "id": "F2",
+   "title": "The Cargo Hold",
+   "arena": "op_f2_hold",
+   "location": "galactic_c_hold",
+   "music": "boarded",
+   "intro": [
+    {
+     "line": "F2_DNA_01"
+    },
+    {
+     "line": "F2_KSB_01"
+    }
+   ],
+   "prompts": [
+    "Deena is very fast; she'll often act before enemies do. She's also brittle. Keep her in cover.",
+    "Deena carries one Stun Grenade. Save it; you'll want it later.",
+    "Pass Turn: Deena can give her turn to an ally, who acts immediately (cooldown 3). Try passing to K'saabu before the troopers spread out.",
+    "K'saabu is slow, but every cannon shot hits a 3x3 area. Here there's nothing to protect, so unleash him.",
+    "In many fights, civilians and delicate equipment will be in the blast. Move them first, or don't fire.",
+    "K'saabu can raise a personal shield and Taunt enemies into attacking him instead of Deena."
+   ],
+   "barks": [
+    {
+     "on": "cannon",
+     "by": "ksaabu",
+     "line": "F2_DNA_02"
+    },
+    {
+     "on": "hit",
+     "target": "deena",
+     "line": "F2_KSB_02",
+     "effect": {
+      "status": [
+       "ksaabu",
+       "taunt",
+       2
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "type": "walk",
+   "id": "T2",
+   "title": "Regroup",
+   "altitude": -500,
+   "beats": [
+    {
+     "narrate": "Ashe and Dust drop into the hold from a ceiling hatch."
+    },
+    {
+     "line": "T2_ASH_01"
+    },
+    {
+     "line": "T2_DNA_01"
+    },
+    {
+     "line": "T2_ASH_02"
+    }
+   ]
+  },
+  {
+   "type": "fight",
+   "id": "F3",
+   "title": "The Embarkation Bay",
+   "arena": "op_f3_bay",
+   "location": "galactic_c_bay",
+   "music": "boarded",
+   "intro": [
+    {
+     "narrate": "The crew crouches behind the check-in desk, looking through the open bulkhead at six boarders. Their uniforms match. Nothing else does: every weapon is different, battered, half-repaired."
+    },
+    {
+     "line": "F3_ASH_01"
+    },
+    {
+     "line": "F3_DST_01"
+    },
+    {
+     "line": "F3_ASH_02"
+    },
+    {
+     "line": "F3_DNA_00"
+    },
+    {
+     "line": "F3_DST_02"
+    },
+    {
+     "line": "F3_KSB_00"
+    },
+    {
+     "line": "F3_DNA_02"
+    },
+    {
+     "line": "F3_SGT_01"
+    },
+    {
+     "narrate": "Ashe chuckles. Dust gulps."
+    }
+   ],
+   "prompts": [
+    "Any character can Search as an action. Higher Perception spots more. Deena's Perception is very high.",
+    "The Sergeant's Deflector reflects ranged and AoE attacks fired into it. While it's up, K'saabu's cannon is dangerous near him. Think about how to separate him from his squad."
+   ],
+   "barks": [
+    {
+     "on": "insight",
+     "id": "door_battery",
+     "line": "F3_DNA_01"
+    },
+    {
+     "on": "cut_off",
+     "unit": "sergeant",
+     "door": [
+      11,
+      5
+     ],
+     "beyond_x": 11,
+     "line": "F3_KSB_01",
+     "flag": [
+      "op.f3.solution",
+      "door"
+     ]
+    },
+    {
+     "on": "deflector_down",
+     "line": null,
+     "flag": [
+      "op.f3.solution",
+      "backstab"
+     ]
+    },
+    {
+     "on": "down",
+     "target": "sergeant",
+     "line": "F3_SGT_02"
+    }
+   ],
+   "default_flag": [
+    "op.f3.solution",
+    "grind"
+   ],
+   "fail_hints": {
+    "reflected": "Firing into the Deflector bounced the shot straight back. Search first, or separate the Sergeant from his squad.",
+    "deena": "Deena went down in the open. Keep her in cover, and let K'saabu Taunt."
+   }
+  },
+  {
+   "type": "scene",
+   "id": "OP5",
+   "title": "Aftermath",
+   "location": "galactic_c_bay",
+   "music": "fast_and_hard",
+   "beats": [
+    {
+     "loot": [
+      "250 credits",
+      "Unity Sergeant's Deflector core",
+      "Medpack x2"
+     ]
+    },
+    {
+     "landing": true
+    },
+    {
+     "narrate": "On the Sergeant's body: under the Unity collar, a tattoo of a candle with an open mouth, and a data tape. Dust plays a second of it: the Galactic C's exact flight plan, filed privately with the Srov two days ago."
+    },
+    {
+     "set": {
+      "op.tipoff_found": true
+     }
+    },
+    {
+     "line": "OP5_DST_01"
+    },
+    {
+     "line": "OP5_ASH_01"
+    },
+    {
+     "narrate": "Ashe sprints for the cockpit. Deena is sitting on the floor against a luggage cart, pistol in her lap, staring at the body of the trooper she shot."
+    },
+    {
+     "line": "OP5_DNA_01"
+    },
+    {
+     "line": "OP5_DST_02"
+    },
+    {
+     "narrate": "He helps her up. K'saabu lumbers over and wraps both of them in an enormous, damp hug, lifting them off the floor."
+    },
+    {
+     "line": "OP5_KSB_01"
+    },
+    {
+     "line": "OP5_DST_03"
+    },
+    {
+     "narrate": "The ship's nose drops. The roar becomes a scream. The city's neon blooms out of the clouds, impossibly fast. The screen floods white."
+    },
+    {
+     "line": "OP5_DNA_02"
+    },
+    {
+     "narrate": "Black. One second of silence."
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "id": "OP6",
+   "title": "The Warehouse",
+   "location": "lowlight_street",
+   "music": "lowlight_rain",
+   "setting": "Morning-dark in the Lowlight. Rain. The Galactic C is embedded nose-first in the side of a warehouse, three storeys up, steaming, neon signs flickering around the hole. The 'hampion' on the hull is lit by a pink holo-advert for noodles.",
+   "beats": [
+    {
+     "line": "OP6_DNA_01"
+    },
+    {
+     "line": "OP6_KSB_01"
+    },
+    {
+     "line": "OP6_ASH_01"
+    },
+    {
+     "line": "OP6_DST_01"
+    },
+    {
+     "line": "OP6_ASH_02"
+    },
+    {
+     "narrate": "Below, a door bangs open. A short, furious woman in a neon raincoat, Mama Quell, glares up at them, a cleaver in one hand and an invoice already in the other."
+    },
+    {
+     "line": "OP6_MQ_01"
+    },
+    {
+     "narrate": "Act I begins."
+    }
+   ]
+  }
+ ]
+}
