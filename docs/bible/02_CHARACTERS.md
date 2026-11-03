@@ -1,6 +1,6 @@
 # 02: CHARACTERS (v2)
 
-> Every character is larger than life: a silhouette readable at PS1 resolution, a voice you could pick out of a crowd, a weapon that reflects them, and a combat kit that matches their personality (see `03_SYSTEMS.md` §6). Voice notes are binding for writers and for ElevenLabs.
+> Every character is larger than life: a silhouette readable at PS1 resolution, a voice you could pick out of a crowd, a weapon that reflects them, and a combat kit that matches their personality (see `03_SYSTEMS.md` §6). Voice notes are binding for writers and for ElevenLabs. **How each character talks, with rules and a line checklist, is in [09_CHARACTER_VOICES.md](09_CHARACTER_VOICES.md); it wins over the short voice notes here.**
 > **Party in combat: 4.** Dust is always in. Ashe is in most story fights.
 
 ---
@@ -23,7 +23,7 @@
 - **On Dust:** called him a moron for leaving the temple; let him stay as long as he "kept up." Rejects the Srov's title of Master: *"One must be a master, to be someone's Master."* Comes to get him, every time, without ever admitting that's what he's doing.
 - **Look:** tall, broad, a strong jaw, steel-grey eyes, close-cropped hair, old military coat with rank insignia torn off, a scar across the throat (Kultaka's blade), and very still hands.
 - **Sword: Morningwake / Nightfall.** A heavy, two-handed, curved blade in white Srov enamel with a gold sunburst guard, chipped at one corner to show **black lacquer beneath**. In Act IV the enamel shatters: it is **Nightfall**, with a black blade and a crown-of-thorns guard. Flame: dawnfire gold (forced, flickery) → **starless white**.
-- **Voice:** low, gravelly, unhurried drawl; a veteran's swagger and blunt, salty soldier-talk ("greaseballs," "scum paid to kill"); menace and charm in the same breath; chuckles under fire. Calls Dust "kid" and "moron," the second one fondly.
+- **Voice:** low, gravelly, unhurried drawl; a veteran's swagger and blunt, salty soldier-talk ("greaseballs," "scum paid to kill"); menace and charm in the same breath; chuckles under fire. Calls Dust "recruit" (a leftover from his military days; never "kid") and "moron," the second one fondly.
 - **Combat identity:** the commander. **Dawnsight** shows enemy intents on the timeline. **Vigil** intercepts attacks on an ally. **Command**: once per fight he gives an ally an extra Move. After the reveal: **Nightfall stance**, devastating, paid for in his own HP.
 - **Clues:** agelessness; the enamel chip; tactical brilliance "from the army"; flinching at Vors oath-song and the throne
 
@@ -40,7 +40,7 @@
 ### 1.4 K'saabu
 - **Look:** a 7-foot bipedal frog with mottled green-black skin, a gaping fang-lined maw, a heavy cannon slung under one arm (where anyone else would need a tripod), and a scrap of Deena's old scarf tied around his wrist.
 - **Personality:** devoted to Deena like a guard dog. Worships Ashe because Ashe always beats him in a fight. Gives Dust a hard time: insults him, shoves him out of the way, leaves him in tight spots. That's love: he thinks Dust is green and will get himself killed unless he wises up. He believes every problem has a straightforward solution, usually "commandeer a space station."
-- **Speech:** croaks and grunts. The crew understands him perfectly; everyone else thinks he's making noise. **UI gag:** when a crew member is listening, his lines are subtitled in brackets, e.g. *[Croak.] (We could take the station.)*. When strangers are the listeners, the subtitle just reads *[croak]*, and NPCs react to the noise.
+- **Speech:** croaks and grunts, **never translated or subtitled** (Jesse). The crew understands him perfectly; the player infers his meaning from their reactions. See 09 §5.
 - **Past (Jesse's):** K'saabu has a terrible amount of blood on his hands. He killed the people who tried to enslave his people, and when he was finally captured, he fought as a **gladiator**. He carries a darkness of his own: **bloodlust**. That's why he can relate to Dust's fear of the darkness in himself.
 - **With Ashe:** he respects Ashe enormously (Ashe always beats him). They can really bro out; Ashe was once Vors Akulsa, and both know what it is to have killed a great deal.
 - **With Dust:** the lovable but tough older brother.
@@ -158,7 +158,7 @@ Romances play out in Act VII, with Ashe's romance and Dust's going back and fort
 ## 6. Betrayals, tragedies, comedy [proposed; needs Jesse's plot]
 **Betrayals:** Kultaka → Akulsa · Rook → Melonsi (Act I) · the gangers' con on Dust (backstory) · the boarders' leak (opening) · Ondine → Dust · Velvet Jack → crew · Melonsi's Hushword · Seraphine's silence · Akulsa → Tyranus · Grane → Kultaka · the Emperor → Kultaka.
 **Tragedies:** Teo Fenn; Jin-Ha and Seonha's fleet; Ondine; Roxx's last party; K'saabu's people; Sable; Akulsa.
-**Comedy:** K'saabu's subtitles; Deena's doom poetry; the *Galactic C* paint job; Pim Pockets; Mama Quell's invoices; Velvet Jack's karaoke; Roxx; Dust talking himself deeper into trouble.
+**Comedy:** K'saabu ignored in the background; Deena's doom poetry; the *Galactic C* paint job; Pim Pockets; Mama Quell's invoices; Velvet Jack's karaoke; Roxx; Dust talking himself deeper into trouble.
 
 ## 7. Side quests [proposed, from earlier drafts; to be redone around Jesse's acts]
 | Quest | World | Hook |

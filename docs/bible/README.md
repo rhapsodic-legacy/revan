@@ -15,6 +15,7 @@ This folder is the **long-horizon memory** for the project. Any session (human o
 | `05_OPENING_SCENARIO.md` | The penned Opening ("Fast and Hard"), in the reusable **Scenario Spec** format, plus refinements R1–R6 | Building the vertical slice; authoring any later scenario |
 | `06_STORYBOARD_OPENING.md` | Shot-by-shot storyboard of the Opening | Cutscenes, cameras, audio timing |
 | `08_CREW_CANDIDATES.md` | Approved crew (Hal, Varga, Seraphine, Teodric, the Ledger, Countess Viviana, world-tied crew), Hal's "Cogito ergo sum" scene, races, classes, ship upgrades | Act III planning |
+| `09_CHARACTER_VOICES.md` | **How every character talks:** per-character voice sheets, pair rules, and the line checklist. Binding for all dialogue | Before writing any line |
 | `07_CONCEPT_ART_PROMPTS.md` | Image-generator prompts for concept art and Tripo turnarounds | Making concept art |
 
 ---
@@ -84,7 +85,7 @@ Clues (cheap now, pay off later): Ashe's agelessness; the black lacquer under th
 | Opening scenario + storyboard | Penned; refinements R1–R5 accepted |
 | Concept-art prompts | v1 |
 | Act I scenario | Not started |
-| Engine | Not started (repo: github.com/rhapsodic-legacy/revan) |
+| Engine | M1 engine core built: headless rules, AI, agent API, 3 test arenas (repo: github.com/rhapsodic-legacy/revan, branch engine-core) |
 
 ### Open questions for Jesse
 See `01_STORY.md` §12.
