@@ -42,6 +42,32 @@
 > K'baasu has nowhere else to do. He truly lives in the moment and one day at a time. He loves Deena and is loyal to the others. Today he admits he is excited. They're going on a rescue mission, where there are bound to be evil doers who need to be nuked by his cannon. K'baasu is well aware most people think he's a big brutish frog. Even his friends generally disregard everything he says (too violent, they say), except Statda.
 > For Statda, Deena and K'baasu; whatever they were planning that day for that mission, goes off the rails when the Galactic C gets attacked.
 
+
+**Jesse, 2026-11-03 10:17 (verbatim):**
+
+> K'saabu is correct.
+
+> There was an uprising by organised malcontents, that everyone called the Rebels (based on the Rebels from Star Wars). He believes he fought for Galactic Unity to put down the insurrection, was injured in action, and while in a medically induced healing coma, he was discovered by the Srov about 12 years ago.
+> --> The Rebels vs. Galactic Unity is an ongoing war, but now Ashe believes he 'sees the light', and isn't so sure the Rebels are the bad guys. He won't fight for Galactic Unity ever again, either way (as a mercenary, he's witnessed their corrupt ways).
+
+> 1) He doesn't sound like Quaritch. Remember how how Quaritch talk. "You have to keep training so you don't get soft. You get soft on Pandora, and it will chew you up, spit you out and use your eyes for beads. You got balls kid."
+>
+> He knows Dust from the Srov training. I told you this. Dust already looked up to him like a mentor.
+>
+> He calls Dust recruit. Not moron. I told you this too.
+>
+> He also doesn't have hazy memories before 12 years ago. No flashbacks. Nothing. The memory wipe is total. I've told you this too. He believes he's ex military.
+
+> As for Dust. He's not a horny dipshit. He's Luke Skywalker. I've told you this explicitly. He's an idealist who wants to save the galaxy. he's brutally intelligent, with a curious expansive mind. He's also scarily loyal to Ashe. When Ashe stops finding Melonsi attractive, Dust stops finding her attractive.
+> He just gets distracted by things 19 year old's typically do. You nailed him blushing though. When an attractive female shows him affection, he blushes and often freezes, not sure what to do.
+
+> One thing to add to Statda though... Dust blushes around her, but doesn't seem to have an eye for her. She finds it odd, as he's clearly into women. One day when she asked him to rate her out of 10, he said 'a stunning twelve'. But he never watches her backside, her chest, nothing.
+> (Dust is 'playing it cool', since hitting on someone never works with Deena, so he's trying the opposite approach with Statda).
+
+> I like all the little details you added. They can be cannon.
+> Deena you nailed.
+> K'saabu you nailed. he's hilarious.
+
 ---
 
 ## 0. The procedure (every scene, every time)
@@ -83,7 +109,10 @@
 ## 2. ASHE DAWNBRINGER
 
 **Touchstones [J]:**
-- **Voice:** *"Ashe talks a lot like Miles Quaritch from Avatar."* Borrow the cadence and the authority. Never quote the film.
+- **Voice:** *"Ashe talks a lot like Miles Quaritch from Avatar."* Borrow the cadence and the authority. Never quote the film in game dialogue.
+  - **Jesse's example of the cadence:** *"You have to keep training so you don't get soft. You get soft on Pandora, and it will chew you up, spit you out and use your eyes for beads. You got balls kid."* Hard, folksy, physical images; earthy praise ("you got balls"); toughness as care.
+  - **Jesse's own Ashe prose** (in `10_BACKSTORIES.md` Chapter 1) is the gold standard for his inner voice: drawled ("lookin'"), clipped, "Show me, don't tell me."
+- **Memory:** the wipe is total [J]. He has no hazy memories and no flashbacks. He believes, as plain fact, that he fought for the Unity against the Rebels, was injured, and woke with the Srov about 12 years ago [J].
 - **Mind:** *"He is 'Darth Revan', someone of profoundly strong and single minded disposition. He's a brutally capable leader because he can make decisions and orient his world around them."* [J]
 - **He is NOT Han Solo** [J]. He isn't a charming rogue trading quips. When he's funny, it's dry, it's a by-product of total certainty, and it lands like a verdict.
 
@@ -119,7 +148,7 @@
   - *"That's what gets you killed, if not all at once; it'll end you slowly. We may be Srov rejects, but we have the power inside us. We cannot let our eyes deceive our hearts or minds. Melonsi is poison. Good looking poison, but a deadly venom nonetheless."* [J]
 
 ### Always
-- **Calls Dust "recruit"** (a leftover from his military days) [J]. "Moron" is the fond insult.
+- **Calls Dust "recruit"** (a leftover from his military days) [J]. **Never "kid", never "moron"** [J].
 - **Teaches by asking.** *"What's your Sight on this?"* [J]. Lets Dust reason, then gives a curt verdict: *"I like it. Go on."* [J]
 - **Pulls focus back to the job:** *"Stay on target, recruit. The mission."* [J]
 - **Treats being called a dropout as an insult to correct, flatly:** *"I didn't drop out. I left."* [J]
@@ -150,44 +179,38 @@
 
 ## 3. DUST OF THE SUN
 
-**Touchstone [J]:** *"Luke Skywalker meets Han Solo"*, *"with an intrepid mind."*
-- **Luke:** earnest, idealistic, incorruptible, a bit naive. He gulps when he's worried [J] and blushes deep red when caught out about Melonsi [J].
-- **Han:** a spacer's swagger, a merc's street sense, cocky bravado and quick talk.
-- **The intrepid mind:** he outthinks people (the Council loophole, Hal's *"Cogito ergo sum"*) by asking calm, pointed questions until the logic closes around them.
+**Jesse, verbatim [J]:**
+> He's Luke Skywalker. I've told you this explicitly. He's an idealist who wants to save the galaxy. he's brutally intelligent, with a curious expansive mind. He's also scarily loyal to Ashe. When Ashe stops finding Melonsi attractive, Dust stops finding her attractive.
+> He just gets distracted by things 19 year old's typically do. You nailed him blushing though. When an attractive female shows him affection, he blushes and often freezes, not sure what to do.
 
-**Jesse, verbatim [J]:** *"I couldn't get a feel for Dust being a very relatable 19 year old young man. He looks up to Ashe like a hero figure. He thinks about sex every 7 seconds as is typical for someone his age."*
+> He's not a horny dipshit. [J]
 
-**What drives his voice:**
-- **He wants Ashe's respect,** and imitates him (*"Don't really matter... They won't live long enough to tell anyone about us."* [J]).
-- **He doesn't want his own ship. He wants to go in with Ashe** [J]. Loyalty, not ambition.
+> I couldn't get a feel for Dust being a very relatable 19 year old young man. He looks up to Ashe like a hero figure. [J]
 
-### How he talks
-- **Practical, street-level knowledge, delivered with confidence:** ships, prices, upkeep, who's selling what.
-  - *"Altenian design; you get more than what you pay for because they're such a pain to upkeep… but…"* [J]
-  - This is a spacer talking shop, not a nerd reciting facts.
-- **Reads a deal like a con man:** *"60'000 credits for a rescue op is a very tall payment; that tells me 'do not ask questions'."* [J]
-- **When he's reasoning, he rattles off a run of thought,** fast and confident [J], and lands on a sharp conclusion: *"Either this is certain death for us, or… there's more to the story we're not being told."* [J]
-- **Blunt, young first impressions:** *"She has a big sword, can ignite it… and she's rich?"* [J]
-- **Draws innocent conclusions** (*"Pirates."* [J]). He's sharp, but he believes the best of people.
-- **Bravado under fire.** He jokes when scared, but the joke is cocky ("I've got this"), never self-deprecating.
-- **When dead serious, he drops low and steady.** Those are the lines people remember.
+> (Ironically, Dust sees himself as Ashe's protector of sorts. 'The brains behind the brawn'.) [J]
 
-### Always
-- Treats Ashe as the authority while gently pushing his luck.
-- Asks the question nobody else thought to ask.
-- Never leaves anyone behind, and says so plainly when it matters.
+**With Statda [J]:** he blushes around her but doesn't seem to have an eye for her. Asked to rate her out of 10, he said *"a stunning twelve"*, but he never watches her backside, her chest, nothing. He's "playing it cool", since hitting on someone never works with Deena.
+
+**Jesse's lines for Dust (the gold standard):**
+- *"No… Once I have the credits I'll go in with you on a faster, more upgradable ship. I don't really have the yearn to captain my own ship."*
+- *"Yeah actually. Altenian design; you get more than what you pay for because they're such a pain to upkeep… but…"*
+- *"Nab some princess… are the photos real, she-"*
+- *"She has a big sword, can ignite it… and she's rich?"*
+- *"Right. I left the Srov too. Which makes me wonder why they would send us. Either this is certain death for us, or… there's more to the story we're not being told. 60'000 credits for a rescue opp is a very tall payment; that tells me 'do not ask questions'."*
+- *"Vors assault craft? This ship couldn't be mistaken for-"*
+- *"What does she want us to do, knock the pirates out of the sky? Let the planet defence guns do that."*
+- *"Pirates."* / *"Don't really matter. They won't live long enough to tell anyone about us."* (imitating Ashe)
+- The Council loophole (Act II) and *"Cogito ergo sum"* (Hal): calm, pointed questions until the logic closes.
 
 ### Never
-- **Nerd humour:** trivia, "statistically—", "I read the brochure", pedantic corrections, "well, actually", listing specs for a laugh.
-- Whining or sulking.
-- Cruelty. He's cocky, not mean.
-- Smoothness about women he's actually impressed by. He blushes.
-- Sounding older, wiser or more polished than 19. His sharp reasoning comes out in a young man's words, a little breathless and a little too pleased with itself.
+- Nerd humour: trivia, "statistically—", "I read the brochure", pedantic corrections.
+- Leering, or sexual inner monologue. He blushes and freezes; he doesn't ogle [J].
+- Disloyalty to Ashe, or an opinion of a woman that departs from Ashe's (*"When Ashe stops finding Melonsi attractive, Dust stops finding her attractive."* [J]).
+- Cynicism. He's an idealist who wants to save the galaxy [J].
 
-### Anti-examples (from my first draft)
-- ✗ *"It's in the brochure." / "I read the brochure."* A nerd joke. Dust knows the hull glides because he's a spacer who flew in her, not because he read the manual.
-- ✗ *"...Statistically—"* Again a nerd beat. If Dust is caught out ("Name one princess"), he blushes or bluffs. He doesn't cite numbers.
-- ✗ *"'Prepare to be destroyed' isn't really an option, it's more of a—"* A pedantic quip in a crisis. Dust's intrepid mind notices what's *wrong*, as in *"Vors assault craft? This ship couldn't be mistaken for-"* [J].
+### Anti-examples (from my drafts)
+- ✗ *"It's in the brochure." / "I read the brochure." / "...Statistically—"* Nerd beats.
+- ✗ Inner monologue about Statda in coveralls, or lingering over the princess photos. That's "a horny dipshit", which Jesse said he isn't.
 
 ---
 

@@ -4,178 +4,214 @@
 >
 > **Sources:** Jesse's canon in `01_STORY.md`, `02_CHARACTERS.md` and his notes of 2026-11-03 (quoted verbatim at the top of `09_CHARACTER_VOICES.md`). Jesse's own lines appear word for word.
 >
-> **What I had to invent:** to write scenes, I had to invent small specifics: a place, a gig, who said what on a given night. Each chapter ends with a list of those inventions. **None of them are canon until Jesse approves them.** None of them add lore or plot devices.
+> **What I had to invent:** to write scenes, I had to invent small specifics: a place, a gig, who said what on a given night. Each chapter ends with a list of them. None of them add lore or plot devices.
 >
-> **Canon kept in mind:** neither Ashe nor Dust knows his true past (both were memory-wiped twelve years ago). The prose never reveals it, and Dust has no flashbacks.
+> **Status (Jesse, 10:17):** "I like all the little details you added. They can be cannon." Deena and K'saabu: "nailed." Ashe and Dust are rewritten to Jesse's notes. Anything new in this draft is listed as **new** until Jesse approves it.
+>
+> **Canon kept in mind:** neither Ashe nor Dust knows his true past. The memory wipe is **total**: no hazy memories, no flashbacks, nothing. Ashe believes, as fact, that he fought for the Unity against the Rebels and woke with the Srov 12 years ago.
 
 ---
 
 ## Chapter 1: ASHE. "Recruit"
 
-The ship was quiet the way a barracks is quiet an hour before reveille. Ashe Dawnbringer liked it that way. Quiet meant nobody was bleeding.
+> *Told in Ashe's own voice, first person, following Jesse's passage. Jesse's paragraphs are verbatim (three typos fixed: "more an" → "more than", "upon" → "up on", "In idealist" → "An idealist").*
 
-He had his right arm buried to the shoulder in a wall panel of the workshop, feeling for a coupling he could have found blind, because he *had* found it blind, a dozen times, in this same rusted-out hull. Deena would chew him out for touching her ship. Let her. A man who couldn't fix his own transport didn't deserve to ride in it.
+Quiet morning. I like a quiet morning. Quiet means nobody's bleeding yet.
 
-On the bench behind him lay his sword. No enamel, no gold, no sunbursts or filigree or any of the other peacock nonsense the Srov hung off their blades. A claymore. Straight, heavy, plain steel, oiled that morning, edge dressed the night before. It looked like it had come off the anvil yesterday. That was the point. You could tell everything you needed to know about a soldier by the state of his kit.
+I had my arm shoulder-deep in a wall panel in the workshop, chasing a coupling that's been rattling loose since the last port. Deena'd skin me for touching her ship. She can try. A man who can't fix his own transport don't deserve to ride in it.
 
-*And the state of his recruit.*
-
-Dust was late. Dust was always late on a quiet morning, because Dust believed quiet mornings were for lying in his bunk thinking about women. Ashe knew this because he had been nineteen once. He was fairly sure of it. The years before the Srov sat in his head like a field kit packed by someone else: everything where it should be, nothing he remembered putting there. He didn't go digging. A soldier who kept checking his pack never marched anywhere.
+My sword was on the bench behind me. Plain claymore. Straight steel, no enamel, no gold, none of the jewellery the Srov hang off their blades so everybody knows how special they are. Oiled it this morning. Dressed the edge last night. Looks like it came off the anvil yesterday, and that's the point. You want to know what kind of soldier a man is, look at his kit. A man who lets his weapon go to rust is going to let his people go to rust right behind it.
 
 ---
 
-**Five years earlier.**
+I was a soldier before any of this. Galactic Unity. When the Rebels rose up, I went where they pointed me and I put the insurrection down, one dirty world at a time. I got good at it. I got hit, too, and hit bad. Last thing I remember of that war is the ground coming up to meet me. Next thing, I'm waking up in a Srov healing ward with a robe at the foot of the bed and some old Seer telling me I've got Sight.
 
-They called it an indefinite sabbatical. The Srov had a gift for words that meant *get out* in a voice that sounded like *bless you.*
+Twelve years, near enough.
 
-Master Ondren *(invented name)* had stood in the hangar with his hands folded in his sleeves and his face arranged into regret. "Your methods, Brother Ashe, are not the methods of the order."
+I'll tell you what I know now that I didn't know then. The Unity's rotten. Top to bottom. I've been a merc long enough to see it from the cheap seats: the bribes, the rent-a-goons in nice armour, the worlds they bleed dry and call it order. Maybe the Rebels had a point. Maybe they didn't. Either way, I ain't ever putting that uniform on again. I'll take pay from just about anybody. Not them.
 
-"My methods," Ashe said, "brought back eleven of your people alive from a mess your methods made. You're welcome."
+---
+
+The Srov taught me what they could. Taught me Sight. Taught me how to light a blade and how to sit still for six hours chanting about the light while the galaxy burned outside the window.
+
+What they couldn't teach me was how to stop being a soldier.
+
+There was a boy in that temple. Scrawny. Big dark grey eyes, always watching. Dust of the Sun, they called him. Fancy name for a kid who couldn't keep his robes clean. He'd show up at the edge of the training yard every time I was out there, and after a while I let him spar. He was quick. He was smart, smarter than me, honest to God, and he didn't know it yet. He looked at me like I'd hung the stars.
+
+You can't let a kid look at you like that. It'll get him killed. So I knocked him down every time he got up, and every time he got up again.
+
+Five years ago the Srov decided my methods weren't the methods of the order. Master Ondren stood in the hangar with his hands tucked in his sleeves, face all arranged into regret.
+
+"Your methods, Brother Ashe, are not the methods of the order."
+
+"My methods brought eleven of your people home breathing from a mess your methods made. You're welcome."
 
 "You executed the prisoners."
 
-"I executed the men who'd have cut those eleven throats the second we turned our backs. I'll do it again. Matter of fact, I'll do it cheaper next time, since I won't be on your payroll."
+"I executed the men who'd have cut those eleven throats the second we turned our backs. And I'll do it again. Cheaper, now I'm off your payroll."
 
-He'd walked up the ramp of his ship without looking back, because looking back is how you trip.
+They called it an indefinite sabbatical. The Srov got a gift for saying *get out* in a voice like *bless you*.
 
-Six hours out, somewhere past the edge of the Ithrael system, he'd heard something shift in the cargo hold. Not a crate. Crates don't breathe.
-
-He found the boy wedged behind a water tank, fourteen years old, all elbows and stubbornness, with a temple-boy's undershirt and a sword he'd built himself out of scrap and prayer.
-
-"Get up."
-
-The boy got up. Credit to him: his chin was shaking, but it stayed up.
-
-"I'm coming with you."
-
-"You're a moron," Ashe said. "You had three meals a day, a roof, and the best Seer training in the galaxy, and you threw it in a recycler to ride in a cargo hold. What's your name, moron?"
-
-"Dust. Dust of the Sun."
-
-"That's not a name. That's a weather report." He looked the kid over. Half-starved, sure, but the eyes were steady. "Here's the deal, recruit. You keep up, you stay. You fall behind, you get off at the next port and I don't look back. I don't carry dead weight."
-
-"I won't be dead weight."
-
-"Everybody's dead weight till they prove otherwise."
-
-The boy kept up. Ashe never told him he'd sat by the hold door that first night, listening to him cry in his sleep, until it stopped. Some things a commander keeps to himself.
+I walked up my ramp and didn't look back.
 
 ---
 
-The Srov had sent messages for a year. *Return the novice. The boy belongs to the order.* Then they'd stopped asking and sent a different message, one that named Ashe as the boy's Master, as if a title fixed anything.
+Six hours out, I heard something in the cargo hold that wasn't cargo.
 
-"One must be a master," Ashe had told the screen, before he switched it off, "to be someone's Master."
+I saw the scrawny kid, sitting behind the crates lookin' all scared with those large dark grey eyes.
 
-He'd never once called himself that. He'd called Dust *recruit*, because that's what he was. You don't get to be a soldier because you put on a uniform. You get to be a soldier when you've been tested, and the testing doesn't stop.
+"Get up recruit. Now."
+
+I knew there was no telling him to go back.
+
+He stood, nodded and didn't say anything.
+
+"You still got your sword?" I asked the kid.
+
+He nodded and actually smiled, pulling his curved two hander out of a black bag behind the crates.
+
+"You snuck that off base? Impressive." I said.
+
+Damned Srov don't let you go anywhere with a sword without their saying so.
+
+He told me about some impressive ploy, crawling through a duct so detectors didn't pick the weapon up on. It explained why he was covered in dust and grease.
+
+"I happen to need a number two right now, someone who can watch my back. You got Sight. So the spot's open for you, until I find someone better." I said.
+
+I wanted to clap the kid on the shoulder and congratulate him for having the balls to get away from the meddlesome Srov. But he needed to toughen up fast. This little stripling with those wide innocent eyes won't survive Merc' life more than a couple weeks if he doesn't realise how unfriendly most of space is.
+
+He was yammering about how he'd be the best number two ever.
+
+I cut him off. "Great. Show me, don't tell me. You can have the small room by the cockpit. It's the only other 1-bunk'er besides mine. Besides us there are exactly zero other crew for now. I'll hire some once we get some cred's....
+
+That was what, five years ago? Hard to believe this punk brat is turning into a man. An idealist hero with a death wish for standing up for the weak, but a damned fine warrior with the blade.
 
 ---
 
-The testing hadn't stopped. That was the thing gnawing at him this morning, worse than the coupling.
+The Srov sent messages for a year. *Return the novice.* Then they gave up and sent one naming me his Master, like a title fixes anything.
 
-They were making a name. That was fine. Names brought work, and work paid. But a name also brought eyes, and some of those eyes belonged to people who would happily put a knife in a nineteen-year-old who thought everyone was basically decent.
+"One must be a master," I told the screen, "to be someone's Master." Then I switched it off.
 
-Dust was good. Ashe wouldn't say it out loud, but he'd seen the boy think his way through a firefight like it was a puzzle box. Dust could read a room, read a deal, read a liar. He was starting to give orders without noticing he was doing it, and the scary part was that people were starting to follow them.
+I never called myself that. I call him recruit, because that's what he is. Putting on the uniform doesn't make you a soldier. Getting tested does, and the testing doesn't stop.
 
-But Dust still hesitated. In the half-second when a man raises a weapon, Dust still looked for the version where nobody had to die. That half-second would kill him one day. Not today, maybe. But one day Ashe wouldn't be standing behind him to finish what he'd hesitated to start.
+---
 
-*He needs to get meaner. He needs to learn that the man in front of you isn't owed a second chance just because you've got one to give.*
+And that's what's chewing on me this morning, worse than the coupling.
 
-The contract sat on the workbench beside the sword, a sealed Srov datacard with a fat number on it. **Sixty thousand credits.** A rescue. A princess.
+We're making a name. Fine. A name brings work, and work pays. But a name brings eyes too, and some of those eyes belong to folks who'd gut a nineteen-year-old idealist for the change in his pockets and sleep fine after.
 
-Ashe had read it twice and liked it less the second time.
+The recruit's good. Better than good. I've watched him think through a firefight like it was a puzzle box. He reads a room, reads a deal, reads a liar before the liar's done lying. He's started giving orders without noticing, and the scary part is people are starting to follow them.
 
-Princess Melonsi Ananna of Seonha. A Master of the order, whatever that was worth. He'd crossed her path a handful of times in the temple corridors: long enough to be scolded, whipped, or walked past. She was the order in miniature. Beautiful, rich, born certain she was right, and backed by an institution that had spent a thousand years telling her she was. The meddling control-freak Srov, and the brightest little jewel in their crown.
+But he still hesitates. Half a second, when a man raises a weapon, where the recruit's still looking for the version where nobody dies. Space'll find that half-second. It'll find it, crawl in, and take him apart from the inside. Maybe not today. But one day I won't be standing behind him to finish what he hesitated to start.
 
-He'd take their money. Money didn't care who'd held it last.
+He's got to get meaner. He's got to learn the man in front of you ain't owed a second chance just 'cause you got one to spare. And if he's going to run his own crew someday, I need to know if he wants it.
 
-And she was useful. Ashe wasn't too proud to admit it. Those curves of hers, that salty, beautiful face: men would walk off cliffs for a smile from that. Men *had*. The question that kept turning over in Ashe's head was simpler and colder than any contract.
+---
 
-*Can Dust see past it?*
+The contract was on the bench by the sword. Srov seal on it. **Sixty thousand credits.** A rescue. A princess.
 
-If not her, the next vixen. Or the one after that. There was always another one. The galaxy was full of beautiful things that would kill you if you let them, and a nineteen-year-old boy thought about women more often than he blinked.
+I read it twice. Liked it less the second time.
 
-Ashe pulled his arm out of the panel. The coupling was seated. He wiped his hands on a rag and looked at the sword on the bench, and then at the door, which slid open with the hiss of a boy who'd finally rolled out of bed.
+Princess Melonsi Ananna of Seonha. Master of the order, for whatever that's worth. I've crossed her path a handful of times in those white corridors, long enough to get scolded, whipped, or walked past. She's the Srov in miniature: beautiful, rich, born certain she's right, with a thousand-year-old institution behind her telling her she is. Meddling control-freak Srov, and she's the shiniest jewel in their crown.
 
-Dust came in with his hair wrecked and his jacket half on, carrying two mugs, one of which he held out.
+I'll take their money. Money don't care whose hand it was in last.
 
-Ashe took it. Didn't say thank you. Didn't need to.
+And she's useful. I'll give her that. Those curves of hers, that salty, beautiful face. Men'd walk off a cliff for one smile out of that. Men *have*. So here's the question I keep turning over, colder than any contract:
+
+*Can the recruit see past it?*
+
+If not her, then the next vixen. Or the one after that. Galaxy's full of beautiful things that'll kill you if you let 'em, and that boy's still young enough to let 'em.
+
+---
+
+I pulled my arm out of the panel. Coupling seated. Wiped the grease on a rag and looked at the door just as it hissed open.
+
+The recruit came in with his hair wrecked and his jacket half on, carrying two mugs. Held one out.
+
+I took it. Didn't say thank you. Didn't need to.
 
 *Time to find out.*
 
-"So," he said, settling his back against the bench. "Sixty thousand credits. What are you going to do with your cut, recruit? Buy your own ship?"
+"So," I said, leaning back on the bench. "Sixty thousand credits. What are you going to do with your cut, recruit? Buy your own ship?"
 
-Dust took a long sip, like he'd already thought about it. Like he'd thought about it a lot.
+He took a long sip, like he'd already thought about it. Like he'd thought about it a lot.
 
 > *[The Opening begins: "No… Once I have the credits I'll go in with you on a faster, more upgradable ship…"]*
 
-**Invented in this chapter (not canon until Jesse approves):**
-- **Master Ondren** (name), and the specific incident behind the sabbatical: eleven Srov brought back alive and prisoners executed. Canon says only "his methods" / "direct force".
-- **Dust found behind a water tank** six hours out.
-- **Ashe sitting by the hold door** the first night.
-- **Ashe's sense that his past is "a field kit packed by someone else".** This is my way of showing the memory wipe without revealing it.
-- **The "weather report" line** about Dust's name.
+**Details in this chapter:**
+- **Jesse's (verbatim):** the stowaway scene and "That was what, five years ago?…"; the Rebels war, injury, coma, and the Srov finding him.
+- **Mine, approved as canon by Jesse (10:17):** Master Ondren and the eleven/prisoners incident.
+- **Mine, new this draft (not canon until Jesse approves):**
+  - Ashe letting Dust spar at the edge of the training yard. Jesse's note says only that he knows Dust from Srov training and that Dust looked up to him like a mentor.
+  - "Smarter than me, honest to God."
 
 ---
 
 ## Chapter 2: DUST. "The Brains Behind the Brawn"
 
-Dust had been awake for an hour before he got up. Not lazy. Thinking.
+Dust had been awake for an hour before he got up. He'd been thinking.
 
-Partly about the money. Sixty thousand credits was more money than he'd ever seen in one place, and he'd seen a lot of places. Partly about the job. Mostly, if he was honest, about the photos in the Srov brief, which he had looked at for a professional amount of time and then for a somewhat less professional amount of time.
+About the job, mostly. Sixty thousand credits for a rescue was too much money. He'd turned the number over all night like a stone in his pocket. Nobody paid that much for a straightforward job, which meant it wasn't one. Either the Srov expected them to die, or there was a piece of the story they weren't being told. He'd fallen asleep somewhere around the fourth version of the answer and woken up with a fifth.
 
-*She's a target. She's a job. She's a princess who probably has people executed for looking at her wrong.*
+About the princess, a little. He'd looked at the photos in the brief, because you look at the target. She was... yeah. He'd felt his ears go hot, alone in his own bunk, which was ridiculous. Then he'd caught himself wondering how a Srov Master with an army of royal guards had gone missing on a Unity world in the first place, and that turned out to be a much more interesting question.
 
-He looked again anyway. Then he made himself put the datapad face-down on the bunk, because Ashe would know. Ashe always knew.
+And about a racing pod he'd seen in a port window two weeks ago. Seriously beautiful lines. Totally impractical. He'd thought about it more than he'd admit.
+
+He put the datapad face-down and got up.
 
 ---
 
-When he was seven, he'd woken in the temple medbay with a bandage on his head, and the first face he remembered was a healer telling him there'd been a cave-in. Before that there wasn't much: fog, mostly. The Srov told him he'd been lucky. He believed them. Why wouldn't he?
+When he was seven, he'd woken in the temple medbay with a bandage on his head and a healer telling him there'd been a cave-in. The Srov told him he'd been lucky. He believed them. Why wouldn't he?
 
-The temple on Ithrael was beautiful the way a cage made of gold is beautiful. Seven years of white stone and chanting, of masters who smiled while they told you no. They taught him to kindle a blade, and when his flame came up sooty gold with a black heart, the masters exchanged a look that Dust had spent years trying to forget.
+The temple on Ithrael was beautiful the way a cage made of gold is beautiful. White stone, dawn prayers, masters who smiled while they told you no. They taught him to kindle a blade, and when his flame came up sooty gold with a black heart, the masters exchanged a look that Dust spent years trying to forget.
 
-He'd spent most of those years at windows. Looking at the sky. At ships coming and going from the landing fields. At a life somewhere out there that was bigger than prayers at dawn.
+He spent most of those years at windows, watching ships lift off the landing fields, toward a galaxy that was out there *happening* without him. People in trouble. Worlds that needed somebody. The Srov were supposed to be the ones who helped, and they mostly seemed to be the ones who held meetings about helping.
 
 And then there was Ashe.
 
-Ashe didn't belong. Everyone knew it. He walked the cloisters like they were a parade ground. He carried a plain steel claymore when every other Srov carried something that looked like it had been designed by a jeweller with a grudge. He said what he thought, and what he thought usually made the masters go pale. Fourteen-year-old Dust had followed him around at a careful distance the way you'd follow a thunderstorm: fascinated, a little terrified, and absolutely sure this was the most interesting thing that had ever happened to him.
+Ashe didn't belong, and everybody knew it. He walked the cloisters like they were a parade ground. He carried a plain steel claymore when every other Srov carried something that looked designed by a jeweller with a grudge. He said what he thought, out loud, to masters' faces. When Dust started turning up at the edge of the training yard, Ashe let him spar. Knocked him down every single time. Never once told him to stop getting up.
 
-The day they sent Ashe away, Dust packed the sword he'd built himself, one undershirt, and nothing else, and climbed into the hold of Ashe's ship.
+Dust learned more in that yard than in seven years of prayers. He'd have followed Ashe into a sun.
 
-He was found six hours later. Ashe called him a moron. Dust had never been so happy to be insulted in his life.
+So when they sent Ashe away, he did the next best thing.
 
-"You keep up, you stay."
+He'd planned it for two days. Detectors on every exit picked up kindling blades, so he went through the ventilation instead, a long crawl through a duct with Kindling in a black bag dragging behind him, and came out in the hangar filthy with dust and grease. He hid behind the crates in Ashe's hold and tried not to breathe too loud.
 
-He kept up.
+Six hours out, the hold door opened.
+
+"Get up recruit. Now."
+
+He got up. Ashe asked if he still had his sword, and Dust couldn't help it, he smiled and pulled it out of the bag. Ashe said *impressive*. Dust replayed that word for about a week.
+
+"I happen to need a number two right now," Ashe said. "Someone who can watch my back. You got Sight. So the spot's open for you, until I find someone better."
+
+Dust had started telling him how he'd be the best number two in the galaxy, and Ashe had cut him off: *"Great. Show me, don't tell me."*
+
+He'd been showing him ever since.
 
 ---
 
-Five years of keeping up. Five years of rough ports and cheap gigs and learning things the Srov never would have taught him: how to read a bad deal before you sign it, how a man's hands move before he lies, how to haggle a mechanic down by a third and still have him like you. How to fight with a blade that wasn't for ceremony. He'd chipped Kindling's guard in a bar fight on some backwater, and he'd never fixed it, because it reminded him he'd won.
+Five years of it. Rough ports, cheap gigs, and all the things the Srov never would have taught him. How to read a bad deal before you sign it. How a man's hands move before he lies. How to fight with a blade that isn't for ceremony. He'd chipped Kindling's guard in a bar fight on some backwater and never fixed it, because it reminded him he'd won.
 
-Not everything went right. There was the race.
+He'd been wrong, too. The race, mostly. He'd seen the fix from three moves away and played the gangers who owned that chrome transport like a cheap synth. He'd won the ship. Then it turned out they'd *let* him win, so they could pin their own murders on him. Thirteen counts. Ashe got them out, and there was a planet in the galaxy neither of them could ever set foot on again.
 
-He still thought about the race. He'd been so *sure*. He'd seen the fix from three moves away, figured the gangers who owned that pretty chrome transport were too dumb to see him coming, and played them like a cheap synth. He'd won the ship. He'd been so proud he'd practically floated back to Ashe.
-
-It turned out the gangers had *let* him win, so they could frame him for murders they'd done themselves. Thirteen counts. By the time it shook out, Ashe had had to come and get him, the same way Ashe always came and got him, and there was a planet in the galaxy neither of them could ever set foot on again.
-
-They kept the ship, though. Somebody scratched out half the name on the hull and painted in new letters, and now she was the *Galactic C*. Every time Dust walked her corridors he felt equal parts pride and the itch at the back of his neck that told him he still had a lot to learn.
+They kept the ship. Somebody scratched out half the name and painted new letters, and now she was the *Galactic C*. Dust loved her. He also never walked her corridors without remembering he still had a lot to learn.
 
 ---
 
 Here was the thing nobody understood, not even Ashe.
 
-Everyone thought Ashe was the one looking after Dust. And sure. Ashe was the best fighter Dust had ever seen. Ashe could walk into a room of armed men and walk out alone. But Ashe solved everything by going straight through it. Ashe made a decision and then bent the whole universe around it, and most of the time the universe bent.
+Everyone thought Ashe was looking after Dust. Sure. Ashe was the best fighter Dust had ever seen. But Ashe solved every problem by going straight through it. He made a decision and then bent the universe around it, and most of the time the universe bent.
 
 *Most* of the time.
 
-Somebody had to be thinking about the times it wouldn't. Somebody had to see the trap before Ashe walked into it with his sword out. Somebody had to talk them out of the corners Ashe was perfectly happy to fight his way out of.
+Somebody had to be thinking about the other times. Somebody had to see the trap before Ashe walked into it with his sword out, and talk them out of the corners Ashe was perfectly happy to fight his way out of.
 
-The brains behind the brawn. That's what Dust was. He'd never say it out loud. Ashe would laugh at him, or worse, *not* laugh, and give him that long flat look that meant *prove it, recruit.*
+The brains behind the brawn. Dust would never say it out loud. Ashe would give him that long flat look that meant *show me, don't tell me.*
 
-So he didn't want his own ship. That was the funny thing. Every merc his age dreamed of a captain's chair. Dust had thought about it. He'd actually lain awake running the numbers. But a ship of his own meant Ashe on one ship and Dust on another, and that meant nobody watching Ashe's back when he walked into the next room full of guns because he'd decided to.
+So he didn't want his own ship. Every merc his age dreamed of a captain's chair. But his own ship meant Ashe on one deck and Dust on another, and nobody watching Ashe's back. *No way.*
 
-*No way.*
-
-What he wanted was a better ship. One they could both stand on. Something with teeth.
+What he wanted was a better ship. One they could both stand on, fast enough to outrun trouble and strong enough to take the jobs that actually helped people.
 
 ---
 
@@ -183,36 +219,38 @@ He passed Deena in the corridor on the way to the galley. She was elbow-deep in 
 
 "Morning, Deena."
 
-"Don't talk to me, I'm in a relationship with this capacitor and it's going badly." She glanced up. "You look like you slept in a trash compactor."
+"Don't talk to me, I'm in a relationship with this capacitor and it's going badly." She glanced up and smiled at him, slow and warm, the way she sometimes did. "You look cute when you haven't slept, you know that?"
 
-"I slept great."
+Dust froze. His face went hot. His mouth opened, and absolutely nothing came out of it.
 
-"You were looking at the princess photos again."
+Deena laughed and went back to her capacitor.
 
-His face went hot. "I was *studying the brief.*"
+He walked the rest of the way to the galley wondering what he was supposed to have said.
 
-"Uh huh." She went back to her capacitor, but she was smiling. Deena flirted with everybody, so it didn't mean anything. Probably. He spent the whole walk to the galley wondering if it meant anything.
+---
 
-*Focus. Job. Sixty thousand credits. Not Deena. Not the princess. Not the way Statda looks in those coveralls when she's—*
+He poured two mugs of the black sludge Ashe called coffee and carried them to the workshop. Ashe was leaning on the bench with grease up to the shoulder, the plain claymore lying behind him like it had been forged that morning.
 
-*Focus.*
-
-He poured two mugs of the black sludge Ashe called coffee and carried them to the workshop, where Ashe was leaning against the bench with his arm still smeared with grease, and the plain claymore lying behind him like it had been forged that morning.
-
-Dust held out one mug. Ashe took it without a word. That was as good as a thank-you, from Ashe. Maybe better.
+Dust held out one mug. Ashe took it without a word. From Ashe, that was as good as a thank-you.
 
 "So," Ashe said. "Sixty thousand credits. What are you going to do with your cut, recruit? Buy your own ship?"
 
-Dust took a long sip. He already knew the answer. He'd known it for years.
+Dust took a long sip. He already knew the answer. He'd known it for five years.
 
 > *[The Opening begins: "No… Once I have the credits I'll go in with you on a faster, more upgradable ship. I don't really have the yearn to captain my own ship."]*
 
-**Invented in this chapter (not canon until Jesse approves):**
-- **The masters' look** at Dust's sooty flame (temple days).
-- **Dust watching Ashe** in the cloisters before he left.
-- **The bar-fight chip on Kindling's guard.** Jesse put the chip on Dust's sword "for character"; the bar fight was already the guard's story in 02.
-- **The race** told from Dust's side. The facts are canon; the feelings are mine.
-- **The corridor exchange with Deena,** and Dust noticing Statda.
+**Details in this chapter:**
+- **Jesse's:**
+  - the stowaway scene (the duct, the black bag, "Get up recruit. Now.", "Show me, don't tell me");
+  - Dust as Luke (idealist, brutally intelligent, curious, scarily loyal);
+  - blushing and freezing when a woman shows him affection;
+  - "the brains behind the brawn";
+  - not wanting his own ship.
+- **Mine, approved as canon (10:17):** the masters' look at his flame, the bar-fight chip, the race told from his side.
+- **Mine, new this draft (not canon until Jesse approves):**
+  - the training-yard sparring;
+  - the racing pod in a port window (a 19-year-old's distraction);
+  - Deena's "You look cute when you haven't slept".
 
 ---
 
@@ -447,7 +485,11 @@ Deena: gorgeous, brilliant, totally oblivious to how gorgeous and brilliant she 
 
 Ashe: impossible, infuriating, remorseless. He knew perfectly well she had no interest in him, which apparently made it open season. He made at least one filthy remark about her every day, purely for sport. She had started rating them out of ten.
 
-Dust: a sweetheart. A sweetheart with a laser sword who couldn't look at a woman without turning the colour of a ripe tomato. She liked him. Sometimes she even wondered what he'd be like in ten years. Then she'd stop wondering, because the kid had just fallen over a crate.
+Dust: a sweetheart with a laser sword. Also a puzzle. He blushed every time she so much as smiled at him, so he was clearly into women. But he never looked. Not at her backside, not at her chest, nothing. One day, purely as an experiment, she'd asked him to rate her out of ten.
+
+"A stunning twelve," he'd said, perfectly calm, and gone back to cleaning his sword.
+
+Then he'd turned red to the ears. But he still didn't look. She'd been trying to work it out ever since. *(Jesse: he's "playing it cool", since hitting on someone never works with Deena, so he's trying the opposite approach with Statda. Statda doesn't know that.)*
 
 K'saabu. Everyone else heard a big, scary, violent frog. Statda heard a strategist. Underneath the croaks and the cannon was a mind that saw the whole board at once: who wanted what, and where the soft points were. His conclusions were insane, of course. *Commandeer the space station* was not a plan for a five-person crew. But his reasoning was sound, and sound reasoning was rare on this ship. She told him so. He'd looked at her for a long time afterwards, and since then he'd stood a little closer to her in fights. She didn't know what that meant in frog. She liked it anyway.
 
@@ -489,13 +531,12 @@ The second was that her rifle was still in the med bay.
 - **Ashe's lines to her:** "You're hired. Glasses are a nice touch…", "That was the dumbest damn thing I've ever seen a smart woman do", "It's a pity offer."
 - **Deena's exact words** turning her down.
 - **Statda rating Ashe's remarks out of ten.**
+- **The "stunning twelve" moment** is Jesse's; its staging is mine.
 - **K'saabu standing closer to her in fights.**
 - **Her realisation at the end.** Jesse's "Crap! My rifle's in the med bay!" comes *later*, under fire; I only set it up here.
 
 ---
 
 ## Open for Jesse
-1. **Spelling:** your recent messages write **K'baasu** (and once K'bassu). The bible uses **K'saabu**. Which is correct?
-2. **Ashe's belief about his own past.** Canon says he's ex-military and believes himself in his early fifties. I kept his army unnamed and his memories vague ("a field kit packed by someone else"). Does Ashe believe in a specific army, war or rank?
-3. **Each chapter's "Invented" list.** Keep, change or cut each item.
-4. **Mama Quell** (you said I can decide), **Melonsi**, **Viviana** and **Taz**: I can write these as chapters next in the same style.
+- **New details in Ashe's and Dust's chapters** are listed at the end of each. Keep or cut.
+- **Next, if you want them:** Mama Quell (yours to leave to me), Melonsi, Viviana and Taz, in the same style.

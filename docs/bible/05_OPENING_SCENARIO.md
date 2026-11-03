@@ -102,7 +102,7 @@ Rules: respect canon locks and the reveal ledger; every character speaks in thei
 > **OP1_DST_03** — DUST: "They didn't throw me out. I left."
 > **OP1_ASH_04** — ASHE: "You stowed away in a fuel locker and threw up on my boots." *(beat)* "This is a leash, kid. They want us back in robes. Rescue the princess, come home, all is forgiven. I don't want to be forgiven."
 > ▸ **"Then why take the job?"** → **OP1_ASH_05**: "Because the pay's good, and because the princess is still a person in trouble. I'm not a monster. I'm a monster who reads contracts." `[ashe +1]`
-> ▸ **"Maybe I want to go back."** → **OP1_ASH_06**: *(he finally looks at Dust; a long, unreadable look)* "...Then you're a bigger moron than I raised." *(beat)* "Than I *put up with*." `[flag op.dust_wants_back]`
+> ▸ **"Maybe I want to go back."** → **OP1_ASH_06**: *(he finally looks at Dust; a long, unreadable look)* [REMOVED: Ashe never calls Dust "moron" (Jesse). Rewrite pending.] `[flag op.dust_wants_back]`
 > ▸ **"I'll charm her. Princesses love me."** → **OP1_ASH_07**: "Name one princess." / **OP1_DST_04**: "...Statistically—" / **OP1_ASH_08**: "That's what I thought." `[dust charm +1]`
 
 **Optional examines (walkable workshop):**
