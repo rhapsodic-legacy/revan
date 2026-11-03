@@ -11,11 +11,11 @@
 
 ## 1. The android (Jesse's brief: inspired by the relentless-machine-soldier archetype; an original design)
 
-### HALVARD-7, "Hal" — story-essential candidate
+### HALVARD-7, "Hal" — ✅ APPROVED by Jesse (2026-11-03), story-essential
 - **What it is:** a hunter-killer combat android built in secret by the Unity during the Hundred Days to assassinate Vors officers. Decommissioned and sold for scrap when the war ended; reactivated by the crew.
 - **Look (original):** 2 m, a heavy gunmetal chassis with riveted plating, a smooth porcelain-white face plate with **no mouth**, and two amber optic slits that narrow when it's computing. One forearm is a fold-out rotary cannon. Crude Unity serial stencils, half scraped off. It never wears clothes and doesn't understand why anyone does.
 - **Personality:** terse, literal, relentless; an unshakable mission focus. Calculates everything aloud in percentages. **Contempt for romance**, which it drops into conversations at the worst moments: *"Romantic attachment reduces squad combat efficiency by an estimated thirty-one percent. I am filing a complaint."*
-- **Hook to the story [proposed]:** its kill list still contains one name it was never able to reach: **Vors Akulsa.** When Ashe is revealed in Act VI, a dormant directive wakes up. Does Hal follow its programming, or the crew? (Player influence decides.)
+- **Hook to the story (approved):** its kill list still contains one name it was never able to reach: **Vors Akulsa.** When Ashe is revealed in Act VI, a dormant directive wakes up. Does Hal follow its programming, or the crew? (Player influence decides.)
 - **Combat:** Heavy / Gunner. Slow, enormous HP, Overwatch specialist, armour-shredding shots, can't be healed by Mend (needs Deena's repairs).
 
 ## 2. Other story-essential candidates
