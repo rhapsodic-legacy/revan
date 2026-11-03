@@ -52,7 +52,8 @@ Hal realises he can never kill Ashe; Ashe is way too powerful. But his mission p
 
 *Innocent chatter plays out. Fade to white.*
 
-**Open for Jesse:** who the third crewmate is, and when exactly the scene happens (after the Act VI reveal is the natural fit, since that's when the directive wakes).
+**Third crewmate (Jesse, 2026-11-03):** whoever is in the player's 4-person party when this battle unfolds. It could instead be a specific person, decided when we reach that chapter. Jesse floated **Viviana** as the fourth when Hal rebels against Akulsa/Ashe: her programming torments her the way Hal's does, which helps them bond hard.
+**Open:** exactly when the scene happens (after the Act VI reveal is the natural fit, since that's when the directive wakes).
 
 ## 2. Story-essential crewmates (✅ approved by Jesse, 2026-11-03)
 
@@ -79,7 +80,11 @@ Hal realises he can never kill Ashe; Ashe is way too powerful. But his mission p
   - Opposites: Melonsi is an entitled, stuck-up princess; Viviana is a ruthless killing machine. Melonsi is a Seer of Eternity who understands how small one individual is; Viviana believes the individual is everything.
 - **Romance:** she is a romance option (Jesse: both she and Melonsi "make very interesting romance choices"). Thresholds for Dust and for Ashe: **OPEN for Jesse.**
 - **Grand Ball:** whether romanced or not, the ball feels Viviana's and Melonsi's presence (both get ball scenes).
-- **Open for Jesse:** which act and world she's found on; her combat role (my suggestion when you want one: a fast melee Duelist with life-drain, kept distinct from the Emperor's drain by being blood-based, not Dark Seer power).
+- **Where she's found (Jesse's):** Act I. The gang that holds the *Galactic C* plunders a pre-Fall vault and brings back her sealed metal box; she wakes, and the warehouse becomes a massacre. She's found aboard the ship. Full beats: `01_STORY.md` §4.1–4.3.
+- **Her programming (Jesse's):** she hangs the dead upside down because it's her conditioning (it sowed fear among the enemies of the USNC), not to feed. Resisting it causes her severe mental pain. She killed only those who tried to kill her.
+- **A wild card (Jesse's):** she makes romantic and sexual come-ons to women and men alike. When she learns Hal thinks romance is stupid and a waste of time, she is **relentless** with innuendo at him.
+- **Bond with Hal:** both are bound by programming they can't fully resist; they bond hard.
+- **Open for Jesse:** her combat role (my suggestion when you want one: a fast melee Duelist with life-drain, kept distinct from the Emperor's drain by being blood-based, not Dark Seer power).
 
 ## 3. World-tied crewmates (Act III; built from templates) — ✅ Jesse loves all of them (2026-11-03); worlds and Act V stakes stay [proposed]
 Each one belongs to a world. Their personal quest happens there, and in Act V the second invasion reaches that world.
@@ -88,7 +93,7 @@ Each one belongs to a world. Their personal quest happens there, and in Act V th
 |---|---|---|---|---|
 | **ROXXY-7, "Roxx"** | Droid / Support (DJ) | Lumenhaven (neon city) | Roller-disco hostess robot; has hosted parties for nobody for 13 years | Her rink, rebuilt with the crew's help, is bombed |
 | **Pim Pockets** | Human / Tech (merchant) | Anywhere | The worst arms dealer in the galaxy ("Now 30% less exploding!") | Stays behind to cover an evacuation |
-| **Mama Quell** | Human / Face | Lumenhaven | The slum fence whose wall you crashed into; extortionate and fond | Her block in the line of fire |
+| **Mama Quell** | Human / Face | Lumenhaven | A slum fence; extortionate and fond. (Jesse's gang now owns the warehouse the crew crashes into, so her hook needs a new one, or cut her) | Her block in the line of fire |
 | **Juno Ashgrove** | Human / Pilot | Racer's Halo, a ring-world of race circuits | Teen swoop-racing prodigy who idolises Dust (and is far better at cons) | Flies one last race |
 | **Brakka Two-Fists** | Vaal (stone giant) / Brawler | Quarrystone, a mining world | Gentle giant, retired pit-fighter, knits; knows K'saabu from the gladiator pits | Holds a mine tunnel shut |
 | **Sister Mirelle** | Human / Medic | Saint Halcyon, a hospital-moon | Unflappable combat nun who swears constantly | Refuses to leave her patients |
@@ -106,6 +111,11 @@ Each one belongs to a world. Their personal quest happens there, and in Act V th
 | **The Velvet Choir** | Humans / Support (×3) | Lumenhaven | A synth-pop girl group who need bodyguards; they write a song about the crew | Their last concert |
 | **Hollis Grey** | Human / Pilot | Port Meridian | Deena's old flame from her slave days; awkward for everyone | Chooses Deena's safety over his own |
 | **Sergeant Boone** | Human / Heavy | Aurelia | A Unity Guardsman who is actually honest, and is constantly mocked for it | Dies holding a gate, Elizabethan to the end |
+
+### 3.1 Act I gang crewmate (Jesse's idea)
+| Name | Race / class | World | Personality and hook | Notes |
+|---|---|---|---|---|
+| **Taz the Spaz** | [OPEN] / Brawler | Lumenhaven slums | A ganger from the gang that holds the *Galactic C*; wields an **electro-axe** and uses **combat drugs** | Optional; recruitable only if the crew stays friendly with the gang. Whether Taz survives the Act I massacre: OPEN |
 
 ## 4. Recurring non-crew characters [proposed]
 | Name | Who |

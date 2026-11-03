@@ -333,6 +333,10 @@ An AI agent (Claude, via the MCP wrapper) must be able to complete the Opening a
 - Each companion holds **affection** separately for Dust and for Ashe. Choices, gifts, camp scenes and battle moments (protecting them, Pass Turn to them, and so on) move it.
 - **Thresholds** gate each romance stage. Deena: low threshold for Dust, **lowest for Ashe**. Melonsi: **high for Dust, very high for Ashe**, with penalties for choices she finds beneath her.
 - Ashe's romance is driven by the player's choices *for* Ashe in his scenes (dialogue options when Ashe speaks).
+- **Countess Viviana** is romanceable with Dust or Ashe (thresholds OPEN). She flirts with everyone regardless.
+- **Default pairing (Jesse's):** if by the final act the player hasn't pushed affection far enough with anyone, **Ashe ends up with Deena and Viviana with Dust.** Before the romantic conclusion, the four go on a small quest whose only (hidden) purpose is to build those feelings, so that the conclusion feels organic.
+- **Dialogue checks:** options can be greyed out by stats and niche awarenesses (e.g. Perception, Ashe's history). The tutorial for this is the gang confrontation in Act I (`01_STORY.md` §4.1).
+- **Awards:** named achievements for choices (e.g. "Peaceful Idiots" for talking down the gang).
 - **Chapter Select (after one full playthrough):** refight any battle at higher levels and difficulties. **K'saabu** becomes available in the romance-scene slot, as a tough, loving brother to Dust, and as a battle-brother to Ashe.
 
 ## 12. Flags, saves, data
