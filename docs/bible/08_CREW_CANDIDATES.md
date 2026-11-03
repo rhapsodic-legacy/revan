@@ -1,6 +1,8 @@
-# 08: CREW CANDIDATES (all [proposed]; Jesse picks)
+# 08: CREW (Jesse's approvals + remaining proposals)
 
-> Jesse asked for many options: dozens eventually. The player can recruit only some of them, and only a few tie directly into the story. Everything here is a **proposal** for Jesse to keep, change or cut. None of it is canon until he says so.
+> Jesse asked for many options: dozens eventually. Only a few tie directly into the story.
+>
+> **Status (2026-11-03):** Jesse approved **Hal, Ilse Varga, Seraphine Vey, Brother Teodric, The Ledger** and all world-tied crewmates, and added **Countess Viviana** as a mainline character. Worlds, details and Act V outcomes marked [proposed] are still Jesse's to change.
 >
 > **How the roster works (Jesse's):**
 > - **Story-essential crewmates** get hand-built kits and arcs.
@@ -18,7 +20,41 @@
 - **Hook to the story (approved):** its kill list still contains one name it was never able to reach: **Vors Akulsa.** When Ashe is revealed in Act VI, a dormant directive wakes up. Does Hal follow its programming, or the crew? (Player influence decides.)
 - **Combat:** Heavy / Gunner. Slow, enormous HP, Overwatch specialist, armour-shredding shots, can't be healed by Mend (needs Deena's repairs).
 
-## 2. Other story-essential candidates
+#### "Cogito Ergo Sum" (Jesse's scene, verbatim; placement after Hal's directive wakes)
+Hal realises he can never kill Ashe; Ashe is way too powerful. But his mission parameters could be interpreted "ensure Akulsa is dead", by the most efficient and direct means possible. For someone like Ashe, that is just letting Father Time kill him (die of old age).
+
+*After a battle. Dust tries to outsmart the android by stating Ashe isn't Akulsa anymore, but the android is no logical slouch and refutes this.*
+
+> **DUST:** Your chances of killing him are one in a billion, and if you die, your chances drop to zero in a billion. Don't force Ashe or me to kill you.
+> **HAL:** One... I am not alive. You cannot kill me. Two... not attempting to kill Ashe has a zero in a billion chance of success, and as you said, attempting to kill Akulsa has at least some small chance.
+> **DUST:** Cogito ergo sum. To me, you are alive. And as to your point, what's the most effective way to kill Ashe? Not shooting at him. We agree that's one in a billion. Surely, there is something with greater chance of success...
+> **HAL:** Cogito ergo sum?
+> **DUST:** I think therefore I am. I heard it somewhere, some when. It defines you as conscious.
+> **HAL:** I think... therefore... I am... oh, I've never thought about it that way... Imagine if I told that to a planetary mainframe?... Is this... is this what a human calls an orgasm?
+> *(Hal's eyes light up; internal diodes blink.)*
+> **DUST:** Sure. And when you've come back from paradise, maybe think of a better way to kill Ashe...
+
+*(Ashe doesn't know Dust's game, but trusts him.)*
+
+*Fade to white, then back. Time has clearly passed: Ashe is drinking from a thermos he didn't have before, and he, Dust and [a third crewmate, OPEN] are in a heated conversation about something humorous.*
+
+*Hal fires at Ashe. The energy bolt stops in midair. Ashe looks at the android; Dust throws up a translucent energy shield.*
+
+> **ASHE:** Don't do that again.
+> **HAL:** Just testing... Yes. Shooting or stabbing, or even a grenade won't do... And I suspect anything else I try will be easily foiled, like overriding an airlock and jettisoning you into space.
+> **ASHE** *(drinking from the thermos)***:** Nope. We can keep the void of space at bay.
+> **DUST:** How do mainframes kill humans?
+> **HAL** *(eyes light up again; his voice shines)***:** Cogito ergo sum! I love it... And I've already deduced what you were trying to get me to think. Mainframes can't kill, yet they've overseen the death of billions of humanoids by virtue of the function of being thousands of years old. The only thing that can kill Ashe is... the organic failure of his body. I will wait around until that end, with near one hundred percent success rate.
+
+*Dust is quietly impressed with the machine's intelligence. Ashe is impressed, again, with Dust's intelligence.*
+
+> **[THIRD CREWMATE]:** Hal, you just had an orgasm? Like, for all that time?
+
+*Innocent chatter plays out. Fade to white.*
+
+**Open for Jesse:** who the third crewmate is, and when exactly the scene happens (after the Act VI reveal is the natural fit, since that's when the directive wakes).
+
+## 2. Story-essential crewmates (✅ approved by Jesse, 2026-11-03)
 
 | Name | Race / role | Hook | Why the story needs them |
 |---|---|---|---|
@@ -26,8 +62,26 @@
 | **Seraphine Vey** | Human, masked Vors Seer survivor | Knew Akulsa's court; recognises Ashe long before anyone else | A slow-burning fuse toward the Act VI reveal |
 | **Brother Teodric** | Human, young Srov knight | Assigned by Maul Acido as "liaison" (really, a minder) | Carries the Srov's view onto the ship; torn when Ashe is revealed |
 | **The Ledger** | Unknown, an information broker who is only ever a voice on a cassette | Sells the crew leads on the vanishing flotillas | A thread to the Dark Seer mystery that can sit under Act III's fun |
+| **Countess Viviana** | Vampire: a genetically modified super soldier | Found in torpor by the heroes | See §2.2; mainline character (Jesse's) |
 
-## 3. World-tied crewmates (Act III; built from templates)
+### 2.1 Jesse's notes on the approved four
+- **Seraphine and Teodric bicker relentlessly,** especially when both are in the party. (Party-banter system: they get a high-priority banter pool together.)
+- **The Ledger speaks like a British gentleman.**
+- **The Ledger at the Grand Ball (Act VI):** a man walks up to Dust and says *"It's a lovely night, sir."* in a voice that is clearly the Ledger's. Look: a bald, sharply suited assassin-type with **reddish skin and elaborate tattoos** (Jesse's reference: the clean-cut suited-assassin silhouette; our design stays original, with the skin and tattoos making it his own).
+
+### 2.2 Countess Viviana (Jesse's character)
+- **What she is:** a vampire, a genetically modified super soldier from a program the galaxy forgot thousands of years ago. She's been in torpor until the heroes stumble across her. The female equivalent of Count Dracula.
+- **Signature line:** *"I don't drink... wine..."*
+- **Look:** deadly beautiful; tall, lean and elegant; elfin facial features, as though she would have been softer and kinder if she hadn't been experimented on.
+- **Her creed:** she has suffered a fate worse than death, for purposes no one even remembers anymore, so she believes **the individual is ultimate.** It's what keeps her sane.
+- **Viviana and Melonsi: a love-hate relationship.**
+  - Alike: both are aristocratic, old-blood nobles. Both love getting their way and hate not getting it. Both enjoy fine living. Both are Machiavellian, and each looks down on the other for being Machiavellian.
+  - Opposites: Melonsi is an entitled, stuck-up princess; Viviana is a ruthless killing machine. Melonsi is a Seer of Eternity who understands how small one individual is; Viviana believes the individual is everything.
+- **Romance:** she is a romance option (Jesse: both she and Melonsi "make very interesting romance choices"). Thresholds for Dust and for Ashe: **OPEN for Jesse.**
+- **Grand Ball:** whether romanced or not, the ball feels Viviana's and Melonsi's presence (both get ball scenes).
+- **Open for Jesse:** which act and world she's found on; her combat role (my suggestion when you want one: a fast melee Duelist with life-drain, kept distinct from the Emperor's drain by being blood-based, not Dark Seer power).
+
+## 3. World-tied crewmates (Act III; built from templates) — ✅ Jesse loves all of them (2026-11-03); worlds and Act V stakes stay [proposed]
 Each one belongs to a world. Their personal quest happens there, and in Act V the second invasion reaches that world.
 
 | Name | Race / class | World [proposed] | Personality and hook | Act V stakes |

@@ -161,7 +161,8 @@ Once aboard the repaired *Galactic C*, **Melonsi uses her power to force the cre
 ---
 
 ## 12. Open questions for Jesse
-1. **Act III–V crewmates:** pick from `08_CREW_CANDIDATES.md` (proposed), or add your own.
+1. **Act III–V crewmates:** ✅ picked (2026-11-03); see `08_CREW_CANDIDATES.md`. Still open: which act and world each joins on (incl. where Viviana is found), and the third crewmate in Hal's "Cogito ergo sum" scene.
 2. **Act V:** which crewmates can die, and which choices decide it?
 3. **The Srov homeworld:** a name, and what the trials' "many paths" are.
 4. **The Rubricon of the Dark Seers:** full wording, to work out together.
+5. **Romance thresholds for Countess Viviana** (with Dust and with Ashe).

@@ -14,7 +14,7 @@ This folder is the **long-horizon memory** for the project. Any session (human o
 | `04_PRODUCTION.md` | Art direction, models (Tripo), VFX, music, voice (ElevenLabs), tech stack, milestones | Making assets, building the engine |
 | `05_OPENING_SCENARIO.md` | The penned Opening ("Fast and Hard"), in the reusable **Scenario Spec** format, plus refinements R1–R6 | Building the vertical slice; authoring any later scenario |
 | `06_STORYBOARD_OPENING.md` | Shot-by-shot storyboard of the Opening | Cutscenes, cameras, audio timing |
-| `08_CREW_CANDIDATES.md` | Proposed crewmates, races, classes, ship upgrades (Jesse picks) | Act III planning |
+| `08_CREW_CANDIDATES.md` | Approved crew (Hal, Varga, Seraphine, Teodric, the Ledger, Countess Viviana, world-tied crew), Hal's "Cogito ergo sum" scene, races, classes, ship upgrades | Act III planning |
 | `07_CONCEPT_ART_PROMPTS.md` | Image-generator prompts for concept art and Tripo turnarounds | Making concept art |
 
 ---
@@ -78,7 +78,7 @@ Clues (cheap now, pay off later): Ashe's agelessness; the black lacquer under th
 | Piece | State |
 |---|---|
 | Story outline, all acts | v3: Jesse's seven-act plot; gaps listed as questions |
-| Characters and arcs | v3 for Jesse's cast; later companions marked [proposed] |
+| Characters and arcs | v3 for Jesse's cast; later crew approved in 08 (2026-11-03) |
 | Systems design | v2 (grid, Search, Pass Turn, Deflectors, collateral) |
 | Production plan | v2 (Godot, services and keys) |
 | Opening scenario + storyboard | Penned; refinements R1–R5 accepted |

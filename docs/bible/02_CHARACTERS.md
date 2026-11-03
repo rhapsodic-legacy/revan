@@ -65,16 +65,13 @@ A *Galactic Companion*-class civilian passenger transport. Someone scratched off
 
 ## 2. Companions who join later
 
-> **[proposed]** These are from earlier drafts, not Jesse's plot. They're candidates for Act III's new crewmates only if Jesse wants them.
+> **Approved roster lives in [08_CREW_CANDIDATES.md](08_CREW_CANDIDATES.md).** Jesse approved (2026-11-03): **Hal** (android), **Commander Ilse Varga**, **Seraphine Vey**, **Brother Teodric**, **The Ledger**, Jesse's own **Countess Viviana** (vampire super soldier), and all the world-tied crewmates. The 08 file is the source of truth for them; the entries below are only what's left of earlier drafts.
 
-### 2.1 ROXXY-7 ("Roxx"), optional, Act I
-A pink-and-teal roller-disco hostess robot from the ruined Starlight Rink, rebuilt with crooked armor plates. She's been hosting parties for nobody for thirteen years. Talks like an 80s radio DJ; slows like a dying tape when hurt. **Combat:** deploys speakers that broadcast tracks (positional auras that affect allies *and* enemies). **Quest:** keep or delete the memory of the night the Rink was hit.
+### 2.1 ROXXY-7 ("Roxx")
+World-tied crewmate; see 08 §3.
 
-### 2.2 Seraphine Vey, Act II
-- ~40, Vors Seer, Akulsa's spymistress, and **child-Tyranus's tutor and surrogate mother**. Porcelain masks (Grief, Mirth, Wrath, Silence); the left half of her face is burn-scarred.
-- Recruited from the Gallowmarket auction. She recognizes him immediately: *"Oh, my little lord."* She knows he's Tyranus and that Akulsa may be alive, and says nothing, because she believes in Akulsa's war and wants him whole again.
-- **Combat:** mask swapping: drain, decoys, burst, silence. The most flexible character, and fragile.
-- **Arc:** a mother who lost a child to the Srov and finds him grown and gentle. Does she want Tyranus back, or is Dust enough? Not a romance.
+### 2.2 Seraphine Vey
+Approved version: a masked Vors Seer survivor who knew Akulsa's court and **recognises Ashe** long before anyone else; a slow fuse toward the Act VI reveal. Bickers relentlessly with Brother Teodric. See 08 §2. (Earlier drafts that tied her to Dust's childhood are superseded.)
 
 ### 2.3 Sable Nox (rival, possible Act V guest)
 Kultaka's apprentice; Tyranus's oath-sibling. They swore in blood at seven. A white porcelain mask with one painted black tear; twin sickle-swords, **Mercy** and **Mourning**. She believes he chose the Srov and abandoned her. Duels: Gallowmarket, Ithrael, Tal Vorrun. Redeemable by speaking the oath back to her.
