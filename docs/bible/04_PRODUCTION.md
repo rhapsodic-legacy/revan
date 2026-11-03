@@ -136,7 +136,7 @@ Never name real composers or soundtracks in prompts. Use these descriptors:
 
 ### 5.3 Cue list (first pass, ~45 tracks)
 Opening: *Galactic C* (crew theme), *Under Fire* (orbital batteries), *Boarded* (tutorial battle), *Fast and Hard* (the glide and crash).
-Ithrael (Act III): *Salt and Silence*, *The Hollow*, *The Kindling*, *Fire on the Choir*, *Ondine*.
+Srov homeworld (Act II): the trials, the Council, Ashe vs Dust.
 Core: *Never Rewinds* (Lumenhaven), *Velvet Thunder* (ship), *Starlight Rink*, *B-Side* (undercity), *Founders' Gala*, *Muster* (anthem), *Keep the Lights On* (Dolly's death).
 Calder: *Rain Sea*, *Merrow's Reach*, *The Quiet Graves*, *Choirmother*.
 Gallowmarket: *Market of Chains*, *Jackpot Hymn*, *Velvet Jack's Last Set*.
@@ -172,7 +172,6 @@ Battle: one standard battle theme per faction family (4), one boss theme per fac
 | Sable | Young woman, clipped, intense, porcelain-mask filter |
 | Kultaka | Tall man's silky operatic baritone, theatrical, relishing every word; his four cantors as a choir layer |
 | Emperor | **Deep bass with a tinny metallic ring**: pitch down, ring-modulate lightly, add a short metallic convolution (bell under water), very slow |
-| Ondine | Elderly woman, soft, musical, utterly certain |
 | Dolly Starling | Mid-50s talk-show host, warm, quick, showbiz polish |
 
 ### 6.3 Pipeline

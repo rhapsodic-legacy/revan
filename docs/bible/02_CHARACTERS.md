@@ -19,6 +19,7 @@
 ### 1.2 Ashe Dawnbringer / Vors Akulsa
 - **Says he's in his early fifties. Doesn't look a day over 25.** (Strong Seers barely age. Clue.)
 - **Personality:** ex-military, cold-eyed, charismatic, Machiavellian. A commander first, always. He solves problems with direct force and calls it efficiency. A grizzled, swaggering frontier-soldier manner: drawled, folksy, salty one-liners delivered with complete calm, and a chuckle when the shooting starts. He respects competence and nothing else, except, it turns out, Dust. He was in Srov training until his methods got him put on "indefinite sabbatical" five years ago.
+- **With women:** makes inappropriate comments to pretty much every woman he meets, except Melonsi, whom he can't stand.
 - **On Dust:** called him a moron for leaving the temple; let him stay as long as he "kept up." Rejects the Srov's title of Master: *"One must be a master, to be someone's Master."* Comes to get him, every time, without ever admitting that's what he's doing.
 - **Look:** tall, broad, a strong jaw, steel-grey eyes, close-cropped hair, old military coat with rank insignia torn off, a scar across the throat (Kultaka's blade), and very still hands.
 - **Sword: Morningwake / Nightfall.** A heavy, two-handed, curved blade in white Srov enamel with a gold sunburst guard, chipped at one corner to show **black lacquer beneath**. In Act IV the enamel shatters: it is **Nightfall**, with a black blade and a crown-of-thorns guard. Flame: dawnfire gold (forced, flickery) → **starless white**.
@@ -46,15 +47,13 @@
 
 ### 1.5 Princess Melonsi Ananna of Seonha
 - **Look:** striking and beautiful, with East Asian–inspired royal styling from her world, Seonha. Space-opera flamboyant and functional at once: dramatic, figure-accentuating silk court wear cut for fighting, jeweled hair ornaments with gold pins, a high collar, and a flowing outer robe that announces "princess" from across a room. The women of this galaxy are every bit as larger-than-life as its men, and Melonsi is the proof. Always the most dressed person present, on purpose. **Reference (Jesse's image, `concept/melonsi_reference.png`):** long, straight, **platinum-white hair** that flows like silk in any wind; pale luminous skin; dramatic **red-orange winged eye makeup**; **pale white-lilac glossy lips**; a sleek black high-necked bodice under her royal silks. Her look is ice and fire: cool white and black, with that one flash of red-orange at the eyes.
-- **Personality:** huge presence. Direct, demanding, entitled, intelligent, cunning, and seductive when she chooses, which is a weapon she uses deliberately. A Srov-trained Seer. Hates being rescued. Hates being told what to do more.
-- **Seer gift: Silk.** She sees the threads between people and can tie, pull, and cut them.
-- **Sword: Eunha ("Silver River").** A narrow, jeweled straight sword with long silk tassels; a ribbon of dawnfire unspools from the blade like a scarf.
-- **Backstory:** her elder brother, Crown Prince Jin-Ha, died with Seonha's fleet in the Hundred Days. The order bore Akulsa's seal. She took the Srov's side out of grief and fury.
-- **Secret:** the Srov Council gave her the **Hushword**. She was sent to watch Dust and, if his memories surfaced, to silence them.
-- **Voice:** precise, regal, unhurried; amused contempt that warms by degrees into something real.
-- **Combat identity: the puppeteer.** **Silk** links two units: ally-ally shares healing and damage; enemy-enemy shares damage and status; **Pull** drags a linked enemy. Charm (an enemy skips its action). Swordplay: fast, precise. Fragile at range.
-- **Arc and romance (with Dust):** the dangerous romance. Sparks at first meeting ("You're the *rescue*?"). She learns to want something nobody ordered her to want. Gallowmarket (her brother's recorder) cracks it. Act III (Hushword) tests it. Act IV (she has Akulsa at sword-point) decides it.
-- **Ashe and Melonsi:** she flirts with him at first, as a test. He sees through her instantly, and they respect each other like two blades.
+- **Personality (Jesse):** a huge personality, very direct, demanding, entitled, opinionated, intelligent, cunning, Machiavellian. Seductive, deadly seductive when she wants to be. Loves clothes that let everyone know she's a princess. A very powerful Srov Seer and genuinely one of the good guys, but not a nice person.
+- **Design intent (Jesse):** she is the one conspicuously sexualised woman in the cast: a petite, lithe frame (about 5'2") with an exaggerated, gravity-defying bust, as in Jesse's reference image. It's deliberate. Next to her, the player notices without being told that every other woman (Deena included) is purposely *not* sexualised. And because she's so easy on the eyes and so hard to like, she carries the game's theme covertly: right and wrong, light and dark, aren't always easy to tell apart. Easy to hate, easy to lust after. Many players will want to romance her for her looks alone.
+- **Seer gift and sword:** to design with Jesse. [proposed in earlier drafts: a jeweled straight sword with silk tassels.]
+- **Voice:** precise, regal, unhurried; cool, amused contempt.
+- **With Ashe:** Ashe can't stand her. He makes inappropriate comments to every other woman, and none at all to her.
+- **With Dust:** Dust looks up to Ashe, so he disregards her too. Depending on the player's choices, she can warm to Dust and become a romance option.
+- **Act II:** forces the crew to the Srov homeworld; calls for Ashe to kill Dust; is upstaged by Dust's loophole and draws on them both; Vasili stops her and orders her to join the crew. She storms off, knowing she has no choice.
 
 ### 1.6 The ship: the *Galactic C*
 A *Galactic Companion*-class civilian passenger transport. Someone scratched off "ompanion" and painted "hampion," so the hull reads ***Galactic Champion***. The crew call her the *Galactic C*. Rounded 80s design, chrome trim, flip-up headlights, a passenger lounge turned into a crew mess, a cassette deck wired into the PA. **Designed to glide unpowered** in an emergency (passenger safety regulations), which is the whole plan in the opening. Won by Dust in a con on a fixed race; the con was itself a set-up by the gangers who owned her, which ended with 13 counts of murder and a planet they can never return to.
@@ -62,6 +61,8 @@ A *Galactic Companion*-class civilian passenger transport. Someone scratched off
 ---
 
 ## 2. Companions who join later
+
+> **[proposed]** These are from earlier drafts, not Jesse's plot. They're candidates for Act III's new crewmates only if Jesse wants them.
 
 ### 2.1 ROXXY-7 ("Roxx"), optional, Act I
 A pink-and-teal roller-disco hostess robot from the ruined Starlight Rink, rebuilt with crooked armor plates. She's been hosting parties for nobody for thirteen years. Talks like an 80s radio DJ; slows like a dying tape when hurt. **Combat:** deploys speakers that broadcast tracks (positional auras that affect allies *and* enemies). **Quest:** keep or delete the memory of the night the Rink was hit.
@@ -80,7 +81,7 @@ Kultaka's apprentice; Tyranus's oath-sibling. They swore in blood at seven. A wh
 ## 3. Villains
 
 ### 3.1 Vors Kultaka, the Cardinal of Ash
-2.2 m, gaunt, cathedral armor of black iron and stained glass, an **empty glass reliquary** over his chest (the Emperor holds his heart), a crown of candle-tipped spikes, and four masked **cantors** who follow him singing. Sword **Penitence**: a colossal glass-toothed cleaver trailing incense from chained censers; wrathfire with a green core. Silken, operatic, funny, cruel, terrified of dying. Musical motif: the Vors march with Empire bells hidden under it. Devoured by his master.
+2.2 m, gaunt, cathedral armor of black iron and stained glass, an **empty glass reliquary** over his chest (the Emperor holds his heart), a crown of candle-tipped spikes, and four masked **cantors** who follow him singing. Sword **Penitence**: a colossal glass-toothed cleaver trailing incense from chained censers; wrathfire with a green core. **A brutish villain, not a cunning one** (Jesse): a loud, theatrical bully who loves an audience and a fight. The cunning belongs to the Emperor. Musical motif: the Vors march with Empire bells hidden under it. **Survives:** beaten too easily in Act VI, he flees (a trap); in the epilogue Ashe anoints him Supreme Being of the Vors.
 > *Spelling note: Jesse's message uses both "Kultaka" and "Skultaka." The bible uses **Kultaka** until Jesse confirms.*
 
 ### 3.2 Emperor Voidreaper
@@ -110,6 +111,10 @@ A tall, still figure, taller than any man but not a giant, in close-fitting **bl
 ---
 
 ## 4. Supporting cast
+
+**Jesse's:** **Grand Master Vasili**, the Srov's ancient Grand Master. He stays silent through the trials, never demands a death, laughs at Dust's loophole, and declares the test passed ("a mouth, a mind, and two hearts... now three"). He sends Melonsi with the crew to remind her who she is. **Maul Acido**, a stern Srov master, gives the crew their mission. *Both need original visual designs, not lookalikes of any existing character.*
+
+> **[proposed]** The rest of this table is from earlier drafts and needs Jesse's OK.
 | Name | Where | Who |
 |---|---|---|
 | **Seer-Master Ondine Saar** | III | The Seer-Master who sealed away Dust's and Ashe's pasts. Grandmotherly, warm, terrifying. Dies naming him. |
@@ -125,6 +130,8 @@ A tall, still figure, taller than any man but not a giant, in close-fitting **bl
 ---
 
 ## 5. Relationship web
+
+> Partly **[proposed]**. Jesse's: Ashe can't stand Melonsi; Dust follows Ashe's lead until choices warm her to him; K'saabu's roughness with Dust is love; Deena flirts with both Ashe and Dust; romances play out in Act VII with Ashe's and Dust's romances contrasting.
 | Pair | Starts | Can become |
 |---|---|---|
 | Dust & Ashe | Mentor who won't call himself one | Father and son / broken / trusted |
@@ -142,12 +149,12 @@ A tall, still figure, taller than any man but not a giant, in close-fitting **bl
 
 ---
 
-## 6. Betrayals, tragedies, comedy
+## 6. Betrayals, tragedies, comedy [proposed; needs Jesse's plot]
 **Betrayals:** Kultaka → Akulsa · Rook → Melonsi (Act I) · the gangers' con on Dust (backstory) · the boarders' leak (opening) · Ondine → Dust · Velvet Jack → crew · Melonsi's Hushword · Seraphine's silence · Akulsa → Tyranus · Grane → Kultaka · the Emperor → Kultaka.
 **Tragedies:** Teo Fenn; Jin-Ha and Seonha's fleet; Ondine; Roxx's last party; K'saabu's people; Sable; Akulsa.
 **Comedy:** K'saabu's subtitles; Deena's doom poetry; the *Galactic C* paint job; Pim Pockets; Mama Quell's invoices; Velvet Jack's karaoke; Roxx; Dust talking himself deeper into trouble.
 
-## 7. Side quests (selection; target ~24)
+## 7. Side quests [proposed, from earlier drafts; to be redone around Jesse's acts]
 | Quest | World | Hook |
 |---|---|---|
 | **The Invoice** | Lumenhaven | Mama Quell's bill grows every time you visit; pay it, work it off, or out-con her |

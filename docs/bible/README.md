@@ -20,78 +20,48 @@ This folder is the **long-horizon memory** for the project. Any session (human o
 
 ## 1. The north star
 
-**What story are we telling?**
-A young man who has been given a kind, false life discovers, piece by piece, that he was once the right hand of a conqueror, then that the gentle mentor at his side *is* that conqueror, and finally that the conqueror stole him as a baby from the one being in the universe more terrible than either of them: his father.
+**The story (Jesse's):** a cocky, good-hearted young mercenary and his ruthless, ageless mentor are dragged back to the Srov, survive the Srov's cruel trials by Dust's wits, and set out to find who is rebuilding the Vors. Along the way the galaxy notices them, a second invasion comes, Ashe is revealed as Vors Akulsa, and in the Unknown Regions Dust learns he is Emperor Voidreaper's son. In the end Ashe anoints Kultaka as the last Vors, Akulsa is declared gone, and Dust becomes Emperor of the Immortal Empire.
 
-**The theme, in one line:** *Who you were made to be is not who you have to be.*
+**The theme (Jesse's):** right and wrong, light and dark, are not always easy to tell apart. Darkness can grow in any person; it doesn't need to wield a sword.
 
-Every faction is built on this theme:
-- **The Srov** serve serenity and duty. Once, and only once, they broke their own code: they sealed away Akulsa's and Tyranus's pasts and gave them new lives. It was mercy, and it was also a lie.
-- **The Vors** burn: will and power above all.
-- **The Immortal Empire** never dies, and that is the horror of it.
-- **The Core** (the neon-lit majority) lives in an endless present of music, arcades, and chrome. It never learned how to fight, and a hundred of its worlds fell in a hundred days.
-
-**The emotional shape:** warmth (Act I) → dread and grief (Act II) → loss (Act III) → betrayal and revelation (Act IV) → terrible truth, sacrifice, and choice (Act V).
-
-**Tone:** larger-than-life space opera. Villains monologue. Swords blaze. Fleets are cathedrals. People are funny when they are frightened. Nobody is beige.
+**Tone:** larger-than-life space opera. Villains monologue. Swords blaze. People are funny when they're frightened. Nobody is beige.
 
 ---
 
-## 2. Canon locks (do not change without Jesse)
+## 2. Canon locks (Jesse's; do not change without him)
 
-These are Jesse's core ideas. Everything else in the bible serves them.
+1. The player is **Dust of the Sun** ("Dust"), 19, really **Tyranus**, Vors Akulsa's very young apprentice when Kultaka betrayed Akulsa 12 years ago. The Srov memory-wiped him and gave him a false past (village burned, slavers, freed by the Srov, cave-in during a trial). He woke in a Srov medbay at 7, and left with Ashe at 14.
+2. **Ashe Dawnbringer** is **Vors Akulsa**: ruthless, charismatic, Machiavellian ex-military; says he's in his early fifties and looks 25. The reveal comes in **Act VI**.
+3. **Dust doesn't have flashbacks.** No memory-transfer rite. The Srov don't erase memories as doctrine, and the Vors don't covet memories.
+4. **Kultaka** betrayed Akulsa; he's the Emperor's apprentice; he's brutish, not cunning. He survives: beaten too easily in Act VI, he flees (a trap), and in the epilogue Ashe anoints him Supreme Being of the Vors.
+5. **Emperor Voidreaper** of the **Immortal Empire** (dark gods, human sacrifice, believed dead, a belief the Srov enforce) is the cunning Dark Seer behind events, and **Dust's father**. He's a quiet terror: black armour, black cape, a black mask with a horizontal visor slit and white pinprick eyes.
+6. Akulsa built his Armada to face the Emperor. "A hundred worlds fell in less than a hundred days."
+7. **Final battle:** Akulsa and Tyranus vs Kultaka and the Emperor, on a space station of concentric rings in the Unknown Regions.
+8. **Epilogue:** Akulsa declared gone; Kultaka anointed; Dust made Emperor; Ashe's voice-over explains why.
+9. **The crew:** Dust, Ashe, Deena Ateray, K'saabu, aboard the *Galactic C*. **Princess Melonsi Ananna** (a Srov Seer; deliberately the one sexualised woman in the cast; easy to hate, easy to lust after) joins in Act II by Vasili's order.
+10. **Seven acts:** I Rescue · II Trials · III World to World · IV Noticed · V Second Invasion · VI Grand Ball · VII Snake's Head (see `01_STORY.md`).
+11. **Four sounds and looks:** Empire dirge; Srov wild mystical vocals; Vors grand orchestral march; everyone else 70s–80s synthwave and neonpunk.
+12. **No lightsabers:** ornate swords, telepathically ignited. Eternity users are **Seers**, each gift unique.
+13. **The Galactic Unity** is autocratic, corrupt and bureaucratic; its forces speak in an Elizabethan register.
+14. **Engine: Godot.** Combat is turn-based and grid-based, in the real environment.
 
-1. The player is **Tyranus**, apprentice of **Vors Akulsa**, memory-wiped by the Srov and renamed **Dust of the Sun** ("Dust"). **Dust is 19**; he woke in the Srov temple medbay at 7, left the Srov with Ashe at 14, and has been a mercenary since.
-2. Dust's false past: village burned, parents killed, sold to slavers, freed by the Srov, a cave-in during his trial and a rock to the head. **All of it was fabricated by the Srov.**
-3. The player is led to believe they are **Vors Akulsa**. They are not.
-4. **Vors Kultaka** (spelling confirmed) betrayed Akulsa 12 years ago. The Srov boarded his flagship and captured and wiped Akulsa and his apprentice. Everyone believes Akulsa is dead. Rogue Vors fleets (with scores of Juggernaut-class battlecruisers) still roam and hide; the Srov hunt them and beg worlds for battleships.
-5. **Ashe Dawnbringer** is Vors Akulsa: a ruthless, charismatic ex-military mercenary who says he's in his early fifties and looks 25, put on "indefinite sabbatical" by the Srov five years ago. **Kultaka reveals it in Act IV.**
-6. Kultaka is the apprentice of **Emperor Voidreaper** (a quiet terror: black armour, black cape, a black mask with a horizontal visor slit and white pinprick eyes) of the **Immortal Empire** (dark gods, human sacrifice, believed dead, a belief the Srov enforce), who promises him immortality and the millions of galaxies beyond.
-7. Akulsa built his armada to face the Emperor, who is as strong in **Eternity** as Akulsa, or stronger.
-8. Final act: Kultaka beaten, the trap springs, the Emperor reveals **he is Tyranus's father**, Akulsa admits stealing him to raise a weapon, the Emperor offers his hand, Kultaka gloats.
-9. **Final battle: 2v2, Dust and Ashe vs Kultaka and the Emperor.**
-10. **Four musical/visual identities:** Empire dirge, Srov wild mystical vocals, Vors grand orchestral march, everyone else 70s–80s synthwave (also architecture and ships).
-11. **No lightsabers:** ornate swords, each reflecting its wielder, telepathically kindled in crackling energy. Eternity users are **Seers**, each gift unique.
-12. "A hundred worlds fell in less than a hundred days."
-13. **The starting crew (Jesse's):** Dust, Ashe, **Deena Ateray**, **K'saabu**, aboard the ***Galactic C*** ("Galactic C~~ompanion~~hampion"). **Princess Melonsi Ananna** of Seonha joins in Act I.
-14. **Act I (Jesse's):** the Srov send the crew to find Melonsi, missing on a Unity core world after her party was betrayed from within and ambushed.
-15. **The Opening (Jesse's):** under fire, boarded, EMP, glide, three tutorial fights (Search, Pass Turn, Deflector, the door play), crash into a warehouse.
-16. **Engine: Godot.** Combat is turn-based and grid-based, in the real environment.
-
-### Originality guardrails
-Broad genre strokes are fine (a hidden-identity twist, a princess to find, a fallen order, a betrayer, a dark father). Specifics stay ours:
-- Don't copy specific planets, characters, set pieces, or beat-by-beat plot from existing Star Wars games or films, even renamed.
-- Don't quote famous film lines verbatim. The father reveal is written in our own words (see `01_STORY.md`, Act V).
-- Music prompts describe sound in our own terms. Never prompt with real composers' or soundtracks' names.
+### Working rules
+- **Jesse writes the plot.** Don't invent plot devices, lore or story mechanisms. Where there's a gap, list it as a question for Jesse.
+- KotOR is broad-shape inspiration. Specific worlds, characters and set pieces are our own, and famous film lines aren't quoted.
+- Music prompts describe sound in our own terms, never naming real composers or soundtracks.
 
 ---
 
-## 3. The reveal ledger
+## 3. Reveal ledger
 
-The story is built on three nested reveals. To keep it cohesive through polishing, **every scene must respect this ledger**. If a scene would let the player learn something earlier than listed, it's a bug.
+| Truth | Revealed | By whom |
+|---|---|---|
+| The Immortal Empire is real | Act VI | Ashe (no specifics) |
+| Ashe is Vors Akulsa | Act VI (the Grand Ball) | Kultaka |
+| The Dark Seer behind events is the Emperor, not Kultaka | Act VII | The Emperor |
+| The Emperor is Dust's father | Act VII | The Emperor; Akulsa confirms |
 
-| Truth | Player suspects | Player learns | Who reveals it |
-|---|---|---|---|
-| Dust's past is false | Opening/Act I (hazy memories) | Act II (Calder: the village never burned) | Marta Fenn, by not recognizing him |
-| Dust was Akulsa's child-apprentice, Tyranus | Act I (Kultaka knows him) | Act III (Ondine's dying words) | Ondine Saar |
-| **Misdirect:** Dust is Akulsa | Act I → Act IV (deliberately encouraged) | Exploded in Act IV | Kultaka |
-| Ashe is Akulsa | Only on replay or by sharp players | Act IV (Throne Hall) | Kultaka, then Ashe himself |
-| The Immortal Empire is real and coming | Act I (Candlemouth cult) | Act IV (Ashe tells what he knows) | Ashe |
-| The Emperor is Dust's father | Never, but clued fairly | Act V | The Emperor; Ashe confirms |
-| Only the Emperor's own blood can kill him | Never | Act V, final phase | Ashe (dying) |
-
-### Fair-play clues (plant every one of them; they make the replay sing)
-1. **Dust's flame is sooty gold with a black heart** (Ashe forbids kindling it in public); at full strength in Act III it burns pure black (gravefire). Srov flame is gold, Vors flame is red-violet. Nobody has seen black. Act V: the Emperor's sword burns the same black.
-2. **The Hollow (cave trial):** Dust fights a figure in black armour and a **black visor-mask with two white pinprick eyes**, with frost spreading around it. He cracks the mask and sees his own face. Players read it as "the darkness is me." Act V: it's the Emperor's mask, and the Emperor reminds him of the cave.
-3. **Ashe looks 25 and says he's 52** (strong Seers barely age; so does the Emperor). **Ashe's sword Morningwake** is white enamel with a gold sunburst. One chip shows **black lacquer beneath**. It is Akulsa's sword *Nightfall*, repainted.
-4. **Ashe's harp lullaby** is the Vors march, slowed down and played gently. Players who know the march theme can hear it.
-6. **The Unbowed Vors kneel to Dust** as "the Grandmaster's boy," which players can read as far more than it is.
-7. **Ondine's dying words:** "Forgive me... and forgive *him*." She is looking at Ashe. Players assume she means herself.
-8. **The Candlemouth scripture** speaks of "the Son Who Was Carried Into Snow." The Tal Vorrun throne-vision shows a child carried through snow by a masked man.
-9. **Ashe flinches from the Vors throne** and from Kultaka's oath-song before he knows why.
-10. **Dust's temple scar** is round and surgical, not a rock wound. Melonsi notices that it's "too neat."
-11. **Kultaka's leitmotif** is the Vors march with Empire dirge bells hidden under it. His double allegiance is audible.
-12. **Dust's leitmotif** (four notes) is sung by Srov voices in Act I, played by Vors brass in Act IV, and growled by the Empire choir in the reveal.
+Clues (cheap now, pay off later): Ashe's agelessness; the black lacquer under the chipped white enamel of his sword; Dust's sword flame having a dark core, and Ashe forbidding him to ignite it in public; Dust's "terrible darkness" he can't explain.
 
 ---
 
@@ -106,15 +76,14 @@ The story is built on three nested reveals. To keep it cohesive through polishin
 ### Status
 | Piece | State |
 |---|---|
-| Story outline, all acts | v2 (Jesse's crew and Act I folded in) |
-| Characters and arcs | v2 |
+| Story outline, all acts | v3: Jesse's seven-act plot; gaps listed as questions |
+| Characters and arcs | v3 for Jesse's cast; later companions marked [proposed] |
 | Systems design | v2 (grid, Search, Pass Turn, Deflectors, collateral) |
 | Production plan | v2 (Godot, services and keys) |
-| Opening scenario + storyboard | Penned v2; refinements R1–R6 awaiting Jesse |
+| Opening scenario + storyboard | Penned; refinements R1–R5 accepted |
 | Concept-art prompts | v1 |
 | Act I scenario | Not started |
 | Engine | Not started (repo: github.com/rhapsodic-legacy/revan) |
 
 ### Open questions for Jesse
-- Accept refinements R1–R6 in `05_OPENING_SCENARIO.md` §13?
-- API keys in the cloud environment: Tripo, Fal.ai, ElevenLabs; music service choice.
+See `01_STORY.md` §12.
