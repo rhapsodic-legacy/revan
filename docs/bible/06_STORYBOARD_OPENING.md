@@ -69,8 +69,10 @@
 |---|---|---|---|---|---|
 | G1 | Ceiling hatch drops; Ashe lands, then Dust (less gracefully) | F | "Forward embarkation bay." | | 6 |
 | G2 🎨 | **Embarkation bay wide**: the heavy bulkhead door open; the boarding pod's mouth beyond it, glowing; six boarders; the Sergeant's hex-shimmer Deflector dome | F (low, wide) | | Battle theme, louder layer | 4 |
-| G3 | Close: the Sergeant's eyes, wrong and calm | F | "Bring the young one alive. Burn the rest." | One distant bell under the music (Empire hint) | 4 |
-| G4 | Dust | F | "...The *young* one?" / Ashe: "Later." | | 3 |
+| G3 | Over-the-shoulder from behind the check-in desk: insert pans across six boarders' mismatched, battered weapons | F → insert | Ashe: "...mercs dressed up in Unity armour." / Dust: "Pirates." / Ashe: "Scum paid to kill..." | Music drops to a tense pulse | 10 |
+| G4 | Four-shot behind the desk | F | Deena's question / Dust imitating Ashe / K'saabu's *Grkroooooak!* / Deena: "No eating people!" | Comic beat | 10 |
+| G5a | The Sergeant turns, spots them | F (close) | "The traitors are yonder! Open fire!" | Battle theme slams in | 2 |
+| G5b | Ashe chuckles; Dust gulps | F (two-shot) | | | 2 |
 | G5 | Grid; Search prompt; Deena's Insight highlight on the door panel | T | **Combat** | | — |
 | G6 | *(If the door play)* auto-cinematic: K'saabu's shove sends the Sergeant skidding into the pod; the bulkhead slams | T (cut-in) | *(Door. Is like small station.)* | Slam + K'saabu's triumphant croak | 3 |
 | G7 | Sergeant dying | F | "...the candle... remembers..." | Bell, once | 3 |

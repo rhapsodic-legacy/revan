@@ -18,11 +18,11 @@
 
 ### 1.2 Ashe Dawnbringer / Vors Akulsa
 - **Says he's in his early fifties. Doesn't look a day over 25.** (Strong Seers barely age. Clue.)
-- **Personality:** ex-military, cold-eyed, charismatic, Machiavellian. A commander first, always. He solves problems with direct force and calls it efficiency. Dry, cutting humor. He respects competence and nothing else, except, it turns out, Dust. He was in Srov training until his methods got him put on "indefinite sabbatical" five years ago.
+- **Personality:** ex-military, cold-eyed, charismatic, Machiavellian. A commander first, always. He solves problems with direct force and calls it efficiency. A grizzled, swaggering frontier-soldier manner: drawled, folksy, salty one-liners delivered with complete calm, and a chuckle when the shooting starts. He respects competence and nothing else, except, it turns out, Dust. He was in Srov training until his methods got him put on "indefinite sabbatical" five years ago.
 - **On Dust:** called him a moron for leaving the temple; let him stay as long as he "kept up." Rejects the Srov's title of Master: *"One must be a master, to be someone's Master."* Comes to get him, every time, without ever admitting that's what he's doing.
 - **Look:** tall, broad, a strong jaw, steel-grey eyes, close-cropped hair, old military coat with rank insignia torn off, a scar across the throat (Kultaka's blade), and very still hands.
 - **Sword: Morningwake / Nightfall.** A heavy, two-handed, curved blade in white Srov enamel with a gold sunburst guard, chipped at one corner to show **black lacquer beneath**. In Act IV the enamel shatters: it is **Nightfall**, with a black blade and a crown-of-thorns guard. Flame: dawnfire gold (forced, flickery) → **starless white**.
-- **Voice:** low, gravelly, clipped, a drill-sergeant's economy with a commander's charm. Calls Dust "kid" and "moron," the second one fondly.
+- **Voice:** low, gravelly, unhurried drawl; a veteran's swagger and blunt, salty soldier-talk ("greaseballs," "scum paid to kill"); menace and charm in the same breath; chuckles under fire. Calls Dust "kid" and "moron," the second one fondly.
 - **Combat identity:** the commander. **Dawnsight** shows enemy intents on the timeline. **Vigil** intercepts attacks on an ally. **Command**: once per fight he gives an ally an extra Move. After the reveal: **Nightfall stance**, devastating, paid for in his own HP.
 - **Clues:** agelessness; the enamel chip; tactical brilliance "from the army"; flinching at Vors oath-song and the throne; he goes pale at Dust's first fragment.
 
@@ -45,7 +45,7 @@
 - **Running gag paid off:** in Act I's finale he finally commandeers a space station, and it's the right call.
 
 ### 1.5 Princess Melonsi Ananna of Seonha
-- **Look:** striking and beautiful, with East Asian–inspired royal styling from her world, Seonha: layered silk court robes cut for fighting, jeweled hair ornaments with gold pins, a high collar, and a flowing outer robe that announces "princess" from across a room. Always the most dressed person present, on purpose.
+- **Look:** striking and beautiful, with East Asian–inspired royal styling from her world, Seonha. Space-opera flamboyant and functional at once: dramatic, figure-accentuating silk court wear cut for fighting, jeweled hair ornaments with gold pins, a high collar, and a flowing outer robe that announces "princess" from across a room. The women of this galaxy are every bit as larger-than-life as its men, and Melonsi is the proof. Always the most dressed person present, on purpose. *(Jesse has a reference image of her; get it into `/concept` when it arrives.)*
 - **Personality:** huge presence. Direct, demanding, entitled, intelligent, cunning, and seductive when she chooses, which is a weapon she uses deliberately. A Srov-trained Seer. Hates being rescued. Hates being told what to do more.
 - **Seer gift: Silk.** She sees the threads between people and can tie, pull, and cut them.
 - **Sword: Eunha ("Silver River").** A narrow, jeweled straight sword with long silk tassels; a ribbon of dawnfire unspools from the blade like a scarf.
@@ -84,7 +84,11 @@ Kultaka's apprentice; Tyranus's oath-sibling. They swore in blood at seven. A wh
 > *Spelling note: Jesse's message uses both "Kultaka" and "Skultaka." The bible uses **Kultaka** until Jesse confirms.*
 
 ### 3.2 Emperor Voidreaper
-A 3 m colossus in black volcanic glass, a cloak of chained burning candles, a **featureless mirror mask**. Sword **the Last Word Spoken**: vast, plain, ancient, the only unornamented blade in the game, because there's no self left in him to express. Gravefire. Voice: deep bass with a tinny metallic ring, slow, laughs too long. Seen in person only in Act V.
+A tall, still figure, taller than any man but not a giant, in close-fitting **black armour** of smooth, unornamented plates and a heavy **black cape** that falls straight to the floor, unbroken and unmoving even in wind. His mask is **black**, smooth, and featureless except for one **narrow horizontal visor slit**, and in that slit two **white pinpricks** of light that never blink. Wherever he stands, **frost** creeps out across the floor (the snow of the Pale follows him: the snow his son was carried through). No candles, no ornament, no theatre: Kultaka is the overblown cathedral; the Emperor is the **quiet** that comes after it.
+- **Presence:** a quiet kind of terror. He rarely moves and never hurries; he speaks softly and seldom; when he does something terrible, he does it without raising his voice. He lets Kultaka monologue, and then says one sentence that ends the room.
+- **Sword: the Last Word Spoken.** Vast, plain, ancient, the only unornamented blade in the game, because there's no self left in him to express. **Gravefire** (black with a sick green rim).
+- **Voice:** deep bass with a tinny metallic ring; slow; when he laughs, it goes on too long.
+- Seen in person only in Act V.
 
 ### 3.3 Bosses and lieutenants
 | Name | Act | Hook |
@@ -112,7 +116,7 @@ A 3 m colossus in black volcanic glass, a cloak of chained burning candles, a **
 | **Mama Quell** | I | Lowlight fence whose warehouse the *C* crashed into. Wants damages. Becomes a fond, extortionate ally. |
 | **Pim Pockets** | All | Worst arms dealer in the Gyre ("Now 30% less exploding!"). Heroic in Act V. |
 | **Sir Halden Rook** | I | Captain of Melonsi's guard; a Candlemouth; the betrayer |
-| **Commander Ilse Varga** | I | Unity Naval Command officer hunting the "Vors ship"; honest, dogged; becomes an ally in Act V if treated fairly |
+| **Commander Ilse Varga** | I | Unity Naval Command officer hunting the "Vors ship"; one of the Unity's rare honest officers in a corrupt machine; dogged; an ally in Act V if treated fairly |
 | **Marta & Osric Fenn** | II | Teo's parents |
 | **Velvet Jack** | II | Crooner crime lord, partner of Deena's old owner |
 | **Castellan Mordaine Hesk** | II | Unbowed commander |

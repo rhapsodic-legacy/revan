@@ -218,9 +218,16 @@ Rules: respect canon locks and the reveal ledger; every character speaks in thei
 **Fail:** retry from F3 start (with a one-line hint from the narrator log about what killed you).
 **Teaches:** Search, Insights, doors, Shove, Deflectors, combining kits, and that the environment is a weapon.
 
-> **F3_SGT_01** — SERGEANT *(fight start; his voice is wrong for a Unity officer, soft and reverent)*: "Bring the young one alive. Burn the rest."
-> **F3_DST_01** — DUST: "...The *young* one?"
-> **F3_ASH_01** — ASHE: "Later."
+**Pre-fight scene (Jesse's).** The crew crouches behind the check-in desk, looking through the open bulkhead at the six boarders. Their uniforms match. Nothing else does: every weapon is different, battered, half-repaired.
+> **F3_ASH_01** — ASHE *(low drawl, unimpressed)*: "Look at that hardware. Even if I was a day-one private, I'd say these damned greaseballs are mercs dressed up in Unity armour."
+> **F3_DST_01** — DUST: "Pirates."
+> **F3_ASH_02** — ASHE: "Don't really matter what they were. Scum paid to kill is all I know."
+> **F3_DNA_00** — DEENA: "Why would *pirates* board us while we're being shot at by *Planetary Defence*?"
+> **F3_DST_02** — DUST *(doing his best Ashe)*: "Don't really matter. They won't live long enough to tell anyone about us."
+> **F3_KSB_00** — K'SAABU: *[Grkroooooak!]* `(I could eat them.)`
+> **F3_DNA_02** — DEENA: "No eating people when anyone else is around! Even *pirates!*"
+> **F3_SGT_01** — SERGEANT *(spotting them)*: "The traitors are yonder! Open fire!"
+*(Ashe chuckles. Dust gulps. Fight begins.)*
 > **F3_KSB_01** *(if the Sergeant is shoved behind the door)*: *[Triumphant croak.]* `(Door. Is like small station.)`
 > **F3_DNA_01** *(if she finds the door Insight)*: "Oh! Oh, the door's on the passenger-safety battery! *Bless* passenger safety! Somebody hit that panel!"
 > **F3_SGT_02** *(dying)*: "...the candle... remembers..."
@@ -263,7 +270,7 @@ Rules: respect canon locks and the reveal ledger; every character speaks in thei
 
 **Loot screen** (credits, items, XP, battle rating).
 
-**[R1] The tip-off.** On the Sergeant's body: under the Unity uniform collar, a **tattoo of a candle with an open mouth**, and a data tape. Dust plays a second of it: the *Galactic C*'s **exact flight plan**, filed privately with the Srov two days ago.
+**[R1, accepted] The tip-off.** It confirms what Ashe saw: thugs, not police. On the Sergeant's body: under the Unity uniform collar, a **tattoo of a candle with an open mouth**, and a data tape. Dust plays a second of it: the *Galactic C*'s **exact flight plan**, filed privately with the Srov two days ago.
 > **OP5_DST_01** — DUST: "These aren't Unity. Ashe, they had our *flight plan*. The one we only gave the Srov."
 > **OP5_ASH_01** — ASHE *(very quiet, already moving)*: "Then someone in the Srov talks to people with candle tattoos. Later. Cockpit."
 *(Ashe sprints for the cockpit.)*
@@ -318,7 +325,7 @@ Shot list: `06_STORYBOARD_OPENING.md`.
 
 ---
 
-## §13. Refinements for Jesse (accept or reject each)
+## §13. Refinements (Jesse accepted R1–R5 on 2026-11-03; R1 discovery rewritten by Jesse as the F3 pre-fight scene)
 - **[R1] The boarders aren't Unity.** They're Candlemouth cultists in stolen Unity uniforms, with the crew's private flight plan. This (a) keeps Dust "incorruptible" (he isn't killing real police), (b) makes Deena's first kill land without souring the heroes, (c) ties straight into Act I's "betrayed from within" princess plot (the same leak), and (d) opens the game on a mystery. The Unity batteries' misidentification is genuine, and Commander Varga will hunt the crew all Act I.
 - **[R2] Altitude meter, not a real-time timer.** It keeps the game turn-based and AI-playable, and it grades the landing instead of failing you.
 - **[R3] Order of events.** Fire → plan → **boarded just before the EMP line** → EMP → glide → fights. That's why the boarders can attach while the ship still has power, and then everyone is trapped in a dead ship together.

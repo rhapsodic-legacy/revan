@@ -24,16 +24,16 @@
 > A seven-foot-tall bipedal frog-like alien warrior, mottled green-black skin, wide gaping mouth lined with fangs, powerful legs, broad chest, gill slits on the neck, a heavy plasma cannon slung under one arm with no tripod, a faded coral scarf tied around his wrist, gruff but secretly gentle expression
 
 **5. `melonsi.png`: Princess Melonsi Ananna of Seonha**
-> A strikingly beautiful young princess with East Asian–inspired royal styling, layered silk court robes in deep crimson and gold cut for combat, a high embroidered collar, a flowing outer robe, jeweled gold hair ornaments and long hairpins, a confident, imperious, faintly amused expression, holding a narrow jeweled straight sword with long silk tassels, a ribbon of golden energy unspooling from the blade like a scarf
+> A strikingly beautiful, glamorous young space-opera princess with East Asian–inspired royal styling and a dramatic hourglass figure, flamboyant yet functional silk court wear in deep crimson and gold cut for combat, a high embroidered collar, a flowing outer robe, jeweled gold hair ornaments and long hairpins, a confident, imperious, faintly amused expression, holding a narrow jeweled straight sword with long silk tassels, a ribbon of golden energy unspooling from the blade like a scarf
 
 **6. `unity_guards.png`: Unity Guardsmen and Boarding Sergeant**
-> A squad of 1980s-retro-futurist space police troopers in chrome and teal armor with mirrored visors, rifles and a pump shotgun, and their sergeant with a hexagonal shimmering energy-shield dome projected from a backpack generator; one trooper's collar is pulled aside to show a small tattoo of a candle with an open mouth
+> A squad of thugs disguised as 1980s-retro-futurist space police troopers: matching chrome and teal armor with mirrored visors, but every one carries a different mismatched, battered, half-repaired weapon (a rusty rifle, a sawn-off pump shotgun, a scavenged pistol), and their sergeant with a hexagonal shimmering energy-shield dome projected from a backpack generator; one trooper's collar is pulled aside to show a small tattoo of a candle with an open mouth
 
 **7. `kultaka.png`: Vors Kultaka, the Cardinal of Ash**
 > A towering gaunt warlord-priest in gothic cathedral armor of black iron and stained glass, an empty glass reliquary window in the center of his chest, a crown of thin iron spikes each tipped with a burning candle, holding a colossal cleaver-greatsword with saw-teeth of black glass and smoking censers chained to the crossguard, four masked singing acolytes behind him, theatrical, delighted, sinister
 
 **8. `emperor.png`: Emperor Voidreaper**
-> A three-meter colossus in armor of black volcanic glass, a long cloak made of chained burning candles dripping wax, a completely smooth featureless mirror mask reflecting the viewer, holding a vast plain ancient sword burning with black flame edged in sickly green, ancient, silent, terrifying
+> A tall, utterly still dark emperor in close-fitting smooth black armor plates with no ornament, a heavy floor-length black cape hanging perfectly straight, a smooth featureless black mask with a single narrow horizontal visor slit through which two tiny white pinpricks of light glow as eyes, frost spreading across the floor around his feet, holding a long plain ancient sword burning with black flame edged in sickly green, quiet menace, minimalist silhouette, original design
 
 ## Ship and places
 

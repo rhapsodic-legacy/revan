@@ -59,7 +59,7 @@ Keys live in the cloud environment's settings, never in chat or the repo.
 | Core | Magenta, cyan, chrome, sunset orange, black | Wedges, grids, rounded CRT corners, chrome trim |
 | Srov | Sand, salt-white, ochre, ash-grey, gold flame | Curves, carved stone, cloth, spires |
 | Vors | Black iron, crimson, bone, red-violet flame | Spires, cathedral arches, spikes, banners |
-| Empire | Black glass, bone-white, verdigris, sick green flame | Ossuary, candles, mirror surfaces, chains |
+| Empire | Black, bone-white, verdigris, frost, sick green flame | Ossuary, candles, chains; the Emperor himself plain black, visor-slit, frost |
 
 ### 2.3 World looks
 | World | Key image | Sky / fog | Signature hazard |

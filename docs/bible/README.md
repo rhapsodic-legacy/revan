@@ -44,9 +44,9 @@ These are Jesse's core ideas. Everything else in the bible serves them.
 1. The player is **Tyranus**, apprentice of **Vors Akulsa**, memory-wiped by the Srov and renamed **Dust of the Sun** ("Dust"). **Dust is 19**; he woke in the Srov temple medbay at 7, left the Srov with Ashe at 14, and has been a mercenary since.
 2. Dust's false past: village burned, parents killed, sold to slavers, freed by the Srov, a cave-in during his trial and a rock to the head. **All of it was fabricated by the Srov.**
 3. The player is led to believe they are **Vors Akulsa** (via the interrupted Succession rite: Dust carries Akulsa's memories). They are not.
-4. **Vors Kultaka** betrayed Akulsa 12 years ago. The Srov boarded his flagship and captured and wiped Akulsa and his apprentice. Everyone believes Akulsa is dead. Rogue Vors fleets (with scores of Juggernaut-class battlecruisers) still roam and hide; the Srov hunt them and beg worlds for battleships.
+4. **Vors Kultaka** (spelling confirmed) betrayed Akulsa 12 years ago. The Srov boarded his flagship and captured and wiped Akulsa and his apprentice. Everyone believes Akulsa is dead. Rogue Vors fleets (with scores of Juggernaut-class battlecruisers) still roam and hide; the Srov hunt them and beg worlds for battleships.
 5. **Ashe Dawnbringer** is Vors Akulsa: a ruthless, charismatic ex-military mercenary who says he's in his early fifties and looks 25, put on "indefinite sabbatical" by the Srov five years ago. **Kultaka reveals it in Act IV.**
-6. Kultaka is the apprentice of **Emperor Voidreaper** of the **Immortal Empire** (dark gods, human sacrifice, believed dead, a belief the Srov enforce), who promises him immortality and the millions of galaxies beyond.
+6. Kultaka is the apprentice of **Emperor Voidreaper** (a quiet terror: black armour, black cape, a black mask with a horizontal visor slit and white pinprick eyes) of the **Immortal Empire** (dark gods, human sacrifice, believed dead, a belief the Srov enforce), who promises him immortality and the millions of galaxies beyond.
 7. Akulsa built his armada to face the Emperor, who is as strong in **Eternity** as Akulsa, or stronger.
 8. Final act: Kultaka beaten, the trap springs, the Emperor reveals **he is Tyranus's father**, Akulsa admits stealing him to raise a weapon, the Emperor offers his hand, Kultaka gloats.
 9. **Final battle: 2v2, Dust and Ashe vs Kultaka and the Emperor.**
@@ -83,7 +83,7 @@ The story is built on three nested reveals. To keep it cohesive through polishin
 
 ### Fair-play clues (plant every one of them; they make the replay sing)
 1. **Dust's flame is sooty gold with a black heart** (Ashe forbids kindling it in public); at full strength in Act III it burns pure black (gravefire). Srov flame is gold, Vors flame is red-violet. Nobody has seen black. Act V: the Emperor's sword burns the same black.
-2. **The Hollow (cave trial):** Dust fights a figure in a **mirror mask**, cracks it, and sees his own face. Players read it as "the darkness is me." Act V: the Emperor wears a mirror mask, and Dust sees his reflection in it during the reveal.
+2. **The Hollow (cave trial):** Dust fights a figure in black armour and a **black visor-mask with two white pinprick eyes**, with frost spreading around it. He cracks the mask and sees his own face. Players read it as "the darkness is me." Act V: it's the Emperor's mask, and the Emperor reminds him of the cave.
 3. **Ashe looks 25 and says he's 52** (strong Seers barely age; so does the Emperor). **Ashe's sword Morningwake** is white enamel with a gold sunburst. One chip shows **black lacquer beneath**. It is Akulsa's sword *Nightfall*, repainted.
 4. **Ashe's harp lullaby** is the Vors march, slowed down and played gently. Players who know the march theme can hear it.
 5. **The memory fragments are in Akulsa's own first-person voice**, which is Ashe's actor heavily mask-filtered. On replay it's recognizable.
@@ -119,6 +119,5 @@ The story is built on three nested reveals. To keep it cohesive through polishin
 
 ### Open questions for Jesse
 - Accept refinements R1–R6 in `05_OPENING_SCENARIO.md` §13?
-- "Kultaka" or "Skultaka"?
 - The Succession fix for Dust being 19 (§3 of `01_STORY.md`): OK?
 - API keys in the cloud environment: Tripo, Fal.ai, ElevenLabs; music service choice.

@@ -8,7 +8,7 @@
 ## 1. The setting
 
 ### The Bright Gyre
-A spiral galaxy of about ten thousand settled worlds. Its political heart is **the Galactic Unity**: the hundred dense Core worlds (**the Hundred**), each sovereign and each with its own defense fleet, bound by a cheerful, ceremonial assembly. Past the rim lies **the Black Between**, the starless gulf between galaxies. Charts say there is nothing on the other side.
+A spiral galaxy of about ten thousand settled worlds. Its political heart is **the Galactic Unity**: the hundred dense Core worlds (**the Hundred**), each sovereign and each with its own defense fleet, bound by an assembly that is **autocratic, corrupt, and drowning in bureaucracy**: votes are bought, committees outlive wars, and many **Unity Guardsmen** are little more than rent-a-goons in nice armour. The player only learns how rotten it is gradually. Past the rim lies **the Black Between**, the starless gulf between galaxies. Charts say there is nothing on the other side.
 
 ### Eternity and Seers
 Beneath time runs a current called **Eternity**. Those who perceive it are **Seers**, and each perceives it differently:
@@ -25,7 +25,7 @@ Seers **kindle** their ornate swords by will, wrapping the blade in a crackling 
 | **The Unity / everyone else** | Chrome, wedge ships with flip-up headlights, magenta and cyan neon, CRT holograms, cassette "tapes" as data, arcades, rinks, rain-slick slums under neon | 70s–80s synthwave | "Keep the lights on." |
 | **The Srov** | Salt-cliff temples, sand robes, lacquered curved swords with silk cords, ash face-lines | Wild mystical desert ritual: wordless choirs, throat singing, frame drums, reeds | **Stillness.** Some things should be forgotten. |
 | **The Vors** | Gothic cathedral-fortresses, black iron and crimson, cathedral-hilted greatswords, rank masks, Juggernaut-class battlecruisers | Grand full-orchestra march | **Burn.** Remember everything, and spend it. |
-| **The Immortal Empire** | Black glass, bone, verdigris, green candle-flame, mirror masks | Dirge: low choir, bells, drone | **Ownership.** |
+| **The Immortal Empire** | Black glass, bone, verdigris, green candle-flame, black visor-masks with white pinprick eyes | Dirge: low choir, bells, drone | **Ownership.** |
 
 ### The Unity's flaw
 Every Unity world keeps its own fleet for its own skies. Nobody gives battleships to anyone. When Akulsa's Juggernauts came, the Unity's answer was citizen captains in smuggler craft with stolen laser cannons. **A hundred worlds fell in less than a hundred days.** That is still true today: the Srov beg worlds to lend battleships to hunt the rogue Vors fleets, and most worlds refuse. Rogue fleets haven't attacked *them*.
@@ -169,7 +169,7 @@ The Srov temple on Ithrael: a monastery carved into a salt cliff, with resonance
 
 **III-1 Homecoming (≈1h).** The Srov receive them coldly, then warmly. **Ondine Saar**, small and kind and terrifying, welcomes Dust like a grandson. Old friends, old rivals, the medbay where he woke. Dust confronts Ondine about Teo Fenn. She doesn't deny it. *"I gave you a childhood. Its owner had no further use for it."* She won't tell him who he was: *"Some names are graves."*
 
-**III-2 The Hollow (≈1h).** The Council demands Dust finish the trial he "failed" at seven: **the Hollow**, the cave. Inside, false memories bleed into salt crystal. At the bottom, a figure in a **mirror mask** fights with his own moves. He cracks the mask and sees his own face, older and colder, in a black-and-crimson collar. (Clue 2.) His Weave deepens: **Seer Sight** at full strength.
+**III-2 The Hollow (≈1h).** The Council demands Dust finish the trial he "failed" at seven: **the Hollow**, the cave. Inside, false memories bleed into salt crystal. At the bottom, frost spreads across the salt, and a tall figure stands waiting in black armour and a black cape, its **black mask** cut by a visor slit with **two white pinpricks** of light. It fights with his own moves. He cracks the mask and sees his own face behind it, older and colder. (Clue 2: the player reads it as "the darkness is me." In Act V, it's his father's mask.) His Weave deepens: **Seer Sight** at full strength.
 
 **III-3 The Kindling (≈0.25h).** Before the Council, he kindles his sword at full strength for the first time in front of anyone. The sooty gold burns away and leaves **pure black**. Silence. Ondine: *"Eternity burns how it will."* (Clue 1, now unmissable.)
 
@@ -227,7 +227,7 @@ Ashe's wipe breaks. His flame turns **starless white**. The captains kneel, and 
 
 **V-3 Kultaka (≈0.5h).** The Hall of the Wick. His chest-reliquary is empty: the Emperor keeps his heart. A three-phase fight. He falls. Then the floor ignites, and the Beacon lights, because **Dust is standing in it.** Kultaka, laughing on his knees: *"You lit it. You were always going to. Did you think I wanted you dead?"*
 
-**V-4 The Emperor (≈0.25h).** The dead star opens. **Emperor Voidreaper** steps through: a black-glass colossus in a cloak of chained candles, wearing a featureless **mirror mask**. He drinks the caged Seers' light and heals Kultaka with a gesture.
+**V-4 The Emperor (≈0.25h).** The dead star opens. Frost races across the burning floor. **Emperor Voidreaper** steps through, and the room goes quiet: black armour, a black cape that doesn't stir, a **black mask with one horizontal slit and two white pinpricks** for eyes. He doesn't speak at first. He lifts one hand, the caged Seers' light drains into him, and Kultaka rises, healed. Kultaka keeps talking. The Emperor lets him.
 
 ### V-5 THE REVEAL (structure locked; wording in our own words)
 > **EMPEROR:** "The thief never told you where you began."
@@ -235,8 +235,8 @@ Ashe's wipe breaks. His flame turns **starless white**. The captains kneel, and 
 > **EMPEROR:** *(a deep bass laugh with a tinny metallic ring, like a bell struck underwater)* "Taken. Yes. And yet Eternity burns in you like a second sun. Black fire, child." *(He kindles his sword. Black.)* "Have you ever seen another blade burn that color? Did you think a thief found you by chance? Whose blood is that?"
 > **DUST:** "He told me what you did. You cut down my mother. You gave my father to your dead gods."
 > **EMPEROR:** "The truth, cut to fit. Your mother ran into the snow with you in her arms, and yes, I cut her down. And your father... I gave him to the Unsleeping long ago: his name, his warmth, every soft thing he was. What was left sat down on the Ever-Throne and never rose again."
-> *(He leans down. Dust's face fills the mirror mask.)*
-> "Look at me. You've been looking at me your whole life, in every mirror. **You are my son, Tyranus. Blood of my blood.**"
+> *(He steps closer. Frost crawls toward Dust's boots. The two white points of light hold his eyes.)*
+> "You've seen this mask before. In the dark, under the salt. You struck it, and behind it you found your own face. Did you think that was a lie the cave told you?" *(beat)* "**You are my son, Tyranus. Blood of my blood.**"
 > **DUST:** *(not looking away)* "Ashe. Tell me he's lying."
 > **AKULSA:** *(long silence)* "...I can't."
 > **AKULSA:** "I went past the edge when I was young and sure of everything. I found his Seers' prophecy: only his own blood can unmake him. So I stole his blood. Your mother held the gate so I could run. I told myself I was raising a weapon." *(beat)* "Then you learned to talk your way out of trouble you'd talked your way into, and I had to come and get you, every time. Somewhere in there it stopped being a weapon."
@@ -255,7 +255,7 @@ Ashe's wipe breaks. His flame turns **starless white**. The captains kneel, and 
 4. The Emperor's last strike goes for Dust. Akulsa takes it.
 
 ### V-8 Unmasking
-Beneath the mirror: a face like Dust's, forty centuries older. *"...she ran so fast. Through all that snow."* Ash. The Beacon dies.
+The mask splits along the visor slit and falls. Beneath it: a face like Dust's, forty centuries older, as pale as frost. *"...she ran so fast. Through all that snow."* Ash. The Beacon dies.
 
 ### V-9 Akulsa's death
 > **AKULSA:** "I took you to make a weapon. Failed at that, kid. Made a son instead. Worst plan I ever had." *(beat)* "Don't put my name on the stone. Put the other one. I liked him better."
